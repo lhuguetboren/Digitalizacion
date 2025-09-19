@@ -11,6 +11,8 @@ nav:
   - Personal: personal.md
   - IT: it.md
   - Consultor: consultor.md
+  - Base Excel: excel.md
+
 extra_css:
   - css/base.css
 
