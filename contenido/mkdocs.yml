@@ -1,0 +1,18 @@
+site_name: 1599 - RA1
+theme:
+  name: material
+  logo: img/logo.png       # Logo que aparece en la cabecera
+  favicon: img/images.png # Icono que aparece en la pestaña del navegador
+
+nav:
+  - Digitalització: RA1.md
+
+plugins:
+ - mermaid2:
+      version: 10.0.2
+      javascript: https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs
+ - search:
+      lang: es     # opcional: mejora el buscador para español
+
+extra_css:
+  - css/base.css
