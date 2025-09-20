@@ -11,7 +11,11 @@ nav:
   - Personal: personal.md
   - IT: it.md
   - Consultor: consultor.md
-  - Base Excel: excel.md
+  - Base Excel:
+    - Primer paso: excel\excel.md
+    - Suite archivos: excel\ESQUEMA_GENERAL.md 
+    - Manual: excel\MANUAL_USUARIO.md
+    - Ordenes trabajo: excel\ORDENES_TRABAJO.md
 
 extra_css:
   - css/base.css

@@ -1,0 +1,3699 @@
+{
+  "lists": {
+    "payment_types": [
+      "customer_payment",
+      "vendor_payment",
+      "bank_fee",
+      "other"
+    ],
+    "payment_status": [
+      "pending",
+      "applied",
+      "reconciled",
+      "cancelled"
+    ],
+    "uom": [
+      "EA",
+      "KG",
+      "L",
+      "PAL"
+    ]
+  },
+  "sheets": {
+    "invoices": {
+      "headers": [
+        "id",
+        "party_id",
+        "invoice_date",
+        "due_date",
+        "currency",
+        "total",
+        "status"
+      ],
+      "rows": [
+        {
+          "id": "INV-0001",
+          "party_id": "PT-016",
+          "invoice_date": "2025-09-17",
+          "due_date": "2025-10-17",
+          "currency": "EUR",
+          "total": 240.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0002",
+          "party_id": "PT-017",
+          "invoice_date": "2025-09-09",
+          "due_date": "2025-10-09",
+          "currency": "EUR",
+          "total": 1105.2,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0003",
+          "party_id": "PT-014",
+          "invoice_date": "2025-09-01",
+          "due_date": "2025-10-01",
+          "currency": "EUR",
+          "total": 446.4,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0004",
+          "party_id": "PT-014",
+          "invoice_date": "2025-09-02",
+          "due_date": "2025-10-02",
+          "currency": "EUR",
+          "total": 440.4,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0005",
+          "party_id": "PT-019",
+          "invoice_date": "2025-09-13",
+          "due_date": "2025-10-13",
+          "currency": "EUR",
+          "total": 447.59999999999997,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0006",
+          "party_id": "PT-012",
+          "invoice_date": "2025-09-19",
+          "due_date": "2025-10-19",
+          "currency": "EUR",
+          "total": 1086.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0007",
+          "party_id": "PT-017",
+          "invoice_date": "2025-09-12",
+          "due_date": "2025-10-12",
+          "currency": "EUR",
+          "total": 1173.6,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0008",
+          "party_id": "PT-021",
+          "invoice_date": "2025-09-05",
+          "due_date": "2025-10-05",
+          "currency": "EUR",
+          "total": 621.6,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0009",
+          "party_id": "PT-030",
+          "invoice_date": "2025-09-19",
+          "due_date": "2025-10-19",
+          "currency": "EUR",
+          "total": 753.6,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0010",
+          "party_id": "PT-011",
+          "invoice_date": "2025-09-04",
+          "due_date": "2025-10-04",
+          "currency": "EUR",
+          "total": 630.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0011",
+          "party_id": "PT-018",
+          "invoice_date": "2025-09-13",
+          "due_date": "2025-10-13",
+          "currency": "EUR",
+          "total": 897.6,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0012",
+          "party_id": "PT-024",
+          "invoice_date": "2025-09-17",
+          "due_date": "2025-10-17",
+          "currency": "EUR",
+          "total": 798.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0013",
+          "party_id": "PT-011",
+          "invoice_date": "2025-09-21",
+          "due_date": "2025-10-21",
+          "currency": "EUR",
+          "total": 1008.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0014",
+          "party_id": "PT-011",
+          "invoice_date": "2025-09-05",
+          "due_date": "2025-10-05",
+          "currency": "EUR",
+          "total": 920.4,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0015",
+          "party_id": "PT-013",
+          "invoice_date": "2025-09-04",
+          "due_date": "2025-10-04",
+          "currency": "EUR",
+          "total": 685.1999999999999,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0016",
+          "party_id": "PT-001",
+          "invoice_date": "2025-09-07",
+          "due_date": "2025-10-07",
+          "currency": "EUR",
+          "total": 498.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0017",
+          "party_id": "PT-005",
+          "invoice_date": "2025-09-05",
+          "due_date": "2025-10-05",
+          "currency": "EUR",
+          "total": 474.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0018",
+          "party_id": "PT-027",
+          "invoice_date": "2025-09-08",
+          "due_date": "2025-10-08",
+          "currency": "EUR",
+          "total": 1164.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0019",
+          "party_id": "PT-010",
+          "invoice_date": "2025-09-21",
+          "due_date": "2025-10-21",
+          "currency": "EUR",
+          "total": 645.6,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0020",
+          "party_id": "PT-020",
+          "invoice_date": "2025-09-09",
+          "due_date": "2025-10-09",
+          "currency": "EUR",
+          "total": 630.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0021",
+          "party_id": "PT-007",
+          "invoice_date": "2025-09-21",
+          "due_date": "2025-10-21",
+          "currency": "EUR",
+          "total": 991.1999999999999,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0022",
+          "party_id": "PT-014",
+          "invoice_date": "2025-09-17",
+          "due_date": "2025-10-17",
+          "currency": "EUR",
+          "total": 223.2,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0023",
+          "party_id": "PT-020",
+          "invoice_date": "2025-09-17",
+          "due_date": "2025-10-17",
+          "currency": "EUR",
+          "total": 336.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0024",
+          "party_id": "PT-008",
+          "invoice_date": "2025-09-17",
+          "due_date": "2025-10-17",
+          "currency": "EUR",
+          "total": 1080.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0025",
+          "party_id": "PT-004",
+          "invoice_date": "2025-09-04",
+          "due_date": "2025-10-04",
+          "currency": "EUR",
+          "total": 1068.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0026",
+          "party_id": "PT-025",
+          "invoice_date": "2025-09-02",
+          "due_date": "2025-10-02",
+          "currency": "EUR",
+          "total": 844.8,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0027",
+          "party_id": "PT-027",
+          "invoice_date": "2025-09-20",
+          "due_date": "2025-10-20",
+          "currency": "EUR",
+          "total": 153.6,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0028",
+          "party_id": "PT-004",
+          "invoice_date": "2025-09-13",
+          "due_date": "2025-10-13",
+          "currency": "EUR",
+          "total": 277.2,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0029",
+          "party_id": "PT-018",
+          "invoice_date": "2025-09-04",
+          "due_date": "2025-10-04",
+          "currency": "EUR",
+          "total": 508.79999999999995,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0030",
+          "party_id": "PT-015",
+          "invoice_date": "2025-09-14",
+          "due_date": "2025-10-14",
+          "currency": "EUR",
+          "total": 169.2,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0031",
+          "party_id": "PT-017",
+          "invoice_date": "2025-09-03",
+          "due_date": "2025-10-03",
+          "currency": "EUR",
+          "total": 1195.2,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0032",
+          "party_id": "PT-019",
+          "invoice_date": "2025-09-15",
+          "due_date": "2025-10-15",
+          "currency": "EUR",
+          "total": 1105.2,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0033",
+          "party_id": "PT-029",
+          "invoice_date": "2025-09-03",
+          "due_date": "2025-10-03",
+          "currency": "EUR",
+          "total": 633.6,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0034",
+          "party_id": "PT-012",
+          "invoice_date": "2025-09-06",
+          "due_date": "2025-10-06",
+          "currency": "EUR",
+          "total": 1113.6,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0035",
+          "party_id": "PT-022",
+          "invoice_date": "2025-09-08",
+          "due_date": "2025-10-08",
+          "currency": "EUR",
+          "total": 1140.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0036",
+          "party_id": "PT-015",
+          "invoice_date": "2025-09-02",
+          "due_date": "2025-10-02",
+          "currency": "EUR",
+          "total": 966.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0037",
+          "party_id": "PT-005",
+          "invoice_date": "2025-09-01",
+          "due_date": "2025-10-01",
+          "currency": "EUR",
+          "total": 190.79999999999998,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0038",
+          "party_id": "PT-020",
+          "invoice_date": "2025-09-11",
+          "due_date": "2025-10-11",
+          "currency": "EUR",
+          "total": 832.8,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0039",
+          "party_id": "PT-001",
+          "invoice_date": "2025-09-02",
+          "due_date": "2025-10-02",
+          "currency": "EUR",
+          "total": 362.4,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0040",
+          "party_id": "PT-015",
+          "invoice_date": "2025-09-16",
+          "due_date": "2025-10-16",
+          "currency": "EUR",
+          "total": 861.6,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0041",
+          "party_id": "PT-008",
+          "invoice_date": "2025-09-21",
+          "due_date": "2025-10-21",
+          "currency": "EUR",
+          "total": 694.8,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0042",
+          "party_id": "PT-007",
+          "invoice_date": "2025-09-16",
+          "due_date": "2025-10-16",
+          "currency": "EUR",
+          "total": 423.59999999999997,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0043",
+          "party_id": "PT-003",
+          "invoice_date": "2025-09-12",
+          "due_date": "2025-10-12",
+          "currency": "EUR",
+          "total": 944.4,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0044",
+          "party_id": "PT-014",
+          "invoice_date": "2025-09-15",
+          "due_date": "2025-10-15",
+          "currency": "EUR",
+          "total": 1022.4,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0045",
+          "party_id": "PT-003",
+          "invoice_date": "2025-09-09",
+          "due_date": "2025-10-09",
+          "currency": "EUR",
+          "total": 394.8,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0046",
+          "party_id": "PT-029",
+          "invoice_date": "2025-09-10",
+          "due_date": "2025-10-10",
+          "currency": "EUR",
+          "total": 428.4,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0047",
+          "party_id": "PT-004",
+          "invoice_date": "2025-09-21",
+          "due_date": "2025-10-21",
+          "currency": "EUR",
+          "total": 598.8,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0048",
+          "party_id": "PT-029",
+          "invoice_date": "2025-09-15",
+          "due_date": "2025-10-15",
+          "currency": "EUR",
+          "total": 728.4,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0049",
+          "party_id": "PT-025",
+          "invoice_date": "2025-09-15",
+          "due_date": "2025-10-15",
+          "currency": "EUR",
+          "total": 1088.3999999999999,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0050",
+          "party_id": "PT-027",
+          "invoice_date": "2025-09-21",
+          "due_date": "2025-10-21",
+          "currency": "EUR",
+          "total": 1160.3999999999999,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0051",
+          "party_id": "PT-004",
+          "invoice_date": "2025-09-16",
+          "due_date": "2025-10-16",
+          "currency": "EUR",
+          "total": 558.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0052",
+          "party_id": "PT-012",
+          "invoice_date": "2025-09-17",
+          "due_date": "2025-10-17",
+          "currency": "EUR",
+          "total": 477.59999999999997,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0053",
+          "party_id": "PT-019",
+          "invoice_date": "2025-09-16",
+          "due_date": "2025-10-16",
+          "currency": "EUR",
+          "total": 710.4,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0054",
+          "party_id": "PT-007",
+          "invoice_date": "2025-09-01",
+          "due_date": "2025-10-01",
+          "currency": "EUR",
+          "total": 1040.3999999999999,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0055",
+          "party_id": "PT-027",
+          "invoice_date": "2025-09-20",
+          "due_date": "2025-10-20",
+          "currency": "EUR",
+          "total": 152.4,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0056",
+          "party_id": "PT-002",
+          "invoice_date": "2025-09-03",
+          "due_date": "2025-10-03",
+          "currency": "EUR",
+          "total": 1107.6,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0057",
+          "party_id": "PT-004",
+          "invoice_date": "2025-09-10",
+          "due_date": "2025-10-10",
+          "currency": "EUR",
+          "total": 699.6,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0058",
+          "party_id": "PT-002",
+          "invoice_date": "2025-09-09",
+          "due_date": "2025-10-09",
+          "currency": "EUR",
+          "total": 1065.6,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0059",
+          "party_id": "PT-010",
+          "invoice_date": "2025-09-20",
+          "due_date": "2025-10-20",
+          "currency": "EUR",
+          "total": 960.0,
+          "status": "pending"
+        },
+        {
+          "id": "INV-0060",
+          "party_id": "PT-004",
+          "invoice_date": "2025-09-13",
+          "due_date": "2025-10-13",
+          "currency": "EUR",
+          "total": 544.8,
+          "status": "pending"
+        }
+      ]
+    },
+    "invoice_lines": {
+      "headers": [
+        "invoice_id",
+        "line_no",
+        "item_id",
+        "description",
+        "qty",
+        "uom",
+        "unit_price",
+        "currency",
+        "line_amount"
+      ],
+      "rows": [
+        {
+          "invoice_id": "INV-0001",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 200kg",
+          "qty": 200,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 240.0
+        },
+        {
+          "invoice_id": "INV-0002",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 921kg",
+          "qty": 921,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1105.2
+        },
+        {
+          "invoice_id": "INV-0003",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 372kg",
+          "qty": 372,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 446.4
+        },
+        {
+          "invoice_id": "INV-0004",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 367kg",
+          "qty": 367,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 440.4
+        },
+        {
+          "invoice_id": "INV-0005",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 373kg",
+          "qty": 373,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 447.59999999999997
+        },
+        {
+          "invoice_id": "INV-0006",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 905kg",
+          "qty": 905,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1086.0
+        },
+        {
+          "invoice_id": "INV-0007",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 978kg",
+          "qty": 978,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1173.6
+        },
+        {
+          "invoice_id": "INV-0008",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 518kg",
+          "qty": 518,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 621.6
+        },
+        {
+          "invoice_id": "INV-0009",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 628kg",
+          "qty": 628,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 753.6
+        },
+        {
+          "invoice_id": "INV-0010",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 525kg",
+          "qty": 525,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 630.0
+        },
+        {
+          "invoice_id": "INV-0011",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 748kg",
+          "qty": 748,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 897.6
+        },
+        {
+          "invoice_id": "INV-0012",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 665kg",
+          "qty": 665,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 798.0
+        },
+        {
+          "invoice_id": "INV-0013",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 840kg",
+          "qty": 840,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1008.0
+        },
+        {
+          "invoice_id": "INV-0014",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 767kg",
+          "qty": 767,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 920.4
+        },
+        {
+          "invoice_id": "INV-0015",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 571kg",
+          "qty": 571,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 685.1999999999999
+        },
+        {
+          "invoice_id": "INV-0016",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 415kg",
+          "qty": 415,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 498.0
+        },
+        {
+          "invoice_id": "INV-0017",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 395kg",
+          "qty": 395,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 474.0
+        },
+        {
+          "invoice_id": "INV-0018",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 970kg",
+          "qty": 970,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1164.0
+        },
+        {
+          "invoice_id": "INV-0019",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 538kg",
+          "qty": 538,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 645.6
+        },
+        {
+          "invoice_id": "INV-0020",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 525kg",
+          "qty": 525,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 630.0
+        },
+        {
+          "invoice_id": "INV-0021",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 826kg",
+          "qty": 826,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 991.1999999999999
+        },
+        {
+          "invoice_id": "INV-0022",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 186kg",
+          "qty": 186,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 223.2
+        },
+        {
+          "invoice_id": "INV-0023",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 280kg",
+          "qty": 280,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 336.0
+        },
+        {
+          "invoice_id": "INV-0024",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 900kg",
+          "qty": 900,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1080.0
+        },
+        {
+          "invoice_id": "INV-0025",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 890kg",
+          "qty": 890,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1068.0
+        },
+        {
+          "invoice_id": "INV-0026",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 704kg",
+          "qty": 704,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 844.8
+        },
+        {
+          "invoice_id": "INV-0027",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 128kg",
+          "qty": 128,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 153.6
+        },
+        {
+          "invoice_id": "INV-0028",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 231kg",
+          "qty": 231,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 277.2
+        },
+        {
+          "invoice_id": "INV-0029",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 424kg",
+          "qty": 424,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 508.79999999999995
+        },
+        {
+          "invoice_id": "INV-0030",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 141kg",
+          "qty": 141,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 169.2
+        },
+        {
+          "invoice_id": "INV-0031",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 996kg",
+          "qty": 996,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1195.2
+        },
+        {
+          "invoice_id": "INV-0032",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 921kg",
+          "qty": 921,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1105.2
+        },
+        {
+          "invoice_id": "INV-0033",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 528kg",
+          "qty": 528,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 633.6
+        },
+        {
+          "invoice_id": "INV-0034",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 928kg",
+          "qty": 928,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1113.6
+        },
+        {
+          "invoice_id": "INV-0035",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 950kg",
+          "qty": 950,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1140.0
+        },
+        {
+          "invoice_id": "INV-0036",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 805kg",
+          "qty": 805,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 966.0
+        },
+        {
+          "invoice_id": "INV-0037",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 159kg",
+          "qty": 159,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 190.79999999999998
+        },
+        {
+          "invoice_id": "INV-0038",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 694kg",
+          "qty": 694,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 832.8
+        },
+        {
+          "invoice_id": "INV-0039",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 302kg",
+          "qty": 302,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 362.4
+        },
+        {
+          "invoice_id": "INV-0040",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 718kg",
+          "qty": 718,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 861.6
+        },
+        {
+          "invoice_id": "INV-0041",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 579kg",
+          "qty": 579,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 694.8
+        },
+        {
+          "invoice_id": "INV-0042",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 353kg",
+          "qty": 353,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 423.59999999999997
+        },
+        {
+          "invoice_id": "INV-0043",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 787kg",
+          "qty": 787,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 944.4
+        },
+        {
+          "invoice_id": "INV-0044",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 852kg",
+          "qty": 852,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1022.4
+        },
+        {
+          "invoice_id": "INV-0045",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 329kg",
+          "qty": 329,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 394.8
+        },
+        {
+          "invoice_id": "INV-0046",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 357kg",
+          "qty": 357,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 428.4
+        },
+        {
+          "invoice_id": "INV-0047",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 499kg",
+          "qty": 499,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 598.8
+        },
+        {
+          "invoice_id": "INV-0048",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 607kg",
+          "qty": 607,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 728.4
+        },
+        {
+          "invoice_id": "INV-0049",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 907kg",
+          "qty": 907,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1088.3999999999999
+        },
+        {
+          "invoice_id": "INV-0050",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 967kg",
+          "qty": 967,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1160.3999999999999
+        },
+        {
+          "invoice_id": "INV-0051",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 465kg",
+          "qty": 465,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 558.0
+        },
+        {
+          "invoice_id": "INV-0052",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 398kg",
+          "qty": 398,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 477.59999999999997
+        },
+        {
+          "invoice_id": "INV-0053",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 592kg",
+          "qty": 592,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 710.4
+        },
+        {
+          "invoice_id": "INV-0054",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 867kg",
+          "qty": 867,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1040.3999999999999
+        },
+        {
+          "invoice_id": "INV-0055",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 127kg",
+          "qty": 127,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 152.4
+        },
+        {
+          "invoice_id": "INV-0056",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "description": "Venta de 923kg",
+          "qty": 923,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1107.6
+        },
+        {
+          "invoice_id": "INV-0057",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 583kg",
+          "qty": 583,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 699.6
+        },
+        {
+          "invoice_id": "INV-0058",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 888kg",
+          "qty": 888,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 1065.6
+        },
+        {
+          "invoice_id": "INV-0059",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "description": "Venta de 800kg",
+          "qty": 800,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 960.0
+        },
+        {
+          "invoice_id": "INV-0060",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "description": "Venta de 454kg",
+          "qty": 454,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR",
+          "line_amount": 544.8
+        }
+      ]
+    },
+    "payments": {
+      "headers": [
+        "id",
+        "party_id",
+        "bank_id",
+        "payment_date",
+        "type",
+        "currency",
+        "amount",
+        "status"
+      ],
+      "rows": [
+        {
+          "id": "PAY-0001",
+          "party_id": "PT-016",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-15",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 189.12,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0002",
+          "party_id": "PT-017",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-29",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 585.09,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0003",
+          "party_id": "PT-014",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-25",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 327.09,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0004",
+          "party_id": "PT-014",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-24",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 263.25,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0005",
+          "party_id": "PT-019",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-09",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 306.91,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0006",
+          "party_id": "PT-012",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-09",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 1056.52,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0007",
+          "party_id": "PT-017",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-28",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 987.52,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0008",
+          "party_id": "PT-021",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-28",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 565.31,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0009",
+          "party_id": "PT-030",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-13",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 657.99,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0010",
+          "party_id": "PT-011",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-29",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 442.49,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0011",
+          "party_id": "PT-018",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-28",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 813.85,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0012",
+          "party_id": "PT-024",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-02",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 756.65,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0013",
+          "party_id": "PT-011",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-12",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 738.55,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0014",
+          "party_id": "PT-011",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-27",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 919.9,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0015",
+          "party_id": "PT-013",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-25",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 573.74,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0016",
+          "party_id": "PT-001",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-30",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 330.69,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0017",
+          "party_id": "PT-005",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-05",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 421.39,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0018",
+          "party_id": "PT-027",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-26",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 589.39,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0019",
+          "party_id": "PT-010",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-21",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 331.65,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0020",
+          "party_id": "PT-020",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-02",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 409.63,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0021",
+          "party_id": "PT-007",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-19",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 838.35,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0022",
+          "party_id": "PT-014",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-14",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 196.56,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0023",
+          "party_id": "PT-020",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-14",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 200.46,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0024",
+          "party_id": "PT-008",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-15",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 648.52,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0025",
+          "party_id": "PT-004",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-29",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 879.17,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0026",
+          "party_id": "PT-025",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-27",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 565.11,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0027",
+          "party_id": "PT-027",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-08",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 135.9,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0028",
+          "party_id": "PT-004",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-03",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 176.62,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0029",
+          "party_id": "PT-018",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-29",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 311.6,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0030",
+          "party_id": "PT-015",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-06",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 155.52,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0031",
+          "party_id": "PT-017",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-29",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 916.2,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0032",
+          "party_id": "PT-019",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-05",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 1049.67,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0033",
+          "party_id": "PT-029",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-19",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 429.72,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0034",
+          "party_id": "PT-012",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-21",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 833.97,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0035",
+          "party_id": "PT-022",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-29",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 864.08,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0036",
+          "party_id": "PT-015",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-20",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 823.67,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0037",
+          "party_id": "PT-005",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-21",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 120.77,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0038",
+          "party_id": "PT-020",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-10",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 516.19,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0039",
+          "party_id": "PT-001",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-01",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 199.72,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0040",
+          "party_id": "PT-015",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-03",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 780.46,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0041",
+          "party_id": "PT-008",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-17",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 435.37,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0042",
+          "party_id": "PT-007",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-11",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 219.04,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0043",
+          "party_id": "PT-003",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-05",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 640.27,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0044",
+          "party_id": "PT-014",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-30",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 698.6,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0045",
+          "party_id": "PT-003",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-30",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 328.29,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0046",
+          "party_id": "PT-029",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-08",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 394.04,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0047",
+          "party_id": "PT-004",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-06",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 408.1,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0048",
+          "party_id": "PT-029",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-04",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 647.86,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0049",
+          "party_id": "PT-025",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-30",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 700.3,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0050",
+          "party_id": "PT-027",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-06",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 776.67,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0051",
+          "party_id": "PT-004",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-09",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 301.74,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0052",
+          "party_id": "PT-012",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-14",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 334.45,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0053",
+          "party_id": "PT-019",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-06",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 548.28,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0054",
+          "party_id": "PT-007",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-19",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 712.12,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0055",
+          "party_id": "PT-027",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-17",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 105.25,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0056",
+          "party_id": "PT-002",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-20",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 737.35,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0057",
+          "party_id": "PT-004",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-04",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 474.13,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0058",
+          "party_id": "PT-002",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-01",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 724.86,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0059",
+          "party_id": "PT-010",
+          "bank_id": "BK-01",
+          "payment_date": "2025-10-06",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 882.15,
+          "status": "applied"
+        },
+        {
+          "id": "PAY-0060",
+          "party_id": "PT-004",
+          "bank_id": "BK-01",
+          "payment_date": "2025-09-29",
+          "type": "customer_payment",
+          "currency": "EUR",
+          "amount": 507.29,
+          "status": "applied"
+        }
+      ]
+    },
+    "payment_links": {
+      "headers": [
+        "payment_id",
+        "invoice_id",
+        "applied_amount",
+        "currency"
+      ],
+      "rows": [
+        {
+          "payment_id": "PAY-0001",
+          "invoice_id": "INV-0001",
+          "applied_amount": 189.12,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0002",
+          "invoice_id": "INV-0002",
+          "applied_amount": 585.09,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0003",
+          "invoice_id": "INV-0003",
+          "applied_amount": 327.09,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0004",
+          "invoice_id": "INV-0004",
+          "applied_amount": 263.25,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0005",
+          "invoice_id": "INV-0005",
+          "applied_amount": 306.91,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0006",
+          "invoice_id": "INV-0006",
+          "applied_amount": 1056.52,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0007",
+          "invoice_id": "INV-0007",
+          "applied_amount": 987.52,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0008",
+          "invoice_id": "INV-0008",
+          "applied_amount": 565.31,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0009",
+          "invoice_id": "INV-0009",
+          "applied_amount": 657.99,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0010",
+          "invoice_id": "INV-0010",
+          "applied_amount": 442.49,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0011",
+          "invoice_id": "INV-0011",
+          "applied_amount": 813.85,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0012",
+          "invoice_id": "INV-0012",
+          "applied_amount": 756.65,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0013",
+          "invoice_id": "INV-0013",
+          "applied_amount": 738.55,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0014",
+          "invoice_id": "INV-0014",
+          "applied_amount": 919.9,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0015",
+          "invoice_id": "INV-0015",
+          "applied_amount": 573.74,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0016",
+          "invoice_id": "INV-0016",
+          "applied_amount": 330.69,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0017",
+          "invoice_id": "INV-0017",
+          "applied_amount": 421.39,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0018",
+          "invoice_id": "INV-0018",
+          "applied_amount": 589.39,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0019",
+          "invoice_id": "INV-0019",
+          "applied_amount": 331.65,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0020",
+          "invoice_id": "INV-0020",
+          "applied_amount": 409.63,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0021",
+          "invoice_id": "INV-0021",
+          "applied_amount": 838.35,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0022",
+          "invoice_id": "INV-0022",
+          "applied_amount": 196.56,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0023",
+          "invoice_id": "INV-0023",
+          "applied_amount": 200.46,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0024",
+          "invoice_id": "INV-0024",
+          "applied_amount": 648.52,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0025",
+          "invoice_id": "INV-0025",
+          "applied_amount": 879.17,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0026",
+          "invoice_id": "INV-0026",
+          "applied_amount": 565.11,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0027",
+          "invoice_id": "INV-0027",
+          "applied_amount": 135.9,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0028",
+          "invoice_id": "INV-0028",
+          "applied_amount": 176.62,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0029",
+          "invoice_id": "INV-0029",
+          "applied_amount": 311.6,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0030",
+          "invoice_id": "INV-0030",
+          "applied_amount": 155.52,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0031",
+          "invoice_id": "INV-0031",
+          "applied_amount": 916.2,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0032",
+          "invoice_id": "INV-0032",
+          "applied_amount": 1049.67,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0033",
+          "invoice_id": "INV-0033",
+          "applied_amount": 429.72,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0034",
+          "invoice_id": "INV-0034",
+          "applied_amount": 833.97,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0035",
+          "invoice_id": "INV-0035",
+          "applied_amount": 864.08,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0036",
+          "invoice_id": "INV-0036",
+          "applied_amount": 823.67,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0037",
+          "invoice_id": "INV-0037",
+          "applied_amount": 120.77,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0038",
+          "invoice_id": "INV-0038",
+          "applied_amount": 516.19,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0039",
+          "invoice_id": "INV-0039",
+          "applied_amount": 199.72,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0040",
+          "invoice_id": "INV-0040",
+          "applied_amount": 780.46,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0041",
+          "invoice_id": "INV-0041",
+          "applied_amount": 435.37,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0042",
+          "invoice_id": "INV-0042",
+          "applied_amount": 219.04,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0043",
+          "invoice_id": "INV-0043",
+          "applied_amount": 640.27,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0044",
+          "invoice_id": "INV-0044",
+          "applied_amount": 698.6,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0045",
+          "invoice_id": "INV-0045",
+          "applied_amount": 328.29,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0046",
+          "invoice_id": "INV-0046",
+          "applied_amount": 394.04,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0047",
+          "invoice_id": "INV-0047",
+          "applied_amount": 408.1,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0048",
+          "invoice_id": "INV-0048",
+          "applied_amount": 647.86,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0049",
+          "invoice_id": "INV-0049",
+          "applied_amount": 700.3,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0050",
+          "invoice_id": "INV-0050",
+          "applied_amount": 776.67,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0051",
+          "invoice_id": "INV-0051",
+          "applied_amount": 301.74,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0052",
+          "invoice_id": "INV-0052",
+          "applied_amount": 334.45,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0053",
+          "invoice_id": "INV-0053",
+          "applied_amount": 548.28,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0054",
+          "invoice_id": "INV-0054",
+          "applied_amount": 712.12,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0055",
+          "invoice_id": "INV-0055",
+          "applied_amount": 105.25,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0056",
+          "invoice_id": "INV-0056",
+          "applied_amount": 737.35,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0057",
+          "invoice_id": "INV-0057",
+          "applied_amount": 474.13,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0058",
+          "invoice_id": "INV-0058",
+          "applied_amount": 724.86,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0059",
+          "invoice_id": "INV-0059",
+          "applied_amount": 882.15,
+          "currency": "EUR"
+        },
+        {
+          "payment_id": "PAY-0060",
+          "invoice_id": "INV-0060",
+          "applied_amount": 507.29,
+          "currency": "EUR"
+        }
+      ]
+    },
+    "journal_entries": {
+      "headers": [
+        "id",
+        "entry_date",
+        "currency",
+        "description"
+      ],
+      "rows": [
+        {
+          "id": "JE-0001",
+          "entry_date": "2025-09-17",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0001"
+        },
+        {
+          "id": "JE-0002",
+          "entry_date": "2025-09-09",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0002"
+        },
+        {
+          "id": "JE-0003",
+          "entry_date": "2025-09-01",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0003"
+        },
+        {
+          "id": "JE-0004",
+          "entry_date": "2025-09-02",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0004"
+        },
+        {
+          "id": "JE-0005",
+          "entry_date": "2025-09-13",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0005"
+        },
+        {
+          "id": "JE-0006",
+          "entry_date": "2025-09-19",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0006"
+        },
+        {
+          "id": "JE-0007",
+          "entry_date": "2025-09-12",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0007"
+        },
+        {
+          "id": "JE-0008",
+          "entry_date": "2025-09-05",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0008"
+        },
+        {
+          "id": "JE-0009",
+          "entry_date": "2025-09-19",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0009"
+        },
+        {
+          "id": "JE-0010",
+          "entry_date": "2025-09-04",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0010"
+        },
+        {
+          "id": "JE-0011",
+          "entry_date": "2025-09-13",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0011"
+        },
+        {
+          "id": "JE-0012",
+          "entry_date": "2025-09-17",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0012"
+        },
+        {
+          "id": "JE-0013",
+          "entry_date": "2025-09-21",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0013"
+        },
+        {
+          "id": "JE-0014",
+          "entry_date": "2025-09-05",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0014"
+        },
+        {
+          "id": "JE-0015",
+          "entry_date": "2025-09-04",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0015"
+        },
+        {
+          "id": "JE-0016",
+          "entry_date": "2025-09-07",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0016"
+        },
+        {
+          "id": "JE-0017",
+          "entry_date": "2025-09-05",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0017"
+        },
+        {
+          "id": "JE-0018",
+          "entry_date": "2025-09-08",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0018"
+        },
+        {
+          "id": "JE-0019",
+          "entry_date": "2025-09-21",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0019"
+        },
+        {
+          "id": "JE-0020",
+          "entry_date": "2025-09-09",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0020"
+        },
+        {
+          "id": "JE-0021",
+          "entry_date": "2025-09-21",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0021"
+        },
+        {
+          "id": "JE-0022",
+          "entry_date": "2025-09-17",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0022"
+        },
+        {
+          "id": "JE-0023",
+          "entry_date": "2025-09-17",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0023"
+        },
+        {
+          "id": "JE-0024",
+          "entry_date": "2025-09-17",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0024"
+        },
+        {
+          "id": "JE-0025",
+          "entry_date": "2025-09-04",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0025"
+        },
+        {
+          "id": "JE-0026",
+          "entry_date": "2025-09-02",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0026"
+        },
+        {
+          "id": "JE-0027",
+          "entry_date": "2025-09-20",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0027"
+        },
+        {
+          "id": "JE-0028",
+          "entry_date": "2025-09-13",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0028"
+        },
+        {
+          "id": "JE-0029",
+          "entry_date": "2025-09-04",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0029"
+        },
+        {
+          "id": "JE-0030",
+          "entry_date": "2025-09-14",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0030"
+        },
+        {
+          "id": "JE-0031",
+          "entry_date": "2025-09-03",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0031"
+        },
+        {
+          "id": "JE-0032",
+          "entry_date": "2025-09-15",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0032"
+        },
+        {
+          "id": "JE-0033",
+          "entry_date": "2025-09-03",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0033"
+        },
+        {
+          "id": "JE-0034",
+          "entry_date": "2025-09-06",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0034"
+        },
+        {
+          "id": "JE-0035",
+          "entry_date": "2025-09-08",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0035"
+        },
+        {
+          "id": "JE-0036",
+          "entry_date": "2025-09-02",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0036"
+        },
+        {
+          "id": "JE-0037",
+          "entry_date": "2025-09-01",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0037"
+        },
+        {
+          "id": "JE-0038",
+          "entry_date": "2025-09-11",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0038"
+        },
+        {
+          "id": "JE-0039",
+          "entry_date": "2025-09-02",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0039"
+        },
+        {
+          "id": "JE-0040",
+          "entry_date": "2025-09-16",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0040"
+        },
+        {
+          "id": "JE-0041",
+          "entry_date": "2025-09-21",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0041"
+        },
+        {
+          "id": "JE-0042",
+          "entry_date": "2025-09-16",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0042"
+        },
+        {
+          "id": "JE-0043",
+          "entry_date": "2025-09-12",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0043"
+        },
+        {
+          "id": "JE-0044",
+          "entry_date": "2025-09-15",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0044"
+        },
+        {
+          "id": "JE-0045",
+          "entry_date": "2025-09-09",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0045"
+        },
+        {
+          "id": "JE-0046",
+          "entry_date": "2025-09-10",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0046"
+        },
+        {
+          "id": "JE-0047",
+          "entry_date": "2025-09-21",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0047"
+        },
+        {
+          "id": "JE-0048",
+          "entry_date": "2025-09-15",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0048"
+        },
+        {
+          "id": "JE-0049",
+          "entry_date": "2025-09-15",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0049"
+        },
+        {
+          "id": "JE-0050",
+          "entry_date": "2025-09-21",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0050"
+        },
+        {
+          "id": "JE-0051",
+          "entry_date": "2025-09-16",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0051"
+        },
+        {
+          "id": "JE-0052",
+          "entry_date": "2025-09-17",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0052"
+        },
+        {
+          "id": "JE-0053",
+          "entry_date": "2025-09-16",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0053"
+        },
+        {
+          "id": "JE-0054",
+          "entry_date": "2025-09-01",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0054"
+        },
+        {
+          "id": "JE-0055",
+          "entry_date": "2025-09-20",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0055"
+        },
+        {
+          "id": "JE-0056",
+          "entry_date": "2025-09-03",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0056"
+        },
+        {
+          "id": "JE-0057",
+          "entry_date": "2025-09-10",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0057"
+        },
+        {
+          "id": "JE-0058",
+          "entry_date": "2025-09-09",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0058"
+        },
+        {
+          "id": "JE-0059",
+          "entry_date": "2025-09-20",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0059"
+        },
+        {
+          "id": "JE-0060",
+          "entry_date": "2025-09-13",
+          "currency": "EUR",
+          "description": "Asiento factura INV-0060"
+        }
+      ]
+    },
+    "journal_entry_lines": {
+      "headers": [
+        "je_id",
+        "line_no",
+        "account_id",
+        "debit",
+        "credit",
+        "currency",
+        "memo"
+      ],
+      "rows": [
+        {
+          "je_id": "JE-0001",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 240.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0001",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 189.12,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0002",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1105.2,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0002",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 585.09,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0003",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 446.4,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0003",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 327.09,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0004",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 440.4,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0004",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 263.25,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0005",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 447.59999999999997,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0005",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 306.91,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0006",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1086.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0006",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 1056.52,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0007",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1173.6,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0007",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 987.52,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0008",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 621.6,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0008",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 565.31,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0009",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 753.6,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0009",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 657.99,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0010",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 630.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0010",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 442.49,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0011",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 897.6,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0011",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 813.85,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0012",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 798.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0012",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 756.65,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0013",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1008.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0013",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 738.55,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0014",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 920.4,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0014",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 919.9,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0015",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 685.1999999999999,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0015",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 573.74,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0016",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 498.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0016",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 330.69,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0017",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 474.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0017",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 421.39,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0018",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1164.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0018",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 589.39,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0019",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 645.6,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0019",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 331.65,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0020",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 630.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0020",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 409.63,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0021",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 991.1999999999999,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0021",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 838.35,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0022",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 223.2,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0022",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 196.56,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0023",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 336.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0023",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 200.46,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0024",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1080.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0024",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 648.52,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0025",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1068.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0025",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 879.17,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0026",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 844.8,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0026",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 565.11,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0027",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 153.6,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0027",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 135.9,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0028",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 277.2,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0028",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 176.62,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0029",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 508.79999999999995,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0029",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 311.6,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0030",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 169.2,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0030",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 155.52,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0031",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1195.2,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0031",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 916.2,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0032",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1105.2,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0032",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 1049.67,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0033",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 633.6,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0033",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 429.72,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0034",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1113.6,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0034",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 833.97,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0035",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1140.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0035",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 864.08,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0036",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 966.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0036",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 823.67,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0037",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 190.79999999999998,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0037",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 120.77,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0038",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 832.8,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0038",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 516.19,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0039",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 362.4,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0039",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 199.72,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0040",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 861.6,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0040",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 780.46,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0041",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 694.8,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0041",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 435.37,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0042",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 423.59999999999997,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0042",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 219.04,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0043",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 944.4,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0043",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 640.27,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0044",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1022.4,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0044",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 698.6,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0045",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 394.8,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0045",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 328.29,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0046",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 428.4,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0046",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 394.04,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0047",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 598.8,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0047",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 408.1,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0048",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 728.4,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0048",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 647.86,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0049",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1088.3999999999999,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0049",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 700.3,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0050",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1160.3999999999999,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0050",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 776.67,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0051",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 558.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0051",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 301.74,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0052",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 477.59999999999997,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0052",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 334.45,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0053",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 710.4,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0053",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 548.28,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0054",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1040.3999999999999,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0054",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 712.12,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0055",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 152.4,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0055",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 105.25,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0056",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1107.6,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0056",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 737.35,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0057",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 699.6,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0057",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 474.13,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0058",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 1065.6,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0058",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 724.86,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0059",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 960.0,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0059",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 882.15,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        },
+        {
+          "je_id": "JE-0060",
+          "line_no": 1,
+          "account_id": "AC-700",
+          "debit": 0,
+          "credit": 544.8,
+          "currency": "EUR",
+          "memo": "Ingreso por ventas"
+        },
+        {
+          "je_id": "JE-0060",
+          "line_no": 2,
+          "account_id": "AC-100",
+          "debit": 507.29,
+          "credit": 0,
+          "currency": "EUR",
+          "memo": "Cobro parcial"
+        }
+      ]
+    }
+  }
+}

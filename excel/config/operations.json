@@ -1,0 +1,6721 @@
+{
+  "lists": {
+    "uom": [
+      "EA",
+      "KG",
+      "L",
+      "PAL"
+    ],
+    "so_status": [
+      "draft",
+      "confirmed",
+      "fulfilled",
+      "cancelled"
+    ],
+    "shipment_status": [
+      "planned",
+      "in_transit",
+      "arrived",
+      "delivered",
+      "cancelled"
+    ]
+  },
+  "sheets": {
+    "sales_orders": {
+      "headers": [
+        "id",
+        "customer_id",
+        "incoterm",
+        "currency",
+        "status",
+        "order_date",
+        "requested_date",
+        "promised_date"
+      ],
+      "rows": [
+        {
+          "id": "SO-0001",
+          "customer_id": "PT-016",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-17",
+          "requested_date": "2025-09-22",
+          "promised_date": "2025-09-24"
+        },
+        {
+          "id": "SO-0002",
+          "customer_id": "PT-017",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-09",
+          "requested_date": "2025-09-14",
+          "promised_date": "2025-09-16"
+        },
+        {
+          "id": "SO-0003",
+          "customer_id": "PT-014",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-01",
+          "requested_date": "2025-09-06",
+          "promised_date": "2025-09-08"
+        },
+        {
+          "id": "SO-0004",
+          "customer_id": "PT-014",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-02",
+          "requested_date": "2025-09-07",
+          "promised_date": "2025-09-09"
+        },
+        {
+          "id": "SO-0005",
+          "customer_id": "PT-019",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-13",
+          "requested_date": "2025-09-18",
+          "promised_date": "2025-09-20"
+        },
+        {
+          "id": "SO-0006",
+          "customer_id": "PT-012",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-19",
+          "requested_date": "2025-09-24",
+          "promised_date": "2025-09-26"
+        },
+        {
+          "id": "SO-0007",
+          "customer_id": "PT-017",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-12",
+          "requested_date": "2025-09-17",
+          "promised_date": "2025-09-19"
+        },
+        {
+          "id": "SO-0008",
+          "customer_id": "PT-021",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-05",
+          "requested_date": "2025-09-10",
+          "promised_date": "2025-09-12"
+        },
+        {
+          "id": "SO-0009",
+          "customer_id": "PT-030",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-19",
+          "requested_date": "2025-09-24",
+          "promised_date": "2025-09-26"
+        },
+        {
+          "id": "SO-0010",
+          "customer_id": "PT-011",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-04",
+          "requested_date": "2025-09-09",
+          "promised_date": "2025-09-11"
+        },
+        {
+          "id": "SO-0011",
+          "customer_id": "PT-018",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-13",
+          "requested_date": "2025-09-18",
+          "promised_date": "2025-09-20"
+        },
+        {
+          "id": "SO-0012",
+          "customer_id": "PT-024",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-17",
+          "requested_date": "2025-09-22",
+          "promised_date": "2025-09-24"
+        },
+        {
+          "id": "SO-0013",
+          "customer_id": "PT-011",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-21",
+          "requested_date": "2025-09-26",
+          "promised_date": "2025-09-28"
+        },
+        {
+          "id": "SO-0014",
+          "customer_id": "PT-011",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-05",
+          "requested_date": "2025-09-10",
+          "promised_date": "2025-09-12"
+        },
+        {
+          "id": "SO-0015",
+          "customer_id": "PT-013",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-04",
+          "requested_date": "2025-09-09",
+          "promised_date": "2025-09-11"
+        },
+        {
+          "id": "SO-0016",
+          "customer_id": "PT-001",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-07",
+          "requested_date": "2025-09-12",
+          "promised_date": "2025-09-14"
+        },
+        {
+          "id": "SO-0017",
+          "customer_id": "PT-005",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-05",
+          "requested_date": "2025-09-10",
+          "promised_date": "2025-09-12"
+        },
+        {
+          "id": "SO-0018",
+          "customer_id": "PT-027",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-08",
+          "requested_date": "2025-09-13",
+          "promised_date": "2025-09-15"
+        },
+        {
+          "id": "SO-0019",
+          "customer_id": "PT-010",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-21",
+          "requested_date": "2025-09-26",
+          "promised_date": "2025-09-28"
+        },
+        {
+          "id": "SO-0020",
+          "customer_id": "PT-020",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-09",
+          "requested_date": "2025-09-14",
+          "promised_date": "2025-09-16"
+        },
+        {
+          "id": "SO-0021",
+          "customer_id": "PT-007",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-21",
+          "requested_date": "2025-09-26",
+          "promised_date": "2025-09-28"
+        },
+        {
+          "id": "SO-0022",
+          "customer_id": "PT-014",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-17",
+          "requested_date": "2025-09-22",
+          "promised_date": "2025-09-24"
+        },
+        {
+          "id": "SO-0023",
+          "customer_id": "PT-020",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-17",
+          "requested_date": "2025-09-22",
+          "promised_date": "2025-09-24"
+        },
+        {
+          "id": "SO-0024",
+          "customer_id": "PT-008",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-17",
+          "requested_date": "2025-09-22",
+          "promised_date": "2025-09-24"
+        },
+        {
+          "id": "SO-0025",
+          "customer_id": "PT-004",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-04",
+          "requested_date": "2025-09-09",
+          "promised_date": "2025-09-11"
+        },
+        {
+          "id": "SO-0026",
+          "customer_id": "PT-025",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-02",
+          "requested_date": "2025-09-07",
+          "promised_date": "2025-09-09"
+        },
+        {
+          "id": "SO-0027",
+          "customer_id": "PT-027",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-20",
+          "requested_date": "2025-09-25",
+          "promised_date": "2025-09-27"
+        },
+        {
+          "id": "SO-0028",
+          "customer_id": "PT-004",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-13",
+          "requested_date": "2025-09-18",
+          "promised_date": "2025-09-20"
+        },
+        {
+          "id": "SO-0029",
+          "customer_id": "PT-018",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-04",
+          "requested_date": "2025-09-09",
+          "promised_date": "2025-09-11"
+        },
+        {
+          "id": "SO-0030",
+          "customer_id": "PT-015",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-14",
+          "requested_date": "2025-09-19",
+          "promised_date": "2025-09-21"
+        },
+        {
+          "id": "SO-0031",
+          "customer_id": "PT-017",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-03",
+          "requested_date": "2025-09-08",
+          "promised_date": "2025-09-10"
+        },
+        {
+          "id": "SO-0032",
+          "customer_id": "PT-019",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-15",
+          "requested_date": "2025-09-20",
+          "promised_date": "2025-09-22"
+        },
+        {
+          "id": "SO-0033",
+          "customer_id": "PT-029",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-03",
+          "requested_date": "2025-09-08",
+          "promised_date": "2025-09-10"
+        },
+        {
+          "id": "SO-0034",
+          "customer_id": "PT-012",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-06",
+          "requested_date": "2025-09-11",
+          "promised_date": "2025-09-13"
+        },
+        {
+          "id": "SO-0035",
+          "customer_id": "PT-022",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-08",
+          "requested_date": "2025-09-13",
+          "promised_date": "2025-09-15"
+        },
+        {
+          "id": "SO-0036",
+          "customer_id": "PT-015",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-02",
+          "requested_date": "2025-09-07",
+          "promised_date": "2025-09-09"
+        },
+        {
+          "id": "SO-0037",
+          "customer_id": "PT-005",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-01",
+          "requested_date": "2025-09-06",
+          "promised_date": "2025-09-08"
+        },
+        {
+          "id": "SO-0038",
+          "customer_id": "PT-020",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-11",
+          "requested_date": "2025-09-16",
+          "promised_date": "2025-09-18"
+        },
+        {
+          "id": "SO-0039",
+          "customer_id": "PT-001",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-02",
+          "requested_date": "2025-09-07",
+          "promised_date": "2025-09-09"
+        },
+        {
+          "id": "SO-0040",
+          "customer_id": "PT-015",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-16",
+          "requested_date": "2025-09-21",
+          "promised_date": "2025-09-23"
+        },
+        {
+          "id": "SO-0041",
+          "customer_id": "PT-008",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-21",
+          "requested_date": "2025-09-26",
+          "promised_date": "2025-09-28"
+        },
+        {
+          "id": "SO-0042",
+          "customer_id": "PT-007",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-16",
+          "requested_date": "2025-09-21",
+          "promised_date": "2025-09-23"
+        },
+        {
+          "id": "SO-0043",
+          "customer_id": "PT-003",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-12",
+          "requested_date": "2025-09-17",
+          "promised_date": "2025-09-19"
+        },
+        {
+          "id": "SO-0044",
+          "customer_id": "PT-014",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-15",
+          "requested_date": "2025-09-20",
+          "promised_date": "2025-09-22"
+        },
+        {
+          "id": "SO-0045",
+          "customer_id": "PT-003",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-09",
+          "requested_date": "2025-09-14",
+          "promised_date": "2025-09-16"
+        },
+        {
+          "id": "SO-0046",
+          "customer_id": "PT-029",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-10",
+          "requested_date": "2025-09-15",
+          "promised_date": "2025-09-17"
+        },
+        {
+          "id": "SO-0047",
+          "customer_id": "PT-004",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-21",
+          "requested_date": "2025-09-26",
+          "promised_date": "2025-09-28"
+        },
+        {
+          "id": "SO-0048",
+          "customer_id": "PT-029",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-15",
+          "requested_date": "2025-09-20",
+          "promised_date": "2025-09-22"
+        },
+        {
+          "id": "SO-0049",
+          "customer_id": "PT-025",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-15",
+          "requested_date": "2025-09-20",
+          "promised_date": "2025-09-22"
+        },
+        {
+          "id": "SO-0050",
+          "customer_id": "PT-027",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-21",
+          "requested_date": "2025-09-26",
+          "promised_date": "2025-09-28"
+        },
+        {
+          "id": "SO-0051",
+          "customer_id": "PT-004",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-16",
+          "requested_date": "2025-09-21",
+          "promised_date": "2025-09-23"
+        },
+        {
+          "id": "SO-0052",
+          "customer_id": "PT-012",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-17",
+          "requested_date": "2025-09-22",
+          "promised_date": "2025-09-24"
+        },
+        {
+          "id": "SO-0053",
+          "customer_id": "PT-019",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-16",
+          "requested_date": "2025-09-21",
+          "promised_date": "2025-09-23"
+        },
+        {
+          "id": "SO-0054",
+          "customer_id": "PT-007",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-01",
+          "requested_date": "2025-09-06",
+          "promised_date": "2025-09-08"
+        },
+        {
+          "id": "SO-0055",
+          "customer_id": "PT-027",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-20",
+          "requested_date": "2025-09-25",
+          "promised_date": "2025-09-27"
+        },
+        {
+          "id": "SO-0056",
+          "customer_id": "PT-002",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-03",
+          "requested_date": "2025-09-08",
+          "promised_date": "2025-09-10"
+        },
+        {
+          "id": "SO-0057",
+          "customer_id": "PT-004",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-10",
+          "requested_date": "2025-09-15",
+          "promised_date": "2025-09-17"
+        },
+        {
+          "id": "SO-0058",
+          "customer_id": "PT-002",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-09",
+          "requested_date": "2025-09-14",
+          "promised_date": "2025-09-16"
+        },
+        {
+          "id": "SO-0059",
+          "customer_id": "PT-010",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-20",
+          "requested_date": "2025-09-25",
+          "promised_date": "2025-09-27"
+        },
+        {
+          "id": "SO-0060",
+          "customer_id": "PT-004",
+          "incoterm": "FOB",
+          "currency": "EUR",
+          "status": "confirmed",
+          "order_date": "2025-09-13",
+          "requested_date": "2025-09-18",
+          "promised_date": "2025-09-20"
+        }
+      ]
+    },
+    "sales_order_lines": {
+      "headers": [
+        "so_id",
+        "line_no",
+        "item_id",
+        "qty",
+        "uom",
+        "unit_price",
+        "currency"
+      ],
+      "rows": [
+        {
+          "so_id": "SO-0001",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 200,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0002",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 921,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0003",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 372,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0004",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 367,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0005",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 373,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0006",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 905,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0007",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 978,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0008",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 518,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0009",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 628,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0010",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 525,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0011",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 748,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0012",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 665,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0013",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 840,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0014",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 767,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0015",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 571,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0016",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 415,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0017",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 395,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0018",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 970,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0019",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 538,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0020",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 525,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0021",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 826,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0022",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 186,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0023",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 280,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0024",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 900,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0025",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 890,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0026",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 704,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0027",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 128,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0028",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 231,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0029",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 424,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0030",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 141,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0031",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 996,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0032",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 921,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0033",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 528,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0034",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 928,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0035",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 950,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0036",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 805,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0037",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 159,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0038",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 694,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0039",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 302,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0040",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 718,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0041",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 579,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0042",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 353,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0043",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 787,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0044",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 852,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0045",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 329,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0046",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 357,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0047",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 499,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0048",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 607,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0049",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 907,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0050",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 967,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0051",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 465,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0052",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 398,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0053",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 592,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0054",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 867,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0055",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 127,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0056",
+          "line_no": 1,
+          "item_id": "IT-01",
+          "qty": 923,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0057",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 583,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0058",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 888,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0059",
+          "line_no": 1,
+          "item_id": "IT-02",
+          "qty": 800,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "so_id": "SO-0060",
+          "line_no": 1,
+          "item_id": "IT-03",
+          "qty": 454,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        }
+      ]
+    },
+    "shipments": {
+      "headers": [
+        "id",
+        "mode",
+        "status",
+        "shipper_id",
+        "consignee_id",
+        "port_load",
+        "port_discharge",
+        "etd",
+        "eta",
+        "currency"
+      ],
+      "rows": [
+        {
+          "id": "SHP-0001",
+          "mode": "SEA",
+          "status": "in_transit",
+          "shipper_id": "WH-01",
+          "consignee_id": "PT-016",
+          "port_load": "PR-02",
+          "port_discharge": "PR-03",
+          "etd": "2025-09-20",
+          "eta": "2025-09-30",
+          "currency": "EUR"
+        },
+        {
+          "id": "SHP-0002",
+          "mode": "SEA",
+          "status": "in_transit",
+          "shipper_id": "WH-01",
+          "consignee_id": "PT-019",
+          "port_load": "PR-04",
+          "port_discharge": "PR-04",
+          "etd": "2025-09-16",
+          "eta": "2025-09-26",
+          "currency": "EUR"
+        },
+        {
+          "id": "SHP-0003",
+          "mode": "SEA",
+          "status": "in_transit",
+          "shipper_id": "WH-01",
+          "consignee_id": "PT-030",
+          "port_load": "PR-02",
+          "port_discharge": "PR-03",
+          "etd": "2025-09-22",
+          "eta": "2025-10-02",
+          "currency": "EUR"
+        },
+        {
+          "id": "SHP-0004",
+          "mode": "SEA",
+          "status": "in_transit",
+          "shipper_id": "WH-01",
+          "consignee_id": "PT-011",
+          "port_load": "PR-03",
+          "port_discharge": "PR-01",
+          "etd": "2025-09-24",
+          "eta": "2025-10-04",
+          "currency": "EUR"
+        },
+        {
+          "id": "SHP-0005",
+          "mode": "SEA",
+          "status": "in_transit",
+          "shipper_id": "WH-01",
+          "consignee_id": "PT-005",
+          "port_load": "PR-03",
+          "port_discharge": "PR-02",
+          "etd": "2025-09-08",
+          "eta": "2025-09-18",
+          "currency": "EUR"
+        },
+        {
+          "id": "SHP-0006",
+          "mode": "SEA",
+          "status": "in_transit",
+          "shipper_id": "WH-01",
+          "consignee_id": "PT-007",
+          "port_load": "PR-01",
+          "port_discharge": "PR-04",
+          "etd": "2025-09-24",
+          "eta": "2025-10-04",
+          "currency": "EUR"
+        },
+        {
+          "id": "SHP-0007",
+          "mode": "SEA",
+          "status": "in_transit",
+          "shipper_id": "WH-01",
+          "consignee_id": "PT-004",
+          "port_load": "PR-02",
+          "port_discharge": "PR-01",
+          "etd": "2025-09-07",
+          "eta": "2025-09-17",
+          "currency": "EUR"
+        },
+        {
+          "id": "SHP-0008",
+          "mode": "SEA",
+          "status": "in_transit",
+          "shipper_id": "WH-01",
+          "consignee_id": "PT-018",
+          "port_load": "PR-01",
+          "port_discharge": "PR-02",
+          "etd": "2025-09-07",
+          "eta": "2025-09-17",
+          "currency": "EUR"
+        },
+        {
+          "id": "SHP-0009",
+          "mode": "SEA",
+          "status": "in_transit",
+          "shipper_id": "WH-01",
+          "consignee_id": "PT-029",
+          "port_load": "PR-03",
+          "port_discharge": "PR-04",
+          "etd": "2025-09-06",
+          "eta": "2025-09-16",
+          "currency": "EUR"
+        },
+        {
+          "id": "SHP-0010",
+          "mode": "SEA",
+          "status": "in_transit",
+          "shipper_id": "WH-01",
+          "consignee_id": "PT-005",
+          "port_load": "PR-03",
+          "port_discharge": "PR-03",
+          "etd": "2025-09-04",
+          "eta": "2025-09-14",
+          "currency": "EUR"
+        },
+        {
+          "id": "SHP-0011",
+          "mode": "SEA",
+          "status": "in_transit",
+          "shipper_id": "WH-01",
+          "consignee_id": "PT-008",
+          "port_load": "PR-01",
+          "port_discharge": "PR-03",
+          "etd": "2025-09-24",
+          "eta": "2025-10-04",
+          "currency": "EUR"
+        },
+        {
+          "id": "SHP-0012",
+          "mode": "SEA",
+          "status": "in_transit",
+          "shipper_id": "WH-01",
+          "consignee_id": "PT-003",
+          "port_load": "PR-02",
+          "port_discharge": "PR-02",
+          "etd": "2025-09-12",
+          "eta": "2025-09-22",
+          "currency": "EUR"
+        },
+        {
+          "id": "SHP-0013",
+          "mode": "SEA",
+          "status": "in_transit",
+          "shipper_id": "WH-01",
+          "consignee_id": "PT-025",
+          "port_load": "PR-04",
+          "port_discharge": "PR-03",
+          "etd": "2025-09-18",
+          "eta": "2025-09-28",
+          "currency": "EUR"
+        },
+        {
+          "id": "SHP-0014",
+          "mode": "SEA",
+          "status": "in_transit",
+          "shipper_id": "WH-01",
+          "consignee_id": "PT-019",
+          "port_load": "PR-02",
+          "port_discharge": "PR-03",
+          "etd": "2025-09-19",
+          "eta": "2025-09-29",
+          "currency": "EUR"
+        },
+        {
+          "id": "SHP-0015",
+          "mode": "SEA",
+          "status": "in_transit",
+          "shipper_id": "WH-01",
+          "consignee_id": "PT-004",
+          "port_load": "PR-04",
+          "port_discharge": "PR-04",
+          "etd": "2025-09-13",
+          "eta": "2025-09-23",
+          "currency": "EUR"
+        }
+      ]
+    },
+    "shipment_lines": {
+      "headers": [
+        "shipment_id",
+        "so_id",
+        "so_line_no",
+        "item_id",
+        "qty",
+        "uom",
+        "unit_price",
+        "currency"
+      ],
+      "rows": [
+        {
+          "shipment_id": "SHP-0001",
+          "so_id": "SO-0001",
+          "so_line_no": 1,
+          "item_id": "IT-03",
+          "qty": 200,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "shipment_id": "SHP-0002",
+          "so_id": "SO-0005",
+          "so_line_no": 1,
+          "item_id": "IT-03",
+          "qty": 373,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "shipment_id": "SHP-0003",
+          "so_id": "SO-0009",
+          "so_line_no": 1,
+          "item_id": "IT-02",
+          "qty": 628,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "shipment_id": "SHP-0004",
+          "so_id": "SO-0013",
+          "so_line_no": 1,
+          "item_id": "IT-01",
+          "qty": 840,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "shipment_id": "SHP-0005",
+          "so_id": "SO-0017",
+          "so_line_no": 1,
+          "item_id": "IT-02",
+          "qty": 395,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "shipment_id": "SHP-0006",
+          "so_id": "SO-0021",
+          "so_line_no": 1,
+          "item_id": "IT-01",
+          "qty": 826,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "shipment_id": "SHP-0007",
+          "so_id": "SO-0025",
+          "so_line_no": 1,
+          "item_id": "IT-03",
+          "qty": 890,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "shipment_id": "SHP-0008",
+          "so_id": "SO-0029",
+          "so_line_no": 1,
+          "item_id": "IT-03",
+          "qty": 424,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "shipment_id": "SHP-0009",
+          "so_id": "SO-0033",
+          "so_line_no": 1,
+          "item_id": "IT-01",
+          "qty": 528,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "shipment_id": "SHP-0010",
+          "so_id": "SO-0037",
+          "so_line_no": 1,
+          "item_id": "IT-01",
+          "qty": 159,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "shipment_id": "SHP-0011",
+          "so_id": "SO-0041",
+          "so_line_no": 1,
+          "item_id": "IT-02",
+          "qty": 579,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "shipment_id": "SHP-0012",
+          "so_id": "SO-0045",
+          "so_line_no": 1,
+          "item_id": "IT-01",
+          "qty": 329,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "shipment_id": "SHP-0013",
+          "so_id": "SO-0049",
+          "so_line_no": 1,
+          "item_id": "IT-01",
+          "qty": 907,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "shipment_id": "SHP-0014",
+          "so_id": "SO-0053",
+          "so_line_no": 1,
+          "item_id": "IT-02",
+          "qty": 592,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        },
+        {
+          "shipment_id": "SHP-0015",
+          "so_id": "SO-0057",
+          "so_line_no": 1,
+          "item_id": "IT-03",
+          "qty": 583,
+          "uom": "KG",
+          "unit_price": 1.2,
+          "currency": "EUR"
+        }
+      ]
+    },
+    "inventory_movements": {
+      "headers": [
+        "id",
+        "movement_date",
+        "warehouse_id",
+        "item_id",
+        "qty",
+        "uom",
+        "reason"
+      ],
+      "rows": [
+        {
+          "id": "IM-0001",
+          "movement_date": "2025-09-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1039,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0002",
+          "movement_date": "2025-09-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 548,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0003",
+          "movement_date": "2025-09-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1208,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0004",
+          "movement_date": "2025-09-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 983,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0005",
+          "movement_date": "2025-09-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1185,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0006",
+          "movement_date": "2025-09-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 616,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0007",
+          "movement_date": "2025-09-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1353,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0008",
+          "movement_date": "2025-09-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1451,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0009",
+          "movement_date": "2025-09-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 864,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0010",
+          "movement_date": "2025-09-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 925,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0011",
+          "movement_date": "2025-09-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 667,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0012",
+          "movement_date": "2025-09-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 939,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0013",
+          "movement_date": "2025-09-03",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 652,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0014",
+          "movement_date": "2025-09-03",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 797,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0015",
+          "movement_date": "2025-09-03",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1480,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0016",
+          "movement_date": "2025-09-03",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 957,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0017",
+          "movement_date": "2025-09-03",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1027,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0018",
+          "movement_date": "2025-09-03",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1038,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0019",
+          "movement_date": "2025-09-04",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 893,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0020",
+          "movement_date": "2025-09-04",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1244,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0021",
+          "movement_date": "2025-09-04",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1044,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0022",
+          "movement_date": "2025-09-04",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1011,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0023",
+          "movement_date": "2025-09-04",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1047,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0024",
+          "movement_date": "2025-09-04",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1430,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0190",
+          "movement_date": "2025-09-04",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": -159,
+          "uom": "KG",
+          "reason": "issue_shipment"
+        },
+        {
+          "id": "IM-0025",
+          "movement_date": "2025-09-05",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1054,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0026",
+          "movement_date": "2025-09-05",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 980,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0027",
+          "movement_date": "2025-09-05",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1049,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0028",
+          "movement_date": "2025-09-05",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 548,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0029",
+          "movement_date": "2025-09-05",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1215,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0030",
+          "movement_date": "2025-09-05",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 939,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0031",
+          "movement_date": "2025-09-06",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1057,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0032",
+          "movement_date": "2025-09-06",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1491,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0033",
+          "movement_date": "2025-09-06",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1320,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0034",
+          "movement_date": "2025-09-06",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1329,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0035",
+          "movement_date": "2025-09-06",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 650,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0036",
+          "movement_date": "2025-09-06",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1246,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0189",
+          "movement_date": "2025-09-06",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": -528,
+          "uom": "KG",
+          "reason": "issue_shipment"
+        },
+        {
+          "id": "IM-0037",
+          "movement_date": "2025-09-07",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1451,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0038",
+          "movement_date": "2025-09-07",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1074,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0039",
+          "movement_date": "2025-09-07",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 856,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0040",
+          "movement_date": "2025-09-07",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 933,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0041",
+          "movement_date": "2025-09-07",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1223,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0042",
+          "movement_date": "2025-09-07",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1351,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0187",
+          "movement_date": "2025-09-07",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": -890,
+          "uom": "KG",
+          "reason": "issue_shipment"
+        },
+        {
+          "id": "IM-0188",
+          "movement_date": "2025-09-07",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": -424,
+          "uom": "KG",
+          "reason": "issue_shipment"
+        },
+        {
+          "id": "IM-0196",
+          "movement_date": "2025-09-07",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 10,
+          "uom": "KG",
+          "reason": "adjustment_cycle_count"
+        },
+        {
+          "id": "IM-0197",
+          "movement_date": "2025-09-07",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": -13,
+          "uom": "KG",
+          "reason": "adjustment_cycle_count"
+        },
+        {
+          "id": "IM-0198",
+          "movement_date": "2025-09-07",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 9,
+          "uom": "KG",
+          "reason": "adjustment_cycle_count"
+        },
+        {
+          "id": "IM-0043",
+          "movement_date": "2025-09-08",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 650,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0044",
+          "movement_date": "2025-09-08",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1201,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0045",
+          "movement_date": "2025-09-08",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 878,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0046",
+          "movement_date": "2025-09-08",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1485,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0047",
+          "movement_date": "2025-09-08",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1111,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0048",
+          "movement_date": "2025-09-08",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 543,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0185",
+          "movement_date": "2025-09-08",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": -395,
+          "uom": "KG",
+          "reason": "issue_shipment"
+        },
+        {
+          "id": "IM-0049",
+          "movement_date": "2025-09-09",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1376,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0050",
+          "movement_date": "2025-09-09",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1492,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0051",
+          "movement_date": "2025-09-09",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1355,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0052",
+          "movement_date": "2025-09-09",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 822,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0053",
+          "movement_date": "2025-09-09",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 825,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0054",
+          "movement_date": "2025-09-09",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1212,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0055",
+          "movement_date": "2025-09-10",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 518,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0056",
+          "movement_date": "2025-09-10",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 863,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0057",
+          "movement_date": "2025-09-10",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 692,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0058",
+          "movement_date": "2025-09-10",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 914,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0059",
+          "movement_date": "2025-09-10",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1104,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0060",
+          "movement_date": "2025-09-10",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1315,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0061",
+          "movement_date": "2025-09-11",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1188,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0062",
+          "movement_date": "2025-09-11",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 696,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0063",
+          "movement_date": "2025-09-11",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 982,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0064",
+          "movement_date": "2025-09-11",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1307,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0065",
+          "movement_date": "2025-09-11",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 696,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0066",
+          "movement_date": "2025-09-11",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 733,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0067",
+          "movement_date": "2025-09-12",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1487,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0068",
+          "movement_date": "2025-09-12",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1199,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0069",
+          "movement_date": "2025-09-12",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 880,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0070",
+          "movement_date": "2025-09-12",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 850,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0071",
+          "movement_date": "2025-09-12",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1113,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0072",
+          "movement_date": "2025-09-12",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 801,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0192",
+          "movement_date": "2025-09-12",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": -329,
+          "uom": "KG",
+          "reason": "issue_shipment"
+        },
+        {
+          "id": "IM-0073",
+          "movement_date": "2025-09-13",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 531,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0074",
+          "movement_date": "2025-09-13",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1125,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0075",
+          "movement_date": "2025-09-13",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1131,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0076",
+          "movement_date": "2025-09-13",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 549,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0077",
+          "movement_date": "2025-09-13",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1104,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0078",
+          "movement_date": "2025-09-13",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1298,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0195",
+          "movement_date": "2025-09-13",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": -583,
+          "uom": "KG",
+          "reason": "issue_shipment"
+        },
+        {
+          "id": "IM-0079",
+          "movement_date": "2025-09-14",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1391,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0080",
+          "movement_date": "2025-09-14",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 633,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0081",
+          "movement_date": "2025-09-14",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 529,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0082",
+          "movement_date": "2025-09-14",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1092,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0083",
+          "movement_date": "2025-09-14",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1136,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0084",
+          "movement_date": "2025-09-14",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1022,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0199",
+          "movement_date": "2025-09-14",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": -4,
+          "uom": "KG",
+          "reason": "adjustment_cycle_count"
+        },
+        {
+          "id": "IM-0200",
+          "movement_date": "2025-09-14",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": -9,
+          "uom": "KG",
+          "reason": "adjustment_cycle_count"
+        },
+        {
+          "id": "IM-0201",
+          "movement_date": "2025-09-14",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": -15,
+          "uom": "KG",
+          "reason": "adjustment_cycle_count"
+        },
+        {
+          "id": "IM-0085",
+          "movement_date": "2025-09-15",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1422,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0086",
+          "movement_date": "2025-09-15",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1084,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0087",
+          "movement_date": "2025-09-15",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 714,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0088",
+          "movement_date": "2025-09-15",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1064,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0089",
+          "movement_date": "2025-09-15",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 927,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0090",
+          "movement_date": "2025-09-15",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 848,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0091",
+          "movement_date": "2025-09-16",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1024,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0092",
+          "movement_date": "2025-09-16",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 840,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0093",
+          "movement_date": "2025-09-16",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1139,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0094",
+          "movement_date": "2025-09-16",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 701,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0095",
+          "movement_date": "2025-09-16",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 913,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0096",
+          "movement_date": "2025-09-16",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1189,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0182",
+          "movement_date": "2025-09-16",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": -373,
+          "uom": "KG",
+          "reason": "issue_shipment"
+        },
+        {
+          "id": "IM-0097",
+          "movement_date": "2025-09-17",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1363,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0098",
+          "movement_date": "2025-09-17",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 873,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0099",
+          "movement_date": "2025-09-17",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 513,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0100",
+          "movement_date": "2025-09-17",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 621,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0101",
+          "movement_date": "2025-09-17",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1407,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0102",
+          "movement_date": "2025-09-17",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1246,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0103",
+          "movement_date": "2025-09-18",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1208,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0104",
+          "movement_date": "2025-09-18",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 878,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0105",
+          "movement_date": "2025-09-18",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1399,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0106",
+          "movement_date": "2025-09-18",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1193,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0107",
+          "movement_date": "2025-09-18",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 640,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0108",
+          "movement_date": "2025-09-18",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 628,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0193",
+          "movement_date": "2025-09-18",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": -907,
+          "uom": "KG",
+          "reason": "issue_shipment"
+        },
+        {
+          "id": "IM-0109",
+          "movement_date": "2025-09-19",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 760,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0110",
+          "movement_date": "2025-09-19",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1288,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0111",
+          "movement_date": "2025-09-19",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1466,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0112",
+          "movement_date": "2025-09-19",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1446,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0113",
+          "movement_date": "2025-09-19",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 538,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0114",
+          "movement_date": "2025-09-19",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1451,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0194",
+          "movement_date": "2025-09-19",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": -592,
+          "uom": "KG",
+          "reason": "issue_shipment"
+        },
+        {
+          "id": "IM-0115",
+          "movement_date": "2025-09-20",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 794,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0116",
+          "movement_date": "2025-09-20",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1165,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0117",
+          "movement_date": "2025-09-20",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1133,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0118",
+          "movement_date": "2025-09-20",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1113,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0119",
+          "movement_date": "2025-09-20",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1372,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0120",
+          "movement_date": "2025-09-20",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 618,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0181",
+          "movement_date": "2025-09-20",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": -200,
+          "uom": "KG",
+          "reason": "issue_shipment"
+        },
+        {
+          "id": "IM-0121",
+          "movement_date": "2025-09-21",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1198,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0122",
+          "movement_date": "2025-09-21",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1139,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0123",
+          "movement_date": "2025-09-21",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1494,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0124",
+          "movement_date": "2025-09-21",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 780,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0125",
+          "movement_date": "2025-09-21",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1463,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0126",
+          "movement_date": "2025-09-21",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 677,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0202",
+          "movement_date": "2025-09-21",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": -10,
+          "uom": "KG",
+          "reason": "adjustment_cycle_count"
+        },
+        {
+          "id": "IM-0203",
+          "movement_date": "2025-09-21",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": -11,
+          "uom": "KG",
+          "reason": "adjustment_cycle_count"
+        },
+        {
+          "id": "IM-0204",
+          "movement_date": "2025-09-21",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": -17,
+          "uom": "KG",
+          "reason": "adjustment_cycle_count"
+        },
+        {
+          "id": "IM-0127",
+          "movement_date": "2025-09-22",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1196,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0128",
+          "movement_date": "2025-09-22",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1076,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0129",
+          "movement_date": "2025-09-22",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 735,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0130",
+          "movement_date": "2025-09-22",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1049,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0131",
+          "movement_date": "2025-09-22",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 515,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0132",
+          "movement_date": "2025-09-22",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1430,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0183",
+          "movement_date": "2025-09-22",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": -628,
+          "uom": "KG",
+          "reason": "issue_shipment"
+        },
+        {
+          "id": "IM-0133",
+          "movement_date": "2025-09-23",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 631,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0134",
+          "movement_date": "2025-09-23",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 703,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0135",
+          "movement_date": "2025-09-23",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 696,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0136",
+          "movement_date": "2025-09-23",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 649,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0137",
+          "movement_date": "2025-09-23",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1087,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0138",
+          "movement_date": "2025-09-23",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1373,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0139",
+          "movement_date": "2025-09-24",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1176,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0140",
+          "movement_date": "2025-09-24",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 509,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0141",
+          "movement_date": "2025-09-24",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 652,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0142",
+          "movement_date": "2025-09-24",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1129,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0143",
+          "movement_date": "2025-09-24",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1005,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0144",
+          "movement_date": "2025-09-24",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1477,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0184",
+          "movement_date": "2025-09-24",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": -840,
+          "uom": "KG",
+          "reason": "issue_shipment"
+        },
+        {
+          "id": "IM-0186",
+          "movement_date": "2025-09-24",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": -826,
+          "uom": "KG",
+          "reason": "issue_shipment"
+        },
+        {
+          "id": "IM-0191",
+          "movement_date": "2025-09-24",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": -579,
+          "uom": "KG",
+          "reason": "issue_shipment"
+        },
+        {
+          "id": "IM-0145",
+          "movement_date": "2025-09-25",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 628,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0146",
+          "movement_date": "2025-09-25",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1319,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0147",
+          "movement_date": "2025-09-25",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1009,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0148",
+          "movement_date": "2025-09-25",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1177,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0149",
+          "movement_date": "2025-09-25",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 988,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0150",
+          "movement_date": "2025-09-25",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 969,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0151",
+          "movement_date": "2025-09-26",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1288,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0152",
+          "movement_date": "2025-09-26",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1134,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0153",
+          "movement_date": "2025-09-26",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1027,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0154",
+          "movement_date": "2025-09-26",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1415,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0155",
+          "movement_date": "2025-09-26",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 969,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0156",
+          "movement_date": "2025-09-26",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1330,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0157",
+          "movement_date": "2025-09-27",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1141,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0158",
+          "movement_date": "2025-09-27",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 624,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0159",
+          "movement_date": "2025-09-27",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1490,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0160",
+          "movement_date": "2025-09-27",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 707,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0161",
+          "movement_date": "2025-09-27",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1198,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0162",
+          "movement_date": "2025-09-27",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1081,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0163",
+          "movement_date": "2025-09-28",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 677,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0164",
+          "movement_date": "2025-09-28",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 817,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0165",
+          "movement_date": "2025-09-28",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 550,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0166",
+          "movement_date": "2025-09-28",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1309,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0167",
+          "movement_date": "2025-09-28",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 685,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0168",
+          "movement_date": "2025-09-28",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1200,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0205",
+          "movement_date": "2025-09-28",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": -14,
+          "uom": "KG",
+          "reason": "adjustment_cycle_count"
+        },
+        {
+          "id": "IM-0206",
+          "movement_date": "2025-09-28",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": -7,
+          "uom": "KG",
+          "reason": "adjustment_cycle_count"
+        },
+        {
+          "id": "IM-0207",
+          "movement_date": "2025-09-28",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": -13,
+          "uom": "KG",
+          "reason": "adjustment_cycle_count"
+        },
+        {
+          "id": "IM-0169",
+          "movement_date": "2025-09-29",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1178,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0170",
+          "movement_date": "2025-09-29",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1255,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0171",
+          "movement_date": "2025-09-29",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1079,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0172",
+          "movement_date": "2025-09-29",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 551,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0173",
+          "movement_date": "2025-09-29",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 759,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0174",
+          "movement_date": "2025-09-29",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1227,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0175",
+          "movement_date": "2025-09-30",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 964,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0176",
+          "movement_date": "2025-09-30",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 757,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0177",
+          "movement_date": "2025-09-30",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 913,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0178",
+          "movement_date": "2025-09-30",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1485,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0179",
+          "movement_date": "2025-09-30",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 531,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0180",
+          "movement_date": "2025-09-30",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1285,
+          "uom": "KG",
+          "reason": "receipt_p2w"
+        },
+        {
+          "id": "IM-0208",
+          "movement_date": "2025-10-05",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": -12,
+          "uom": "KG",
+          "reason": "adjustment_cycle_count"
+        },
+        {
+          "id": "IM-0209",
+          "movement_date": "2025-10-05",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": -4,
+          "uom": "KG",
+          "reason": "adjustment_cycle_count"
+        },
+        {
+          "id": "IM-0210",
+          "movement_date": "2025-10-05",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": -4,
+          "uom": "KG",
+          "reason": "adjustment_cycle_count"
+        }
+      ]
+    },
+    "plant_outputs": {
+      "headers": [
+        "id",
+        "output_date",
+        "plant_id",
+        "item_id",
+        "qty",
+        "uom",
+        "batch"
+      ],
+      "rows": [
+        {
+          "id": "PO-0001",
+          "output_date": "2025-09-01",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1039,
+          "uom": "KG",
+          "batch": "B-a5c720"
+        },
+        {
+          "id": "PO-0002",
+          "output_date": "2025-09-01",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 548,
+          "uom": "KG",
+          "batch": "B-31af18"
+        },
+        {
+          "id": "PO-0003",
+          "output_date": "2025-09-01",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1208,
+          "uom": "KG",
+          "batch": "B-a0b009"
+        },
+        {
+          "id": "PO-0004",
+          "output_date": "2025-09-01",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 983,
+          "uom": "KG",
+          "batch": "B-0adab0"
+        },
+        {
+          "id": "PO-0005",
+          "output_date": "2025-09-01",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1185,
+          "uom": "KG",
+          "batch": "B-852399"
+        },
+        {
+          "id": "PO-0006",
+          "output_date": "2025-09-01",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 616,
+          "uom": "KG",
+          "batch": "B-d3e748"
+        },
+        {
+          "id": "PO-0007",
+          "output_date": "2025-09-02",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1353,
+          "uom": "KG",
+          "batch": "B-35398b"
+        },
+        {
+          "id": "PO-0008",
+          "output_date": "2025-09-02",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1451,
+          "uom": "KG",
+          "batch": "B-2da2e5"
+        },
+        {
+          "id": "PO-0009",
+          "output_date": "2025-09-02",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 864,
+          "uom": "KG",
+          "batch": "B-accfee"
+        },
+        {
+          "id": "PO-0010",
+          "output_date": "2025-09-02",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 925,
+          "uom": "KG",
+          "batch": "B-b0209d"
+        },
+        {
+          "id": "PO-0011",
+          "output_date": "2025-09-02",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 667,
+          "uom": "KG",
+          "batch": "B-b4dc62"
+        },
+        {
+          "id": "PO-0012",
+          "output_date": "2025-09-02",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 939,
+          "uom": "KG",
+          "batch": "B-61b45d"
+        },
+        {
+          "id": "PO-0013",
+          "output_date": "2025-09-03",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 652,
+          "uom": "KG",
+          "batch": "B-677d22"
+        },
+        {
+          "id": "PO-0014",
+          "output_date": "2025-09-03",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 797,
+          "uom": "KG",
+          "batch": "B-0d46f4"
+        },
+        {
+          "id": "PO-0015",
+          "output_date": "2025-09-03",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1480,
+          "uom": "KG",
+          "batch": "B-6adb15"
+        },
+        {
+          "id": "PO-0016",
+          "output_date": "2025-09-03",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 957,
+          "uom": "KG",
+          "batch": "B-6f26f7"
+        },
+        {
+          "id": "PO-0017",
+          "output_date": "2025-09-03",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1027,
+          "uom": "KG",
+          "batch": "B-d0713c"
+        },
+        {
+          "id": "PO-0018",
+          "output_date": "2025-09-03",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1038,
+          "uom": "KG",
+          "batch": "B-9af998"
+        },
+        {
+          "id": "PO-0019",
+          "output_date": "2025-09-04",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 893,
+          "uom": "KG",
+          "batch": "B-868514"
+        },
+        {
+          "id": "PO-0020",
+          "output_date": "2025-09-04",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1244,
+          "uom": "KG",
+          "batch": "B-8d76f5"
+        },
+        {
+          "id": "PO-0021",
+          "output_date": "2025-09-04",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1044,
+          "uom": "KG",
+          "batch": "B-74b341"
+        },
+        {
+          "id": "PO-0022",
+          "output_date": "2025-09-04",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 1011,
+          "uom": "KG",
+          "batch": "B-38f562"
+        },
+        {
+          "id": "PO-0023",
+          "output_date": "2025-09-04",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1047,
+          "uom": "KG",
+          "batch": "B-355ff8"
+        },
+        {
+          "id": "PO-0024",
+          "output_date": "2025-09-04",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1430,
+          "uom": "KG",
+          "batch": "B-ed44e8"
+        },
+        {
+          "id": "PO-0025",
+          "output_date": "2025-09-05",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1054,
+          "uom": "KG",
+          "batch": "B-955eb8"
+        },
+        {
+          "id": "PO-0026",
+          "output_date": "2025-09-05",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 980,
+          "uom": "KG",
+          "batch": "B-2d4e3e"
+        },
+        {
+          "id": "PO-0027",
+          "output_date": "2025-09-05",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1049,
+          "uom": "KG",
+          "batch": "B-70278d"
+        },
+        {
+          "id": "PO-0028",
+          "output_date": "2025-09-05",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 548,
+          "uom": "KG",
+          "batch": "B-c97f28"
+        },
+        {
+          "id": "PO-0029",
+          "output_date": "2025-09-05",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1215,
+          "uom": "KG",
+          "batch": "B-d3d53b"
+        },
+        {
+          "id": "PO-0030",
+          "output_date": "2025-09-05",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 939,
+          "uom": "KG",
+          "batch": "B-632a8d"
+        },
+        {
+          "id": "PO-0031",
+          "output_date": "2025-09-06",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1057,
+          "uom": "KG",
+          "batch": "B-d7d3e2"
+        },
+        {
+          "id": "PO-0032",
+          "output_date": "2025-09-06",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1491,
+          "uom": "KG",
+          "batch": "B-4be52b"
+        },
+        {
+          "id": "PO-0033",
+          "output_date": "2025-09-06",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1320,
+          "uom": "KG",
+          "batch": "B-a37853"
+        },
+        {
+          "id": "PO-0034",
+          "output_date": "2025-09-06",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 1329,
+          "uom": "KG",
+          "batch": "B-4cd07e"
+        },
+        {
+          "id": "PO-0035",
+          "output_date": "2025-09-06",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 650,
+          "uom": "KG",
+          "batch": "B-cfca8d"
+        },
+        {
+          "id": "PO-0036",
+          "output_date": "2025-09-06",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1246,
+          "uom": "KG",
+          "batch": "B-17ebcb"
+        },
+        {
+          "id": "PO-0037",
+          "output_date": "2025-09-07",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1451,
+          "uom": "KG",
+          "batch": "B-5be7ba"
+        },
+        {
+          "id": "PO-0038",
+          "output_date": "2025-09-07",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1074,
+          "uom": "KG",
+          "batch": "B-7de1dc"
+        },
+        {
+          "id": "PO-0039",
+          "output_date": "2025-09-07",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 856,
+          "uom": "KG",
+          "batch": "B-4f794f"
+        },
+        {
+          "id": "PO-0040",
+          "output_date": "2025-09-07",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 933,
+          "uom": "KG",
+          "batch": "B-a00ed2"
+        },
+        {
+          "id": "PO-0041",
+          "output_date": "2025-09-07",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1223,
+          "uom": "KG",
+          "batch": "B-c96d4c"
+        },
+        {
+          "id": "PO-0042",
+          "output_date": "2025-09-07",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1351,
+          "uom": "KG",
+          "batch": "B-c46d8c"
+        },
+        {
+          "id": "PO-0043",
+          "output_date": "2025-09-08",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 650,
+          "uom": "KG",
+          "batch": "B-53c67f"
+        },
+        {
+          "id": "PO-0044",
+          "output_date": "2025-09-08",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1201,
+          "uom": "KG",
+          "batch": "B-87acfd"
+        },
+        {
+          "id": "PO-0045",
+          "output_date": "2025-09-08",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 878,
+          "uom": "KG",
+          "batch": "B-d02951"
+        },
+        {
+          "id": "PO-0046",
+          "output_date": "2025-09-08",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 1485,
+          "uom": "KG",
+          "batch": "B-692dac"
+        },
+        {
+          "id": "PO-0047",
+          "output_date": "2025-09-08",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1111,
+          "uom": "KG",
+          "batch": "B-4004c4"
+        },
+        {
+          "id": "PO-0048",
+          "output_date": "2025-09-08",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 543,
+          "uom": "KG",
+          "batch": "B-770cdb"
+        },
+        {
+          "id": "PO-0049",
+          "output_date": "2025-09-09",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1376,
+          "uom": "KG",
+          "batch": "B-c12d75"
+        },
+        {
+          "id": "PO-0050",
+          "output_date": "2025-09-09",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1492,
+          "uom": "KG",
+          "batch": "B-b41637"
+        },
+        {
+          "id": "PO-0051",
+          "output_date": "2025-09-09",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1355,
+          "uom": "KG",
+          "batch": "B-4814b1"
+        },
+        {
+          "id": "PO-0052",
+          "output_date": "2025-09-09",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 822,
+          "uom": "KG",
+          "batch": "B-04906a"
+        },
+        {
+          "id": "PO-0053",
+          "output_date": "2025-09-09",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 825,
+          "uom": "KG",
+          "batch": "B-5630f9"
+        },
+        {
+          "id": "PO-0054",
+          "output_date": "2025-09-09",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1212,
+          "uom": "KG",
+          "batch": "B-849c17"
+        },
+        {
+          "id": "PO-0055",
+          "output_date": "2025-09-10",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 518,
+          "uom": "KG",
+          "batch": "B-50510f"
+        },
+        {
+          "id": "PO-0056",
+          "output_date": "2025-09-10",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 863,
+          "uom": "KG",
+          "batch": "B-40ea8f"
+        },
+        {
+          "id": "PO-0057",
+          "output_date": "2025-09-10",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 692,
+          "uom": "KG",
+          "batch": "B-0bd4ad"
+        },
+        {
+          "id": "PO-0058",
+          "output_date": "2025-09-10",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 914,
+          "uom": "KG",
+          "batch": "B-588f52"
+        },
+        {
+          "id": "PO-0059",
+          "output_date": "2025-09-10",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1104,
+          "uom": "KG",
+          "batch": "B-c5a38c"
+        },
+        {
+          "id": "PO-0060",
+          "output_date": "2025-09-10",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1315,
+          "uom": "KG",
+          "batch": "B-ec3f2e"
+        },
+        {
+          "id": "PO-0061",
+          "output_date": "2025-09-11",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1188,
+          "uom": "KG",
+          "batch": "B-f2d8ea"
+        },
+        {
+          "id": "PO-0062",
+          "output_date": "2025-09-11",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 696,
+          "uom": "KG",
+          "batch": "B-3d1042"
+        },
+        {
+          "id": "PO-0063",
+          "output_date": "2025-09-11",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 982,
+          "uom": "KG",
+          "batch": "B-87c129"
+        },
+        {
+          "id": "PO-0064",
+          "output_date": "2025-09-11",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 1307,
+          "uom": "KG",
+          "batch": "B-01ffb6"
+        },
+        {
+          "id": "PO-0065",
+          "output_date": "2025-09-11",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 696,
+          "uom": "KG",
+          "batch": "B-9566d4"
+        },
+        {
+          "id": "PO-0066",
+          "output_date": "2025-09-11",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 733,
+          "uom": "KG",
+          "batch": "B-203dec"
+        },
+        {
+          "id": "PO-0067",
+          "output_date": "2025-09-12",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1487,
+          "uom": "KG",
+          "batch": "B-e4c7b6"
+        },
+        {
+          "id": "PO-0068",
+          "output_date": "2025-09-12",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1199,
+          "uom": "KG",
+          "batch": "B-a33e95"
+        },
+        {
+          "id": "PO-0069",
+          "output_date": "2025-09-12",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 880,
+          "uom": "KG",
+          "batch": "B-54ea38"
+        },
+        {
+          "id": "PO-0070",
+          "output_date": "2025-09-12",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 850,
+          "uom": "KG",
+          "batch": "B-850c4c"
+        },
+        {
+          "id": "PO-0071",
+          "output_date": "2025-09-12",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1113,
+          "uom": "KG",
+          "batch": "B-bd8f02"
+        },
+        {
+          "id": "PO-0072",
+          "output_date": "2025-09-12",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 801,
+          "uom": "KG",
+          "batch": "B-6e6bd9"
+        },
+        {
+          "id": "PO-0073",
+          "output_date": "2025-09-13",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 531,
+          "uom": "KG",
+          "batch": "B-4b46aa"
+        },
+        {
+          "id": "PO-0074",
+          "output_date": "2025-09-13",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1125,
+          "uom": "KG",
+          "batch": "B-38f715"
+        },
+        {
+          "id": "PO-0075",
+          "output_date": "2025-09-13",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1131,
+          "uom": "KG",
+          "batch": "B-1e6f6d"
+        },
+        {
+          "id": "PO-0076",
+          "output_date": "2025-09-13",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 549,
+          "uom": "KG",
+          "batch": "B-8b10d2"
+        },
+        {
+          "id": "PO-0077",
+          "output_date": "2025-09-13",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1104,
+          "uom": "KG",
+          "batch": "B-8bbfc6"
+        },
+        {
+          "id": "PO-0078",
+          "output_date": "2025-09-13",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1298,
+          "uom": "KG",
+          "batch": "B-1d75ff"
+        },
+        {
+          "id": "PO-0079",
+          "output_date": "2025-09-14",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1391,
+          "uom": "KG",
+          "batch": "B-d2e774"
+        },
+        {
+          "id": "PO-0080",
+          "output_date": "2025-09-14",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 633,
+          "uom": "KG",
+          "batch": "B-998d22"
+        },
+        {
+          "id": "PO-0081",
+          "output_date": "2025-09-14",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 529,
+          "uom": "KG",
+          "batch": "B-eeee08"
+        },
+        {
+          "id": "PO-0082",
+          "output_date": "2025-09-14",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 1092,
+          "uom": "KG",
+          "batch": "B-f76565"
+        },
+        {
+          "id": "PO-0083",
+          "output_date": "2025-09-14",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1136,
+          "uom": "KG",
+          "batch": "B-27a563"
+        },
+        {
+          "id": "PO-0084",
+          "output_date": "2025-09-14",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1022,
+          "uom": "KG",
+          "batch": "B-5a69db"
+        },
+        {
+          "id": "PO-0085",
+          "output_date": "2025-09-15",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1422,
+          "uom": "KG",
+          "batch": "B-fef444"
+        },
+        {
+          "id": "PO-0086",
+          "output_date": "2025-09-15",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1084,
+          "uom": "KG",
+          "batch": "B-dbca12"
+        },
+        {
+          "id": "PO-0087",
+          "output_date": "2025-09-15",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 714,
+          "uom": "KG",
+          "batch": "B-c8d613"
+        },
+        {
+          "id": "PO-0088",
+          "output_date": "2025-09-15",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 1064,
+          "uom": "KG",
+          "batch": "B-5c8aa9"
+        },
+        {
+          "id": "PO-0089",
+          "output_date": "2025-09-15",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 927,
+          "uom": "KG",
+          "batch": "B-0a1562"
+        },
+        {
+          "id": "PO-0090",
+          "output_date": "2025-09-15",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 848,
+          "uom": "KG",
+          "batch": "B-577f61"
+        },
+        {
+          "id": "PO-0091",
+          "output_date": "2025-09-16",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1024,
+          "uom": "KG",
+          "batch": "B-c49b11"
+        },
+        {
+          "id": "PO-0092",
+          "output_date": "2025-09-16",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 840,
+          "uom": "KG",
+          "batch": "B-5c7e7a"
+        },
+        {
+          "id": "PO-0093",
+          "output_date": "2025-09-16",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1139,
+          "uom": "KG",
+          "batch": "B-b92814"
+        },
+        {
+          "id": "PO-0094",
+          "output_date": "2025-09-16",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 701,
+          "uom": "KG",
+          "batch": "B-982b15"
+        },
+        {
+          "id": "PO-0095",
+          "output_date": "2025-09-16",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 913,
+          "uom": "KG",
+          "batch": "B-f23ef0"
+        },
+        {
+          "id": "PO-0096",
+          "output_date": "2025-09-16",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1189,
+          "uom": "KG",
+          "batch": "B-096a66"
+        },
+        {
+          "id": "PO-0097",
+          "output_date": "2025-09-17",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1363,
+          "uom": "KG",
+          "batch": "B-b5f792"
+        },
+        {
+          "id": "PO-0098",
+          "output_date": "2025-09-17",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 873,
+          "uom": "KG",
+          "batch": "B-1cc95f"
+        },
+        {
+          "id": "PO-0099",
+          "output_date": "2025-09-17",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 513,
+          "uom": "KG",
+          "batch": "B-0116b0"
+        },
+        {
+          "id": "PO-0100",
+          "output_date": "2025-09-17",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 621,
+          "uom": "KG",
+          "batch": "B-56785a"
+        },
+        {
+          "id": "PO-0101",
+          "output_date": "2025-09-17",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1407,
+          "uom": "KG",
+          "batch": "B-62ba61"
+        },
+        {
+          "id": "PO-0102",
+          "output_date": "2025-09-17",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1246,
+          "uom": "KG",
+          "batch": "B-eef448"
+        },
+        {
+          "id": "PO-0103",
+          "output_date": "2025-09-18",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1208,
+          "uom": "KG",
+          "batch": "B-cd31e7"
+        },
+        {
+          "id": "PO-0104",
+          "output_date": "2025-09-18",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 878,
+          "uom": "KG",
+          "batch": "B-f2367f"
+        },
+        {
+          "id": "PO-0105",
+          "output_date": "2025-09-18",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1399,
+          "uom": "KG",
+          "batch": "B-c86471"
+        },
+        {
+          "id": "PO-0106",
+          "output_date": "2025-09-18",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 1193,
+          "uom": "KG",
+          "batch": "B-15ded2"
+        },
+        {
+          "id": "PO-0107",
+          "output_date": "2025-09-18",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 640,
+          "uom": "KG",
+          "batch": "B-dc31a4"
+        },
+        {
+          "id": "PO-0108",
+          "output_date": "2025-09-18",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 628,
+          "uom": "KG",
+          "batch": "B-d0ef64"
+        },
+        {
+          "id": "PO-0109",
+          "output_date": "2025-09-19",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 760,
+          "uom": "KG",
+          "batch": "B-d50659"
+        },
+        {
+          "id": "PO-0110",
+          "output_date": "2025-09-19",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1288,
+          "uom": "KG",
+          "batch": "B-308b60"
+        },
+        {
+          "id": "PO-0111",
+          "output_date": "2025-09-19",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1466,
+          "uom": "KG",
+          "batch": "B-a363b8"
+        },
+        {
+          "id": "PO-0112",
+          "output_date": "2025-09-19",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 1446,
+          "uom": "KG",
+          "batch": "B-f36993"
+        },
+        {
+          "id": "PO-0113",
+          "output_date": "2025-09-19",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 538,
+          "uom": "KG",
+          "batch": "B-f56ce2"
+        },
+        {
+          "id": "PO-0114",
+          "output_date": "2025-09-19",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1451,
+          "uom": "KG",
+          "batch": "B-ec124f"
+        },
+        {
+          "id": "PO-0115",
+          "output_date": "2025-09-20",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 794,
+          "uom": "KG",
+          "batch": "B-3b3676"
+        },
+        {
+          "id": "PO-0116",
+          "output_date": "2025-09-20",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1165,
+          "uom": "KG",
+          "batch": "B-02b97b"
+        },
+        {
+          "id": "PO-0117",
+          "output_date": "2025-09-20",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1133,
+          "uom": "KG",
+          "batch": "B-7b0336"
+        },
+        {
+          "id": "PO-0118",
+          "output_date": "2025-09-20",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 1113,
+          "uom": "KG",
+          "batch": "B-d4913c"
+        },
+        {
+          "id": "PO-0119",
+          "output_date": "2025-09-20",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1372,
+          "uom": "KG",
+          "batch": "B-864fdb"
+        },
+        {
+          "id": "PO-0120",
+          "output_date": "2025-09-20",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 618,
+          "uom": "KG",
+          "batch": "B-5ae9c1"
+        },
+        {
+          "id": "PO-0121",
+          "output_date": "2025-09-21",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1198,
+          "uom": "KG",
+          "batch": "B-650eb3"
+        },
+        {
+          "id": "PO-0122",
+          "output_date": "2025-09-21",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1139,
+          "uom": "KG",
+          "batch": "B-3e4fd0"
+        },
+        {
+          "id": "PO-0123",
+          "output_date": "2025-09-21",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1494,
+          "uom": "KG",
+          "batch": "B-d2cfd8"
+        },
+        {
+          "id": "PO-0124",
+          "output_date": "2025-09-21",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 780,
+          "uom": "KG",
+          "batch": "B-3948e6"
+        },
+        {
+          "id": "PO-0125",
+          "output_date": "2025-09-21",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1463,
+          "uom": "KG",
+          "batch": "B-f6b298"
+        },
+        {
+          "id": "PO-0126",
+          "output_date": "2025-09-21",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 677,
+          "uom": "KG",
+          "batch": "B-dd2e9d"
+        },
+        {
+          "id": "PO-0127",
+          "output_date": "2025-09-22",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1196,
+          "uom": "KG",
+          "batch": "B-6ebd55"
+        },
+        {
+          "id": "PO-0128",
+          "output_date": "2025-09-22",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1076,
+          "uom": "KG",
+          "batch": "B-776f49"
+        },
+        {
+          "id": "PO-0129",
+          "output_date": "2025-09-22",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 735,
+          "uom": "KG",
+          "batch": "B-9fd25e"
+        },
+        {
+          "id": "PO-0130",
+          "output_date": "2025-09-22",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 1049,
+          "uom": "KG",
+          "batch": "B-1fa86d"
+        },
+        {
+          "id": "PO-0131",
+          "output_date": "2025-09-22",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 515,
+          "uom": "KG",
+          "batch": "B-9ed4eb"
+        },
+        {
+          "id": "PO-0132",
+          "output_date": "2025-09-22",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1430,
+          "uom": "KG",
+          "batch": "B-2993a7"
+        },
+        {
+          "id": "PO-0133",
+          "output_date": "2025-09-23",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 631,
+          "uom": "KG",
+          "batch": "B-575f9d"
+        },
+        {
+          "id": "PO-0134",
+          "output_date": "2025-09-23",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 703,
+          "uom": "KG",
+          "batch": "B-e793e4"
+        },
+        {
+          "id": "PO-0135",
+          "output_date": "2025-09-23",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 696,
+          "uom": "KG",
+          "batch": "B-5bd0e9"
+        },
+        {
+          "id": "PO-0136",
+          "output_date": "2025-09-23",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 649,
+          "uom": "KG",
+          "batch": "B-47616b"
+        },
+        {
+          "id": "PO-0137",
+          "output_date": "2025-09-23",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1087,
+          "uom": "KG",
+          "batch": "B-4af263"
+        },
+        {
+          "id": "PO-0138",
+          "output_date": "2025-09-23",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1373,
+          "uom": "KG",
+          "batch": "B-b756c0"
+        },
+        {
+          "id": "PO-0139",
+          "output_date": "2025-09-24",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1176,
+          "uom": "KG",
+          "batch": "B-7078ff"
+        },
+        {
+          "id": "PO-0140",
+          "output_date": "2025-09-24",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 509,
+          "uom": "KG",
+          "batch": "B-41d7e8"
+        },
+        {
+          "id": "PO-0141",
+          "output_date": "2025-09-24",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 652,
+          "uom": "KG",
+          "batch": "B-acf702"
+        },
+        {
+          "id": "PO-0142",
+          "output_date": "2025-09-24",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 1129,
+          "uom": "KG",
+          "batch": "B-e57477"
+        },
+        {
+          "id": "PO-0143",
+          "output_date": "2025-09-24",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1005,
+          "uom": "KG",
+          "batch": "B-7f1189"
+        },
+        {
+          "id": "PO-0144",
+          "output_date": "2025-09-24",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1477,
+          "uom": "KG",
+          "batch": "B-e2aa03"
+        },
+        {
+          "id": "PO-0145",
+          "output_date": "2025-09-25",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 628,
+          "uom": "KG",
+          "batch": "B-79ccfc"
+        },
+        {
+          "id": "PO-0146",
+          "output_date": "2025-09-25",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1319,
+          "uom": "KG",
+          "batch": "B-64ea98"
+        },
+        {
+          "id": "PO-0147",
+          "output_date": "2025-09-25",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1009,
+          "uom": "KG",
+          "batch": "B-a936ff"
+        },
+        {
+          "id": "PO-0148",
+          "output_date": "2025-09-25",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 1177,
+          "uom": "KG",
+          "batch": "B-4035eb"
+        },
+        {
+          "id": "PO-0149",
+          "output_date": "2025-09-25",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 988,
+          "uom": "KG",
+          "batch": "B-3e15ba"
+        },
+        {
+          "id": "PO-0150",
+          "output_date": "2025-09-25",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 969,
+          "uom": "KG",
+          "batch": "B-e271fc"
+        },
+        {
+          "id": "PO-0151",
+          "output_date": "2025-09-26",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1288,
+          "uom": "KG",
+          "batch": "B-17d675"
+        },
+        {
+          "id": "PO-0152",
+          "output_date": "2025-09-26",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1134,
+          "uom": "KG",
+          "batch": "B-ef2a66"
+        },
+        {
+          "id": "PO-0153",
+          "output_date": "2025-09-26",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1027,
+          "uom": "KG",
+          "batch": "B-7ede2e"
+        },
+        {
+          "id": "PO-0154",
+          "output_date": "2025-09-26",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 1415,
+          "uom": "KG",
+          "batch": "B-058b2c"
+        },
+        {
+          "id": "PO-0155",
+          "output_date": "2025-09-26",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 969,
+          "uom": "KG",
+          "batch": "B-634bd1"
+        },
+        {
+          "id": "PO-0156",
+          "output_date": "2025-09-26",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1330,
+          "uom": "KG",
+          "batch": "B-af4fa3"
+        },
+        {
+          "id": "PO-0157",
+          "output_date": "2025-09-27",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1141,
+          "uom": "KG",
+          "batch": "B-051d96"
+        },
+        {
+          "id": "PO-0158",
+          "output_date": "2025-09-27",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 624,
+          "uom": "KG",
+          "batch": "B-27d0a5"
+        },
+        {
+          "id": "PO-0159",
+          "output_date": "2025-09-27",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1490,
+          "uom": "KG",
+          "batch": "B-957473"
+        },
+        {
+          "id": "PO-0160",
+          "output_date": "2025-09-27",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 707,
+          "uom": "KG",
+          "batch": "B-69714d"
+        },
+        {
+          "id": "PO-0161",
+          "output_date": "2025-09-27",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 1198,
+          "uom": "KG",
+          "batch": "B-e7372b"
+        },
+        {
+          "id": "PO-0162",
+          "output_date": "2025-09-27",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1081,
+          "uom": "KG",
+          "batch": "B-00e813"
+        },
+        {
+          "id": "PO-0163",
+          "output_date": "2025-09-28",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 677,
+          "uom": "KG",
+          "batch": "B-f6c1c0"
+        },
+        {
+          "id": "PO-0164",
+          "output_date": "2025-09-28",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 817,
+          "uom": "KG",
+          "batch": "B-281720"
+        },
+        {
+          "id": "PO-0165",
+          "output_date": "2025-09-28",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 550,
+          "uom": "KG",
+          "batch": "B-8fcb87"
+        },
+        {
+          "id": "PO-0166",
+          "output_date": "2025-09-28",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 1309,
+          "uom": "KG",
+          "batch": "B-5eb128"
+        },
+        {
+          "id": "PO-0167",
+          "output_date": "2025-09-28",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 685,
+          "uom": "KG",
+          "batch": "B-a4e383"
+        },
+        {
+          "id": "PO-0168",
+          "output_date": "2025-09-28",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1200,
+          "uom": "KG",
+          "batch": "B-2ed170"
+        },
+        {
+          "id": "PO-0169",
+          "output_date": "2025-09-29",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 1178,
+          "uom": "KG",
+          "batch": "B-c732f5"
+        },
+        {
+          "id": "PO-0170",
+          "output_date": "2025-09-29",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 1255,
+          "uom": "KG",
+          "batch": "B-bc7ba8"
+        },
+        {
+          "id": "PO-0171",
+          "output_date": "2025-09-29",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 1079,
+          "uom": "KG",
+          "batch": "B-0599c7"
+        },
+        {
+          "id": "PO-0172",
+          "output_date": "2025-09-29",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 551,
+          "uom": "KG",
+          "batch": "B-6480d3"
+        },
+        {
+          "id": "PO-0173",
+          "output_date": "2025-09-29",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 759,
+          "uom": "KG",
+          "batch": "B-ee13b9"
+        },
+        {
+          "id": "PO-0174",
+          "output_date": "2025-09-29",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1227,
+          "uom": "KG",
+          "batch": "B-263808"
+        },
+        {
+          "id": "PO-0175",
+          "output_date": "2025-09-30",
+          "plant_id": "PL-01",
+          "item_id": "IT-01",
+          "qty": 964,
+          "uom": "KG",
+          "batch": "B-70633e"
+        },
+        {
+          "id": "PO-0176",
+          "output_date": "2025-09-30",
+          "plant_id": "PL-01",
+          "item_id": "IT-02",
+          "qty": 757,
+          "uom": "KG",
+          "batch": "B-263181"
+        },
+        {
+          "id": "PO-0177",
+          "output_date": "2025-09-30",
+          "plant_id": "PL-01",
+          "item_id": "IT-03",
+          "qty": 913,
+          "uom": "KG",
+          "batch": "B-d601a6"
+        },
+        {
+          "id": "PO-0178",
+          "output_date": "2025-09-30",
+          "plant_id": "PL-02",
+          "item_id": "IT-01",
+          "qty": 1485,
+          "uom": "KG",
+          "batch": "B-8d15fc"
+        },
+        {
+          "id": "PO-0179",
+          "output_date": "2025-09-30",
+          "plant_id": "PL-02",
+          "item_id": "IT-02",
+          "qty": 531,
+          "uom": "KG",
+          "batch": "B-5f2a2f"
+        },
+        {
+          "id": "PO-0180",
+          "output_date": "2025-09-30",
+          "plant_id": "PL-02",
+          "item_id": "IT-03",
+          "qty": 1285,
+          "uom": "KG",
+          "batch": "B-1cde49"
+        }
+      ]
+    },
+    "plant_to_warehouse": {
+      "headers": [
+        "id",
+        "transfer_date",
+        "plant_id",
+        "warehouse_id",
+        "item_id",
+        "qty",
+        "uom"
+      ],
+      "rows": [
+        {
+          "id": "TW-0002",
+          "transfer_date": "2025-09-01",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1039,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0003",
+          "transfer_date": "2025-09-01",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 548,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0004",
+          "transfer_date": "2025-09-01",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1208,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0005",
+          "transfer_date": "2025-09-01",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 983,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0006",
+          "transfer_date": "2025-09-01",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1185,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0007",
+          "transfer_date": "2025-09-01",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 616,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0008",
+          "transfer_date": "2025-09-02",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1353,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0009",
+          "transfer_date": "2025-09-02",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1451,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0010",
+          "transfer_date": "2025-09-02",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 864,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0011",
+          "transfer_date": "2025-09-02",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 925,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0012",
+          "transfer_date": "2025-09-02",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 667,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0013",
+          "transfer_date": "2025-09-02",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 939,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0014",
+          "transfer_date": "2025-09-03",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 652,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0015",
+          "transfer_date": "2025-09-03",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 797,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0016",
+          "transfer_date": "2025-09-03",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1480,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0017",
+          "transfer_date": "2025-09-03",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 957,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0018",
+          "transfer_date": "2025-09-03",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1027,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0019",
+          "transfer_date": "2025-09-03",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1038,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0020",
+          "transfer_date": "2025-09-04",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 893,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0021",
+          "transfer_date": "2025-09-04",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1244,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0022",
+          "transfer_date": "2025-09-04",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1044,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0023",
+          "transfer_date": "2025-09-04",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1011,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0024",
+          "transfer_date": "2025-09-04",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1047,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0025",
+          "transfer_date": "2025-09-04",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1430,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0026",
+          "transfer_date": "2025-09-05",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1054,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0027",
+          "transfer_date": "2025-09-05",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 980,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0028",
+          "transfer_date": "2025-09-05",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1049,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0029",
+          "transfer_date": "2025-09-05",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 548,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0030",
+          "transfer_date": "2025-09-05",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1215,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0031",
+          "transfer_date": "2025-09-05",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 939,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0032",
+          "transfer_date": "2025-09-06",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1057,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0033",
+          "transfer_date": "2025-09-06",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1491,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0034",
+          "transfer_date": "2025-09-06",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1320,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0035",
+          "transfer_date": "2025-09-06",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1329,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0036",
+          "transfer_date": "2025-09-06",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 650,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0037",
+          "transfer_date": "2025-09-06",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1246,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0038",
+          "transfer_date": "2025-09-07",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1451,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0039",
+          "transfer_date": "2025-09-07",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1074,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0040",
+          "transfer_date": "2025-09-07",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 856,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0041",
+          "transfer_date": "2025-09-07",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 933,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0042",
+          "transfer_date": "2025-09-07",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1223,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0043",
+          "transfer_date": "2025-09-07",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1351,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0044",
+          "transfer_date": "2025-09-08",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 650,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0045",
+          "transfer_date": "2025-09-08",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1201,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0046",
+          "transfer_date": "2025-09-08",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 878,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0047",
+          "transfer_date": "2025-09-08",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1485,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0048",
+          "transfer_date": "2025-09-08",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1111,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0049",
+          "transfer_date": "2025-09-08",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 543,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0050",
+          "transfer_date": "2025-09-09",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1376,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0051",
+          "transfer_date": "2025-09-09",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1492,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0052",
+          "transfer_date": "2025-09-09",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1355,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0053",
+          "transfer_date": "2025-09-09",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 822,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0054",
+          "transfer_date": "2025-09-09",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 825,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0055",
+          "transfer_date": "2025-09-09",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1212,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0056",
+          "transfer_date": "2025-09-10",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 518,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0057",
+          "transfer_date": "2025-09-10",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 863,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0058",
+          "transfer_date": "2025-09-10",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 692,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0059",
+          "transfer_date": "2025-09-10",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 914,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0060",
+          "transfer_date": "2025-09-10",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1104,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0061",
+          "transfer_date": "2025-09-10",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1315,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0062",
+          "transfer_date": "2025-09-11",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1188,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0063",
+          "transfer_date": "2025-09-11",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 696,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0064",
+          "transfer_date": "2025-09-11",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 982,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0065",
+          "transfer_date": "2025-09-11",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1307,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0066",
+          "transfer_date": "2025-09-11",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 696,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0067",
+          "transfer_date": "2025-09-11",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 733,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0068",
+          "transfer_date": "2025-09-12",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1487,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0069",
+          "transfer_date": "2025-09-12",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1199,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0070",
+          "transfer_date": "2025-09-12",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 880,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0071",
+          "transfer_date": "2025-09-12",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 850,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0072",
+          "transfer_date": "2025-09-12",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1113,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0073",
+          "transfer_date": "2025-09-12",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 801,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0074",
+          "transfer_date": "2025-09-13",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 531,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0075",
+          "transfer_date": "2025-09-13",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1125,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0076",
+          "transfer_date": "2025-09-13",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1131,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0077",
+          "transfer_date": "2025-09-13",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 549,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0078",
+          "transfer_date": "2025-09-13",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1104,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0079",
+          "transfer_date": "2025-09-13",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1298,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0080",
+          "transfer_date": "2025-09-14",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1391,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0081",
+          "transfer_date": "2025-09-14",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 633,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0082",
+          "transfer_date": "2025-09-14",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 529,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0083",
+          "transfer_date": "2025-09-14",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1092,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0084",
+          "transfer_date": "2025-09-14",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1136,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0085",
+          "transfer_date": "2025-09-14",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1022,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0086",
+          "transfer_date": "2025-09-15",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1422,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0087",
+          "transfer_date": "2025-09-15",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1084,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0088",
+          "transfer_date": "2025-09-15",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 714,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0089",
+          "transfer_date": "2025-09-15",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1064,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0090",
+          "transfer_date": "2025-09-15",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 927,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0091",
+          "transfer_date": "2025-09-15",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 848,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0092",
+          "transfer_date": "2025-09-16",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1024,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0093",
+          "transfer_date": "2025-09-16",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 840,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0094",
+          "transfer_date": "2025-09-16",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1139,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0095",
+          "transfer_date": "2025-09-16",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 701,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0096",
+          "transfer_date": "2025-09-16",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 913,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0097",
+          "transfer_date": "2025-09-16",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1189,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0098",
+          "transfer_date": "2025-09-17",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1363,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0099",
+          "transfer_date": "2025-09-17",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 873,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0100",
+          "transfer_date": "2025-09-17",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 513,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0101",
+          "transfer_date": "2025-09-17",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 621,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0102",
+          "transfer_date": "2025-09-17",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1407,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0103",
+          "transfer_date": "2025-09-17",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1246,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0104",
+          "transfer_date": "2025-09-18",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1208,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0105",
+          "transfer_date": "2025-09-18",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 878,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0106",
+          "transfer_date": "2025-09-18",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1399,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0107",
+          "transfer_date": "2025-09-18",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1193,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0108",
+          "transfer_date": "2025-09-18",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 640,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0109",
+          "transfer_date": "2025-09-18",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 628,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0110",
+          "transfer_date": "2025-09-19",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 760,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0111",
+          "transfer_date": "2025-09-19",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1288,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0112",
+          "transfer_date": "2025-09-19",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1466,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0113",
+          "transfer_date": "2025-09-19",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1446,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0114",
+          "transfer_date": "2025-09-19",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 538,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0115",
+          "transfer_date": "2025-09-19",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1451,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0116",
+          "transfer_date": "2025-09-20",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 794,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0117",
+          "transfer_date": "2025-09-20",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1165,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0118",
+          "transfer_date": "2025-09-20",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1133,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0119",
+          "transfer_date": "2025-09-20",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1113,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0120",
+          "transfer_date": "2025-09-20",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1372,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0121",
+          "transfer_date": "2025-09-20",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 618,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0122",
+          "transfer_date": "2025-09-21",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1198,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0123",
+          "transfer_date": "2025-09-21",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1139,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0124",
+          "transfer_date": "2025-09-21",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1494,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0125",
+          "transfer_date": "2025-09-21",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 780,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0126",
+          "transfer_date": "2025-09-21",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1463,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0127",
+          "transfer_date": "2025-09-21",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 677,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0128",
+          "transfer_date": "2025-09-22",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1196,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0129",
+          "transfer_date": "2025-09-22",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1076,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0130",
+          "transfer_date": "2025-09-22",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 735,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0131",
+          "transfer_date": "2025-09-22",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1049,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0132",
+          "transfer_date": "2025-09-22",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 515,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0133",
+          "transfer_date": "2025-09-22",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1430,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0134",
+          "transfer_date": "2025-09-23",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 631,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0135",
+          "transfer_date": "2025-09-23",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 703,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0136",
+          "transfer_date": "2025-09-23",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 696,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0137",
+          "transfer_date": "2025-09-23",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 649,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0138",
+          "transfer_date": "2025-09-23",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1087,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0139",
+          "transfer_date": "2025-09-23",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1373,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0140",
+          "transfer_date": "2025-09-24",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1176,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0141",
+          "transfer_date": "2025-09-24",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 509,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0142",
+          "transfer_date": "2025-09-24",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 652,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0143",
+          "transfer_date": "2025-09-24",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1129,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0144",
+          "transfer_date": "2025-09-24",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1005,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0145",
+          "transfer_date": "2025-09-24",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1477,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0146",
+          "transfer_date": "2025-09-25",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 628,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0147",
+          "transfer_date": "2025-09-25",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1319,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0148",
+          "transfer_date": "2025-09-25",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1009,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0149",
+          "transfer_date": "2025-09-25",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1177,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0150",
+          "transfer_date": "2025-09-25",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 988,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0151",
+          "transfer_date": "2025-09-25",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 969,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0152",
+          "transfer_date": "2025-09-26",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1288,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0153",
+          "transfer_date": "2025-09-26",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1134,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0154",
+          "transfer_date": "2025-09-26",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1027,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0155",
+          "transfer_date": "2025-09-26",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1415,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0156",
+          "transfer_date": "2025-09-26",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 969,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0157",
+          "transfer_date": "2025-09-26",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1330,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0158",
+          "transfer_date": "2025-09-27",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1141,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0159",
+          "transfer_date": "2025-09-27",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 624,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0160",
+          "transfer_date": "2025-09-27",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1490,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0161",
+          "transfer_date": "2025-09-27",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 707,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0162",
+          "transfer_date": "2025-09-27",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1198,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0163",
+          "transfer_date": "2025-09-27",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1081,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0164",
+          "transfer_date": "2025-09-28",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 677,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0165",
+          "transfer_date": "2025-09-28",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 817,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0166",
+          "transfer_date": "2025-09-28",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 550,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0167",
+          "transfer_date": "2025-09-28",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1309,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0168",
+          "transfer_date": "2025-09-28",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 685,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0169",
+          "transfer_date": "2025-09-28",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1200,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0170",
+          "transfer_date": "2025-09-29",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1178,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0171",
+          "transfer_date": "2025-09-29",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 1255,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0172",
+          "transfer_date": "2025-09-29",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1079,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0173",
+          "transfer_date": "2025-09-29",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 551,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0174",
+          "transfer_date": "2025-09-29",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 759,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0175",
+          "transfer_date": "2025-09-29",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1227,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0176",
+          "transfer_date": "2025-09-30",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 964,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0177",
+          "transfer_date": "2025-09-30",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 757,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0178",
+          "transfer_date": "2025-09-30",
+          "plant_id": "PL-01",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 913,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0179",
+          "transfer_date": "2025-09-30",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-01",
+          "qty": 1485,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0180",
+          "transfer_date": "2025-09-30",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-02",
+          "qty": 531,
+          "uom": "KG"
+        },
+        {
+          "id": "TW-0181",
+          "transfer_date": "2025-09-30",
+          "plant_id": "PL-02",
+          "warehouse_id": "WH-01",
+          "item_id": "IT-03",
+          "qty": 1285,
+          "uom": "KG"
+        }
+      ]
+    }
+  }
+}

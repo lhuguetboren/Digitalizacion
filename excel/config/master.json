@@ -1,0 +1,420 @@
+{
+  "lists": {
+    "uom": [
+      "EA",
+      "KG",
+      "L",
+      "PAL"
+    ],
+    "incoterms": [
+      "EXW",
+      "FCA",
+      "FOB",
+      "CFR",
+      "CIF",
+      "DAP",
+      "DDP"
+    ],
+    "currencies": [
+      "EUR",
+      "USD",
+      "GBP"
+    ],
+    "shipment_mode": [
+      "SEA",
+      "AIR",
+      "ROAD",
+      "RAIL"
+    ],
+    "so_status": [
+      "draft",
+      "confirmed",
+      "fulfilled",
+      "cancelled"
+    ],
+    "shipment_status": [
+      "planned",
+      "in_transit",
+      "arrived",
+      "delivered",
+      "cancelled"
+    ],
+    "payment_types": [
+      "customer_payment",
+      "vendor_payment",
+      "bank_fee",
+      "other"
+    ],
+    "payment_status": [
+      "pending",
+      "applied",
+      "reconciled",
+      "cancelled"
+    ]
+  },
+  "sheets": {
+    "plants": {
+      "headers": [
+        "id",
+        "name",
+        "country",
+        "city"
+      ],
+      "rows": [
+        {
+          "id": "PL-01",
+          "name": "Planta 1",
+          "country": "ES",
+          "city": "Ciudad1"
+        },
+        {
+          "id": "PL-02",
+          "name": "Planta 2",
+          "country": "ES",
+          "city": "Ciudad2"
+        }
+      ]
+    },
+    "warehouses": {
+      "headers": [
+        "id",
+        "name",
+        "plant_id",
+        "country",
+        "city"
+      ],
+      "rows": [
+        {
+          "id": "WH-01",
+          "name": "Almacén Central",
+          "plant_id": "PL-01",
+          "country": "ES",
+          "city": "Las Palmas"
+        }
+      ]
+    },
+    "ports": {
+      "headers": [
+        "id",
+        "name",
+        "country",
+        "city"
+      ],
+      "rows": [
+        {
+          "id": "PR-01",
+          "name": "Puerto 1",
+          "country": "ES",
+          "city": "PuertoCiudad1"
+        },
+        {
+          "id": "PR-02",
+          "name": "Puerto 2",
+          "country": "ES",
+          "city": "PuertoCiudad2"
+        },
+        {
+          "id": "PR-03",
+          "name": "Puerto 3",
+          "country": "ES",
+          "city": "PuertoCiudad3"
+        },
+        {
+          "id": "PR-04",
+          "name": "Puerto 4",
+          "country": "ES",
+          "city": "PuertoCiudad4"
+        }
+      ]
+    },
+    "parties": {
+      "headers": [
+        "id",
+        "name",
+        "type",
+        "country",
+        "city"
+      ],
+      "rows": [
+        {
+          "id": "PT-001",
+          "name": "Cliente 1",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin1"
+        },
+        {
+          "id": "PT-002",
+          "name": "Cliente 2",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin2"
+        },
+        {
+          "id": "PT-003",
+          "name": "Cliente 3",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin3"
+        },
+        {
+          "id": "PT-004",
+          "name": "Cliente 4",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin4"
+        },
+        {
+          "id": "PT-005",
+          "name": "Cliente 5",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin5"
+        },
+        {
+          "id": "PT-006",
+          "name": "Cliente 6",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin6"
+        },
+        {
+          "id": "PT-007",
+          "name": "Cliente 7",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin7"
+        },
+        {
+          "id": "PT-008",
+          "name": "Cliente 8",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin8"
+        },
+        {
+          "id": "PT-009",
+          "name": "Cliente 9",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin9"
+        },
+        {
+          "id": "PT-010",
+          "name": "Cliente 10",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin10"
+        },
+        {
+          "id": "PT-011",
+          "name": "Cliente 11",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin11"
+        },
+        {
+          "id": "PT-012",
+          "name": "Cliente 12",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin12"
+        },
+        {
+          "id": "PT-013",
+          "name": "Cliente 13",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin13"
+        },
+        {
+          "id": "PT-014",
+          "name": "Cliente 14",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin14"
+        },
+        {
+          "id": "PT-015",
+          "name": "Cliente 15",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin15"
+        },
+        {
+          "id": "PT-016",
+          "name": "Cliente 16",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin16"
+        },
+        {
+          "id": "PT-017",
+          "name": "Cliente 17",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin17"
+        },
+        {
+          "id": "PT-018",
+          "name": "Cliente 18",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin18"
+        },
+        {
+          "id": "PT-019",
+          "name": "Cliente 19",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin19"
+        },
+        {
+          "id": "PT-020",
+          "name": "Cliente 20",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin20"
+        },
+        {
+          "id": "PT-021",
+          "name": "Cliente 21",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin21"
+        },
+        {
+          "id": "PT-022",
+          "name": "Cliente 22",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin22"
+        },
+        {
+          "id": "PT-023",
+          "name": "Cliente 23",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin23"
+        },
+        {
+          "id": "PT-024",
+          "name": "Cliente 24",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin24"
+        },
+        {
+          "id": "PT-025",
+          "name": "Cliente 25",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin25"
+        },
+        {
+          "id": "PT-026",
+          "name": "Cliente 26",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin26"
+        },
+        {
+          "id": "PT-027",
+          "name": "Cliente 27",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin27"
+        },
+        {
+          "id": "PT-028",
+          "name": "Cliente 28",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin28"
+        },
+        {
+          "id": "PT-029",
+          "name": "Cliente 29",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin29"
+        },
+        {
+          "id": "PT-030",
+          "name": "Cliente 30",
+          "type": "customer",
+          "country": "DE",
+          "city": "Berlin30"
+        }
+      ]
+    },
+    "items": {
+      "headers": [
+        "id",
+        "name",
+        "uom",
+        "weight_kg"
+      ],
+      "rows": [
+        {
+          "id": "IT-01",
+          "name": "Banana Tipo 1",
+          "uom": "KG",
+          "weight_kg": 1.0
+        },
+        {
+          "id": "IT-02",
+          "name": "Banana Tipo 2",
+          "uom": "KG",
+          "weight_kg": 1.0
+        },
+        {
+          "id": "IT-03",
+          "name": "Banana Tipo 3",
+          "uom": "KG",
+          "weight_kg": 1.0
+        }
+      ]
+    },
+    "bank_accounts": {
+      "headers": [
+        "id",
+        "bank_name",
+        "iban",
+        "currency"
+      ],
+      "rows": [
+        {
+          "id": "BK-01",
+          "bank_name": "Banco Export",
+          "iban": "ES12345678901234567890",
+          "currency": "EUR"
+        }
+      ]
+    },
+    "chart_of_accounts": {
+      "headers": [
+        "id",
+        "name",
+        "type"
+      ],
+      "rows": [
+        {
+          "id": "AC-700",
+          "name": "Ventas",
+          "type": "revenue"
+        },
+        {
+          "id": "AC-600",
+          "name": "Costes de producción",
+          "type": "expense"
+        },
+        {
+          "id": "AC-100",
+          "name": "Caja/Bancos",
+          "type": "asset"
+        }
+      ]
+    }
+  }
+}
