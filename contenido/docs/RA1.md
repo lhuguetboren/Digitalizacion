@@ -1,4 +1,4 @@
-#Digitalització de l'empresa
+# Digitalització de l'empresa
 
 ``` mermaid
 mindmap

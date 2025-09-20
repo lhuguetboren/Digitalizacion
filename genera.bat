@@ -1,0 +1,9 @@
+cd contenido
+mkdocs build
+cd ..
+cd CanaryBanana
+mkdocs build
+cd ..
+cd metodologia
+mkdocs build
+cd ..

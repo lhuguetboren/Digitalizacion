@@ -1,10 +1,30 @@
-site_name: 1599 - RA1
+site_name: 1599 - Digitalització
+site_description: Documentación en Markdown
 theme:
   name: material
-  logo: img/logo.png       # Logo que aparece en la cabecera
-  favicon: img/images.png # Icono que aparece en la pestaña del navegador
-
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
 nav:
+  - Índex: index.md
   - Digitalització: RA1.md
 
 plugins:
@@ -13,6 +33,22 @@ plugins:
       javascript: https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs
  - search:
       lang: es     # opcional: mejora el buscador para español
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.snippets
 
 extra_css:
   - css/base.css
