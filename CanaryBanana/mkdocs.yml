@@ -18,8 +18,7 @@ nav:
     - Ordenes trabajo: excel\ORDENES_TRABAJO.md
   - Proyectos:
     - ORG-DIG-02: ORG-DIG-02.md
-    - ORG-DIG-07: ORG-DIG-07.md
-
+    
 extra_css:
   - css/base.css
 

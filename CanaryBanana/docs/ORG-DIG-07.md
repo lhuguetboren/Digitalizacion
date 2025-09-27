@@ -45,8 +45,8 @@ flowchart LR
 1. Pedido digital del cliente → entra en IT.  
 2. ¿?
 3. ¿?
-4. ¿?
-5. ¿?
+4. ¿ggggg?
+5. ¿ffff?
 
 ## Coste 
 

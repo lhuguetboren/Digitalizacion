@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ordenes-de-trabajo-canarybanana-export" class="md-skip">
+        <a href="#ordenes-de-trabajo-con-datos-propuestos" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -463,27 +463,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-planta-almacen-envio-interno-de-producto" class="md-nav__link">
+  <a href="#1-planta-almacen-transferencia-interna" class="md-nav__link">
     <span class="md-ellipsis">
-      1️⃣ Planta → Almacén: Envío interno de producto
+      1) Planta → Almacén (transferencia interna)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-orden-de-trabajo-administracion-nueva-orden-de-venta" class="md-nav__link">
+  <a href="#2-administracion-nueva-orden-de-venta" class="md-nav__link">
     <span class="md-ellipsis">
-      2️⃣ Orden de trabajo - Administración: Nueva orden de venta
+      2) Administración → Nueva orden de venta
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-orden-de-trabajo-finanzas-facturacion-de-la-venta" class="md-nav__link">
+  <a href="#3-finanzas-facturacion-y-cobro" class="md-nav__link">
     <span class="md-ellipsis">
-      3️⃣ Orden de trabajo - Finanzas: Facturación de la venta
+      3) Finanzas → Facturación y cobro
     </span>
   </a>
   
@@ -492,7 +492,7 @@
         <li class="md-nav__item">
   <a href="#4-logistica-envio-internacional" class="md-nav__link">
     <span class="md-ellipsis">
-      4️⃣ Logística → Envío internacional
+      4) Logística → Envío internacional
     </span>
   </a>
   
@@ -575,29 +575,6 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ORG-DIG-07/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    ORG-DIG-07
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -632,27 +609,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-planta-almacen-envio-interno-de-producto" class="md-nav__link">
+  <a href="#1-planta-almacen-transferencia-interna" class="md-nav__link">
     <span class="md-ellipsis">
-      1️⃣ Planta → Almacén: Envío interno de producto
+      1) Planta → Almacén (transferencia interna)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-orden-de-trabajo-administracion-nueva-orden-de-venta" class="md-nav__link">
+  <a href="#2-administracion-nueva-orden-de-venta" class="md-nav__link">
     <span class="md-ellipsis">
-      2️⃣ Orden de trabajo - Administración: Nueva orden de venta
+      2) Administración → Nueva orden de venta
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-orden-de-trabajo-finanzas-facturacion-de-la-venta" class="md-nav__link">
+  <a href="#3-finanzas-facturacion-y-cobro" class="md-nav__link">
     <span class="md-ellipsis">
-      3️⃣ Orden de trabajo - Finanzas: Facturación de la venta
+      3) Finanzas → Facturación y cobro
     </span>
   </a>
   
@@ -661,7 +638,7 @@
         <li class="md-nav__item">
   <a href="#4-logistica-envio-internacional" class="md-nav__link">
     <span class="md-ellipsis">
-      4️⃣ Logística → Envío internacional
+      4) Logística → Envío internacional
     </span>
   </a>
   
@@ -683,122 +660,37 @@
 
 
 
-<h1 id="ordenes-de-trabajo-canarybanana-export">📋 Órdenes de Trabajo – CanaryBanana Export</h1>
+<h1 id="ordenes-de-trabajo-con-datos-propuestos">ORDENES DE TRABAJO CON DATOS PROPUESTOS</h1>
+<p>Este documento contiene las órdenes de trabajo con <strong>instrucciones</strong> al inicio de cada orden y <strong>datos de ejemplo</strong> al final, listos para volcar en los Excel correspondientes.</p>
 <hr />
-<h2 id="1-planta-almacen-envio-interno-de-producto">1️⃣ Planta → Almacén: Envío interno de producto</h2>
-<p><strong>Objetivo</strong>: Registrar que la planta envía bananas frescas al almacén central para preparación de pedidos.</p>
-<ol>
-<li>Abrir <strong><code>master_data.xlsx</code></strong> y verificar:  </li>
-<li>La planta de origen existe en la hoja <code>plants</code> (ej. <code>PL-01</code>).  </li>
-<li>El almacén de destino está registrado en <code>warehouses</code> (ej. <code>WH-01</code>).  </li>
-<li>
-<p>El producto (bananas) está en <code>items</code> (ej. <code>IT-01</code> – Banana fresca KG).  </p>
-</li>
-<li>
-<p>Abrir <strong><code>operations.xlsx</code> → <code>shipments</code></strong>.  </p>
-</li>
-<li>
-<p>Crear nuevo registro con:  </p>
-<ul>
-<li><code>id</code>: SH-0101  </li>
-<li><code>origin</code>: PL-01  </li>
-<li><code>destination</code>: WH-01  </li>
-<li><code>item_id</code>: IT-01  </li>
-<li><code>qty</code>: 2.000 KG  </li>
-<li><code>status</code>: <em>planned</em>  </li>
-</ul>
-</li>
-<li>
-<p>Cuando la carga salga de la planta, actualizar <code>status</code> → <em>in_transit</em>.  </p>
-</li>
-<li>Una vez llegue al almacén, marcar <code>status</code> → <em>delivered</em>.  </li>
-</ol>
+<h2 id="1-planta-almacen-transferencia-interna">1) Planta → Almacén (transferencia interna)</h2>
+<p><strong>Instrucciones:</strong><br />
+Registrar un movimiento de producto terminado desde la planta 2 hacia el almacén. Se transfiere 1.500 kg de Banana Tipo 2.  </p>
+<p><strong>Hoja</strong>: <code>operacions.xlsx → plant_to_wh_transfers</code><br />
+<strong>Campos requeridos</strong>: id, transfer_date, plant_id, warehouse_id, item_id, qty, uom</p>
 <hr />
-<h2 id="2-orden-de-trabajo-administracion-nueva-orden-de-venta">2️⃣ Orden de trabajo - Administración: Nueva orden de venta</h2>
-<p><strong>Objetivo</strong>: Registrar un pedido confirmado de un cliente internacional.</p>
-<ol>
-<li>Abrir <strong><code>operations.xlsx</code> → <code>sales_orders</code></strong>.  </li>
-<li>
-<p>Crear nuevo pedido con:  </p>
-<ul>
-<li><code>id</code>: SO-0101  </li>
-<li><code>customer_id</code>: PT-011 (Cliente Alemania, Berlín)  </li>
-<li><code>incoterm</code>: FOB  </li>
-<li><code>currency</code>: EUR  </li>
-<li><code>status</code>: <em>confirmed</em>  </li>
-<li><code>order_date</code>: 2025-09-21  </li>
-<li><code>requested_date</code>: 2025-09-25  </li>
-<li><code>promised_date</code>: 2025-09-27  </li>
-</ul>
-</li>
-<li>
-<p>Abrir <strong><code>sales_order_lines</code></strong> y añadir detalle:  </p>
-</li>
-<li><code>so_id</code>: SO-0101  </li>
-<li><code>line_no</code>: 1  </li>
-<li><code>item_id</code>: IT-01 (Bananas frescas KG)  </li>
-<li><code>qty</code>: 1.500 KG  </li>
-<li><code>uom</code>: KG  </li>
-<li><code>unit_price</code>: 1.25  </li>
-<li><code>currency</code>: EUR  </li>
-</ol>
-<h2 id="3-orden-de-trabajo-finanzas-facturacion-de-la-venta">3️⃣ Orden de trabajo - Finanzas: Facturación de la venta</h2>
-<p><strong>Objetivo</strong>: Emitir la factura correspondiente al pedido SO-0101.</p>
-<ol>
-<li>Abrir <strong><code>finance.xlsx</code> → <code>invoices</code></strong>.  </li>
-<li>
-<p>Crear nuevo registro:  </p>
-<ul>
-<li><code>id</code>: INV-0101  </li>
-<li><code>party_id</code>: PT-011  </li>
-<li><code>invoice_date</code>: 2025-09-22  </li>
-<li><code>due_date</code>: 2025-10-22  </li>
-<li><code>currency</code>: EUR  </li>
-<li><code>total</code>: 1.500 × 1.25 = <strong>1.875 €</strong>  </li>
-<li><code>status</code>: <em>pending</em>  </li>
-</ul>
-</li>
-<li>
-<p>Enviar copia de la factura al cliente.  </p>
-</li>
-<li>Cuando el cliente pague, registrar en <strong><code>payments</code></strong>:  </li>
-<li><code>id</code>: PAY-0101  </li>
-<li><code>invoice_id</code>: INV-0101  </li>
-<li><code>payment_type</code>: customer_payment  </li>
-<li><code>amount</code>: 1.875 €  </li>
-<li><code>status</code>: <em>applied</em> → actualizar a <em>reconciled</em> al confirmarse en banco.  </li>
-</ol>
+<h2 id="2-administracion-nueva-orden-de-venta">2) Administración → Nueva orden de venta</h2>
+<p><strong>Instrucciones:</strong><br />
+Un cliente internacional (Cliente 6) realiza un pedido de 1.500 kg de bananas de tipo 1 a un precio por unidad de 2€. Condición de venta: FOB Barcelona, moneda EUR.  Pide que la entrega sea el 1/12/2025 y se calcula que la entrega podrá ser el mismo dia.</p>
+<p><strong>Hojas</strong>:<br />
+- <code>operacions.xlsx → sales_orders</code><br />
+- <code>operacions.xlsx → sales_order_lines</code>  </p>
 <hr />
-<h2 id="4-logistica-envio-internacional">4️⃣ Logística → Envío internacional</h2>
-<p><strong>Objetivo</strong>: Registrar la salida del pedido hacia el cliente en Alemania.</p>
-<ol>
-<li>Abrir <strong><code>operations.xlsx</code> → <code>shipments</code></strong>.  </li>
-<li>
-<p>Crear envío vinculado a la orden SO-0101:  </p>
-<ul>
-<li><code>id</code>: SH-0201  </li>
-<li><code>origin</code>: WH-01 (Almacén central Las Palmas)  </li>
-<li><code>destination</code>: PT-011 (Cliente en Berlín)  </li>
-<li><code>item_id</code>: IT-01  </li>
-<li><code>qty</code>: 1.500 KG  </li>
-<li><code>status</code>: <em>planned</em>  </li>
-</ul>
-</li>
-<li>
-<p>Cambiar estado según avance:  </p>
-</li>
-<li>Salida del puerto → <em>in_transit</em>.  </li>
-<li>Llegada a Alemania → <em>arrived</em>.  </li>
-<li>Entrega final → <em>delivered</em>.  </li>
-</ol>
+<h2 id="3-finanzas-facturacion-y-cobro">3) Finanzas → Facturación y cobro</h2>
+<p><strong>Instrucciones:</strong><br />
+Emitir la factura correspondiente a la transaccion anterior con un numero nuevo de pedido. Posteriormente, registrar el cobro vía transferencia bancaria al Banco Export.  </p>
+<p><strong>Hojas</strong>:<br />
+- <code>finance.xlsx → invoices</code><br />
+- <code>finance.xlsx → invoice_lines</code><br />
+- <code>finance.xlsx → payments</code><br />
+- <code>finance.xlsx → payment_links</code>  </p>
 <hr />
-<p><strong>Resultado esperado</strong>:</p>
-<ul>
-<li>La planta registra producción enviada al almacén.  </li>
-<li>Administración crea un pedido y su factura.  </li>
-<li>Finanzas controla cobro y conciliación.  </li>
-<li>Logística asegura trazabilidad del envío internacional.  </li>
-</ul>
+<h2 id="4-logistica-envio-internacional">4) Logística → Envío internacional</h2>
+<p><strong>Instrucciones:</strong><br />
+Organizar un envío marítimo desde el puerto 1 al puerto 3. El origen es el almacen y el destinatario el cliente.  El envio se planifica para el 20/11/2025 y se calculan unos 12 dias.
+<strong>Hojas</strong>:<br />
+- <code>operacions.xlsx → shipments</code><br />
+- <code>operacions.xlsx → shipment_lines</code>  </p>
 
 
 
