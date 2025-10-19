@@ -26,6 +26,8 @@ theme:
 nav:
   - Índex: index.md
   - Digitalització: RA1.md
+  - TDH: RA2.md
+
 
 plugins:
  - mermaid2:

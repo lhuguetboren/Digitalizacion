@@ -1,0 +1,88 @@
+{
+  "tarifas": [
+    {
+      "tipo": "Junior",
+      "min_eur_por_hora": 35.0
+    },
+    {
+      "tipo": "Medio",
+      "min_eur_por_hora": 55.0
+    },
+    {
+      "tipo": "Senior",
+      "min_eur_por_hora": 95.0
+    }
+  ],
+  "costes": {
+    "OT": {
+      "items": [
+        {
+          "elemento": "PLCs industriales (control de línea)",
+          "cantidad": 3,
+          "precio_unitario_eur": 2500.0,
+          "subtotal_eur": 7500.0
+        },
+        {
+          "elemento": "Sensores IoT (T°, H°, vibración, carga)",
+          "cantidad": 20,
+          "precio_unitario_eur": 500.0,
+          "subtotal_eur": 10000.0
+        },
+        {
+          "elemento": "Cámaras IP de control",
+          "cantidad": 5,
+          "precio_unitario_eur": 800.0,
+          "subtotal_eur": 4000.0
+        },
+        {
+          "elemento": "Gateways industriales IT–OT",
+          "cantidad": 2,
+          "precio_unitario_eur": 2000.0,
+          "subtotal_eur": 4000.0
+        }
+      ],
+      "subtotal": 25500.0
+    },
+    "IT": {
+      "items": [
+        {
+          "elemento": "Servidor local / híbrido",
+          "cantidad": 1,
+          "precio_unitario_eur": 8000.0,
+          "subtotal_eur": 8000.0
+        },
+        {
+          "elemento": "PCs de oficina renovados",
+          "cantidad": 10,
+          "precio_unitario_eur": 1000.0,
+          "subtotal_eur": 10000.0
+        },
+        {
+          "elemento": "Portátiles (dirección)",
+          "cantidad": 4,
+          "precio_unitario_eur": 1500.0,
+          "subtotal_eur": 6000.0
+        },
+        {
+          "elemento": "Tablets para planta",
+          "cantidad": 6,
+          "precio_unitario_eur": 600.0,
+          "subtotal_eur": 3600.0
+        },
+        {
+          "elemento": "Switches industriales y firewall",
+          "cantidad": "1 lote",
+          "precio_unitario_eur": 7000.0,
+          "subtotal_eur": 7000.0
+        },
+        {
+          "elemento": "Licencia empresarial Office",
+          "cantidad": 40,
+          "precio_unitario_eur": 120.0,
+          "subtotal_eur": 4800.0
+        }
+      ],
+      "subtotal": 39400.0
+    }
+  }
+}

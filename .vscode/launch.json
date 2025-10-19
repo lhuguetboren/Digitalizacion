@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Evaluar ORG-DIG",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/practicas/evaluate_org_dig_ed.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/practicas",
+      "args": [
+        "--in", "CIN1RA1.json",
+        "--out-json", "CIN1RA1EVAL.json",
+        "--out-csv", "CIN1RACSV.csv",
+        "--solution-name", "solucion",
+        "--interactive"
+      ],
+      "justMyCode": false
+    }
+  ]
+}
