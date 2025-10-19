@@ -52,13 +52,19 @@ C --> E
 D --> E
 E --> F[Empresa digital i verda]
 ```
-
-   > L’economia circular és un model econòmic que busca reduir el malbaratament de recursos i minimitzar l’impacte ambiental mantenint els materials i productes en ús durant el màxim temps possible.
-
-   > En lloc del model tradicional “produir, usar i llençar”, l’economia circular promou reutilitzar, reparar, reciclar i repensar els processos productius per aconseguir una sostenibilitat econòmica i ecològica a llarg termini.
-
-   ![economia circular](../img/economia-circular.png)
-
+<table>
+<tr style="vertical-align:middle;"> 
+<td>
+   <img src="../img/economia-circular.png" alt="Economia circular" style="width:60%" />
+</td>
+<td style="vertical-align:middle;">    
+<h2>Economia circular</h2>
+<p>L’economia circular és un model econòmic que busca reduir el malbaratament de recursos i minimitzar l’impacte ambiental mantenint els materials i productes en ús durant el màxim temps possible.
+    </p><p>
+    En lloc del model tradicional “produir, usar i llençar”, l’economia circular promou reutilitzar, reparar, reciclar i repensar els processos productius per aconseguir una sostenibilitat econòmica i ecològica a llarg termini.</p>
+</td></tr></table>
+---
+  
 ### Relacions clau
 
 | Tecnologia | Contribució a la sostenibilitat i eficiència |
@@ -73,8 +79,7 @@ E --> F[Empresa digital i verda]
 
 ---
 
-
-## 2.3. Nous sectors i mercats sorgits gràcies a les THD
+## Nous sectors i mercats sorgits gràcies a les THD
 
 L’expansió de les THD ha donat lloc a **nous models econòmics i àrees de negoci**, que generen ocupació i afavoreixen la innovació.
 
@@ -106,14 +111,14 @@ G --> H
 
 ---
 
-## 🧾 Conclusió i activitats
+## Conclusió
 
 Les **tecnologies habilitadores digitals** actuen com a motor del canvi econòmic, ambiental i social.  
 La seva aplicació permet a les empreses **ser més eficients, transparents i sostenibles**, i alhora **obrir nous mercats i professions digitals**.
 
 ---
 
-### Activitat  Recerca aplicada: Agrotech, comerç internacional i sostenibilitat
+## Activitat de Recerca: Agrotech, comerç internacional i sostenibilitat
 
 **Objectiu:** Comprendre com les tecnologies habilitadores estan transformant el sector primari i impulsant un model agrícola més sostenible i competitiu.
 
@@ -121,15 +126,12 @@ La seva aplicació permet a les empreses **ser més eficients, transparents i so
 
 1. **Analitza les webs** [Agrotech](https://www.isagri.es/blog/agrotech-espa%C3%B1a) i [Comerç internacional]( https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://dialnet.unirioja.es/descarga/articulo/10261683.pdf&ved=2ahUKEwiKiKr4t6-QAxXogv0HHUJbJkc4FBAWegQIFBAB&usg=AOvVaw2qqQBKdS2DJuE2erIdHlLl)
 
-2. **Descriu** quines tecnologies utilitzen (IoT, Big Data, IA, Blockchain, 5G...).  
+2. **Llista** quines tecnologies utilitzen (IoT, Big Data, IA, Blockchain, 5G...).  
 
-3. **Analitza** com aquestes eines milloren la plantació:  
-   - La **productivitat agrícola**.  
-   - L’**eficiència en l’ús de recursos naturals**.  
-   - La **traçabilitat i seguretat alimentària**.  
-   - L’**Internacionalització més àgil i accessible**
-   - L’**Eficiència en la gestió logística i documental**
-   - La **Millora de la competitivitat i personalització de serveis**
-
-4. **Elabora una infografia o mapa conceptual** amb els resultats de la recerca.
-
+3. **Analitza i cerca informació** sobre els següents punts per elaborar un mapa conceptual
+      - La **productivitat agrícola**.
+      - L’**eficiència en l’ús de recursos naturals**.  
+      - La **traçabilitat i seguretat alimentària**.  
+      - L’**Internacionalització més àgil i accessible**
+      - L’**Eficiència en la gestió logística i documental**
+      - La **Millora de la competitivitat i personalització de serveis**
