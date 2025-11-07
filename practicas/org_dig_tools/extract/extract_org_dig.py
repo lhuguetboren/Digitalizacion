@@ -86,6 +86,7 @@ def scan_students(scan_dir: Path, pattern: str):
     """
     students = []
     for entry in sorted(scan_dir.iterdir()):
+        print(entry)
         if not entry.is_dir():
             continue
         name = entry.name
@@ -110,6 +111,7 @@ def build_aggregate(scan_dir=None, in_file=None, sheets=None, pattern="calculado
         students = [{"name": p.stem, "excel_path": str(p)}]
     else:
         scan = Path(scan_dir)
+        print(scan)
         studs = scan_students(scan, pattern)
         students = studs
         extracted = {}
@@ -142,7 +144,7 @@ def main():
 
     if not args.in_file and not args.scan_dir:
         ap.error("Debes indicar --in o --scan-dir")
-
+    print(args.scan_dir)
     data = build_aggregate(scan_dir=args.scan_dir, in_file=args.in_file, sheets=args.sheets, pattern=args.pattern)
     Path(args.out).write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[OK] Escrito {args.out}")

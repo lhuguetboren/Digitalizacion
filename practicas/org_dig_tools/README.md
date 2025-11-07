@@ -34,6 +34,9 @@ python -m org_dig_tools.extract.extract_org_dig \
   --sheets ORG-DIG-02 ORG-DIG-07
 ```
 
+python  -m org_dig_tools.extract.extract_org_dig --scan-dir org_dig_tools/_TIL/RA1/entradas --out org_dig_tools/_TIL/RA1/agregados.json --sheets ORG-DIG-02 ORG-DIG-07 --pattern 
+calculadora
+
 El JSON incluye `cellmap_by_sheet` por hoja para claves tipo `SHEET!B3`.
 
 ## 2) Evaluación

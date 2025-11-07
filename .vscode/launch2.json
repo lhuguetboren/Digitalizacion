@@ -9,9 +9,9 @@
       "console": "integratedTerminal",
       "cwd": "${workspaceFolder}/practicas",
       "args": [
-        "--scan-dir", "_CIN2/RA1/salidas",
-        "--out", "agregados.json",
-        "--out-csv", "_CIN2/RA1/CSV.csv",
+        "--in", "CIN1RA1.json",
+        "--out-json", "CIN1RA1EVAL.json",
+        "--out-csv", "CIN1RACSV.csv",
         "--solution-name", "solucion",
         "--interactive"
       ],
@@ -19,7 +19,3 @@
     }
   ]
 }
- --scan-dir RUTA_ALUMNOS \
-  --out agregados.json \
-  --sheets ORG-DIG-02 ORG-DIG-07 \
-  --pattern calculadora
