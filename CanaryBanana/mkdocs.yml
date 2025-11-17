@@ -17,11 +17,14 @@ nav:
     - Manual: excel\MANUAL_USUARIO.md
     - Ordenes trabajo: excel\ORDENES_TRABAJO.md
     - Explotar información: excel\EXPLOTAR_INFORMACION.md
-  - Proyectos:
+  - Proyectos iniciales:
     - ORG-DIG-02: ORG-DIG-02.md
     - ORG-DIG-07: ORG-DIG-07.md
-
-    
+  - Resultados iniciales:
+    - Estado: impactoRA1.md
+  - TDH:
+    - Consultores: RA2_ConsultoriaTDHCanary.md
+    - Roadmap: RA2_PracticaTDHCanary.md   
 extra_css:
   - css/base.css
 

@@ -145,5 +145,3 @@ Al finalizar estos ejercicios, será capaz de:
 **Competencias:** análisis temporal, interpretación visual de datos.
 
 ---
-
-
