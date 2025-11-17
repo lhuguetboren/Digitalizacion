@@ -56,6 +56,11 @@ Para dar continuidad a esta transformación, la dirección de CanaryBanana ha co
 - **Economía circular digital:** plataformas para reutilizar residuosagrícolas (biogás, compost).
 - **Monitorización ambiental:** seguimiento automático de emisiones,agua, energía y residuos.
 
+> ESG corresponde a las siglas Environmental, Social and Governance (Ambiental, Social y de  Gobernanza). En el contexto de CanaryBanana, ESG se entiende como el conjunto de estándares, prácticas y evidencias que demuestran que la empresa produce, gestiona y exporta plátanos de manera: Ambientalmente sostenible, Socialmente responsable, y con una gobernanza transparente y verificable.
+
+> Este enfoque no es solo reputacional: es un requisito creciente en los mercados internacionales, especialmente en la Unión Europea, donde importadores, distribuidores y supermercados exigen evidencias documentales y trazables sobre sostenibilidad, respeto a los derechos laborales y cumplimiento normativo.
+
+
 ## Diagramas agro-bananera
 
 ``` mermaid
