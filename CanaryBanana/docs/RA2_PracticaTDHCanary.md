@@ -304,6 +304,7 @@ T5_5 --&gt; I5_5
     </select>
 </div>
     </section>
+    
 <style>
    * {
       box-sizing: border-box;
