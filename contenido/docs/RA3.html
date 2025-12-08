@@ -1,0 +1,194 @@
+<!-- Document RA3 con sistema FLEX aplicado a todas las tablas -->
+<style>
+.table-flex {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.col-flex {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+</style>
+
+<h1>RA3 – Cloud Computing: Definició, Nivells i Nous Paradigmes Digitals</h1>
+
+<h2>Introducció</h2>
+<div class="table-flex">
+  <div class="col-flex">
+    <p>El <b>Cloud Computing</b> és un model tecnològic que permet accedir a recursos digitals —emmagatzematge, servidors, aplicacions i dades— mitjançant internet, sense necessitat d’infraestructura pròpia.<br>
+    És una de les <b>Tecnologies Habilitadores Digitals (THD)</b> clau segons RA2, ja que dona suport a IA, Big Data, IoT i altres tecnologies avançades.</p>
+    <p>En el context de la Indústria 4.0, el cloud permet escalar recursos, automatitzar processos, reduir costos i adoptar nous models de treball més flexibles.</p>
+  </div>
+
+  <div class="col-flex">
+```mermaid
+mindmap
+  root((Cloud Computing))
+    Nivells de servei
+    Tipus de núvol
+    Dades
+    Nou paradigma de treball
+    Edge / Fog / Mist
+    Sostenibilitat
+    Ciberseguretat
+```
+  </div>
+</div>
+
+<h2>Conceptes clau</h2>
+
+<div class="table-flex">
+  <div class="col-flex">
+<h3>Nivells del Cloud Computing</h3>
+
+```mermaid
+mindmap
+  root((Nivells de servei))
+      SaaS :: Consumir
+        Aplicacions al núvol
+        Exemple: correu, ERP online
+      PaaS :: Crear
+        Plataformes de desenvolupament
+        Exemple: entorns per apps web
+      IaaS :: Migrar
+        Servidors i xarxes virtuals
+        Exemple: centres de dades virtuals
+```
+  </div>
+
+  <div class="col-flex">
+<table>
+<tr><th>Nivell</th><th>Significat</th><th>Funció principal</th></tr>
+<tr><td><b>SaaS</b></td><td>Software consumit al núvol</td><td>Consumir aplicacions</td></tr>
+<tr><td><b>PaaS</b></td><td>Plataformes al núvol</td><td>Crear software</td></tr>
+<tr><td><b>IaaS</b></td><td>Infraestructura virtual</td><td>Migrar sistemes</td></tr>
+</table>
+  </div>
+</div>
+
+<div class="table-flex">
+  <div class="col-flex">
+<h3>Tipus de Cloud</h3>
+```mermaid
+mindmap
+  root((Tipus de núvol))
+      Públic
+      Privat
+      Híbrid
+```
+  </div>
+
+  <div class="col-flex">
+<table>
+<tr><th>Tipus</th><th>Definició</th><th>Ús habitual</th></tr>
+<tr><td>Públic</td><td>Infraestructura compartida</td><td>Escalabilitat</td></tr>
+<tr><td>Privat</td><td>Infraestructura pròpia</td><td>Seguretat</td></tr>
+<tr><td>Híbrid</td><td>Combinació públic+privat</td><td>Flexibilitat</td></tr>
+</table>
+  </div>
+</div>
+
+<div class="table-flex">
+  <div class="col-flex">
+<h3>On s’emmagatzemen les dades?</h3>
+<p>Les dades es distribueixen en centres de dades globals utilitzant:</p>
+<ul>
+<li>Replicació</li>
+<li>Redundància</li>
+<li>Còpies automatitzades</li>
+<li>Balanceig de càrrega</li>
+</ul>
+  </div>
+
+  <div class="col-flex">
+<h3>Nou paradigma de treball</h3>
+<ul>
+<li>Accés universal</li>
+<li>Menys dependència de hardware</li>
+<li>Treball col·laboratiu</li>
+<li>Alta resiliència</li>
+</ul>
+  </div>
+</div>
+
+<div class="table-flex">
+  <div class="col-flex">
+<h3>Edge, Fog i Mist</h3>
+```mermaid
+mindmap
+  root((Edge/Fog/Mist))
+      Edge
+      Fog
+      Mist
+```
+  </div>
+
+  <div class="col-flex">
+<table>
+<tr><th>Tecnologia</th><th>Definició</th><th>Objectiu</th></tr>
+<tr><td>Edge</td><td>Processament local</td><td>Baixa latència</td></tr>
+<tr><td>Fog</td><td>Capa intermèdia</td><td>Coordinació</td></tr>
+<tr><td>Mist</td><td>Processament al dispositiu</td><td>Resposta immediata</td></tr>
+</table>
+  </div>
+</div>
+
+<div class="table-flex">
+  <div class="col-flex">
+<h3>Avantatges i desavantatges</h3>
+<b>Avantatges:</b>
+<ul><li>Escalable</li><li>Reducció de costos</li><li>Flexibilitat</li><li>Treball remot</li></ul>
+<b>Desavantatges:</b>
+<ul><li>Dependència d’Internet</li><li>Riscos de seguretat</li><li>Vendor lock-in</li></ul>
+  </div>
+
+  <div class="col-flex">
+<h3>Sostenibilitat</h3>
+<ul>
+<li>Centres de dades eficients</li>
+<li>Menys maquinari local</li>
+<li>Reducció de residus electrònics</li>
+</ul>
+  </div>
+</div>
+
+<div class="table-flex">
+  <div class="col-flex">
+<h3>Ciberseguretat</h3>
+```mermaid
+mindmap
+  root((Ciberseguretat))
+      Amenaces
+      Mesures
+```
+  </div>
+
+  <div class="col-flex">
+<ul>
+<li>Fuites de dades</li>
+<li>Robatori de credencials</li>
+<li>Errors de configuració</li>
+<li>Atacs DDoS</li>
+</ul>
+  </div>
+</div>
+
+<h2>Aplicacions i impacte</h2>
+<div class="table-flex">
+  <div class="col-flex">
+<h3>Eficiència</h3>
+<ul><li>Automatització</li><li>Escalabilitat</li><li>Reducció de costos</li></ul>
+<h3>Col·laboració</h3>
+<ul><li>Accés remot</li><li>Dades compartides</li></ul>
+  </div>
+
+  <div class="col-flex">
+<h3>Nous sectors</h3>
+<ul><li>Cloud Engineering</li><li>DevOps</li><li>Ciberseguretat</li></ul>
+  </div>
+</div>
+
+<!-- El resto del documento puede seguirse integrando igual -->

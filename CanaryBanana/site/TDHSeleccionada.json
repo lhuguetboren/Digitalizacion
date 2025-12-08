@@ -1,0 +1,210 @@
+[
+  {
+    "TDH": "IoT agrícola",
+    "Descripcion": "Datos de humedad, suelo y clima en tiempo real",
+    "Impacto": "Mejor planificación de la producción",
+    "Descripcion_ampliada": "El IoT agrícola permite instalar sensores en suelo, clima y riego que envían datos en tiempo real. Según la documentación de TDHCanary, constituye la capa base de la digitalización del campo, permitiendo seguimiento agronómico continuo, detección temprana de estrés hídrico, registro de variables críticas y generación de información para modelos predictivos, Big Data y trazabilidad.",
+    "Justificacion_impacto": "Los datos continuos permiten planificar mejor la producción al reducir la incertidumbre y mejorar la eficiencia hídrica y energética. Los documentos agrobananeros explican que la variabilidad climática afecta directamente al rendimiento y calibre, por lo que un sistema IoT disminuye pérdidas y mejora la calidad, justificando un impacto directo en la planificación.",
+    "Fase": "Fase 2 "
+  },
+  {
+    "TDH": "Teledetección y drones",
+    "Descripcion": "Detección de plagas y estrés hídrico",
+    "Impacto": "Menos pérdidas y mayor calidad",
+    "Descripcion_ampliada": "La documentación sobre agrobananera y TDHCanary señala que la teledetección mediante drones o imágenes satelitales permite observar el cultivo desde el aire, identificando patrones anómalos, variabilidad del vigor, estrés hídrico y aparición temprana de plagas o enfermedades. Se generan mapas de NDVI, índices de vegetación y análisis espectrales que permiten actuar antes de que el daño se extienda.",
+    "Justificacion_impacto": "La capacidad de detectar estrés antes de que sea visible al ojo humano reduce pérdidas productivas y mantiene la calidad del fruto. Esto es crítico en exportación: menos merma, mejor calibre y cumplimiento de estándares europeos. La intervención temprana mejora el rendimiento, reduce costes de fitosanitarios y mantiene la trazabilidad sanitaria exigida.",
+    "Fase": "Fase  5"
+  },
+  {
+    "TDH": "Gemelo digital",
+    "Descripcion": "Predicción de demanda o rendimientos",
+    "Impacto": "Mejor planificación de la producción",
+    "Descripcion_ampliada": "El gemelo digital, según la documentación TDHCanary, es un modelo virtual que replica el comportamiento del cultivo, integrando datos IoT, históricos, climáticos y productivos. Permite simular escenarios futuros, prever rendimiento, identificar riesgos agronómicos y apoyar decisiones estratégicas. En el sector bananero, se usa para anticipar cosechas, prever calibres y ajustar la logística exportadora.",
+    "Justificacion_impacto": "La capacidad de prever rendimientos antes de la cosecha mejora la planificación de volúmenes, transporte, contratos internacionales y gestión de almacén. La documentación de RA2 y agrobananera recalca que la planificación basada en datos reduce pérdidas, evita sobreproducción y asegura cumplir compromisos de exportación, lo que justifica directamente el impacto declarado.",
+    "Fase": "Fase  5"
+  },
+  {
+    "TDH": "IoT hídrico",
+    "Descripcion": "Uso eficiente del riego en función de datos",
+    "Impacto": "Ahorro de agua y energía",
+    "Descripcion_ampliada": "El IoT hídrico se centra en sensores de presión, caudalímetros, válvulas inteligentes y sistemas de telemetría que monitorizan el consumo hídrico y la eficiencia del riego. La documentación TDHCanary y cálculos del archivo de riego indican que el sector bananero depende de un manejo preciso del agua para asegurar calibre y firmeza. Este sistema digitaliza la gestión hídrica, corrige fugas y ajusta el riego a las necesidades reales del cultivo.",
+    "Justificacion_impacto": "Los documentos de eficiencia y sostenibilidad destacan que el riego basado en datos reduce significativamente el gasto energético de bombeo y el consumo total de agua, además de mejorar la salud del cultivo. Esto encaja con las exigencias ambientales europeas y con la necesidad de reducir costes operativos, justificando un impacto directo en ahorro de agua y energía.",
+    "Fase": "Fase  2"
+  },
+  {
+    "TDH": "Riego inteligente",
+    "Descripcion": "Uso eficiente del riego en función de datos",
+    "Impacto": "Sostenibilidad y reducción de costes",
+    "Descripcion_ampliada": "El riego inteligente combina datos de sensores IoT, climatología, humedad del suelo y algoritmos de decisión para ajustar automáticamente la cantidad de agua aplicada. En la documentación de TDHCanary y agrobananera se explica que esta tecnología permite adaptar el riego al ciclo fisiológico del banano y a la evapotranspiración real, reduciendo exceso de agua y mejorando la salud radicular del cultivo.",
+    "Justificacion_impacto": "Optimizar el uso del agua disminuye el consumo energético vinculado al bombeo y reduce costes directos de operación. Además, la documentación agrícola subraya que la eficiencia hídrica mejora el calibre y firmeza del fruto, reduciendo pérdidas y cumpliendo estándares europeos de sostenibilidad. Todo ello justifica la reducción de costes y el impacto ambiental positivo.",
+    "Fase": "Fase  5"
+  },
+  {
+    "TDH": "Energía solar",
+    "Descripcion": "Mayor precisión en la gestión energética",
+    "Impacto": "Sostenibilidad y reducción de costes",
+    "Descripcion_ampliada": "La incorporación de energía solar en las operaciones agroexportadoras, según los documentos de sostenibilidad, permite alimentar sistemas de riego, sensores IoT, bombas y almacenes con energía renovable. También habilita sistemas híbridos conectados a dashboards que monitorizan consumos y optimizan el uso energético. Esto es especialmente útil en fincas bananeras con amplias superficies expuestas al sol.",
+    "Justificacion_impacto": "La documentación destaca que reducir la dependencia de energía convencional disminuye costes operativos, permite prácticas más verdes exigidas por la UE y contribuye a certificaciones ambientales. Además, al integrarse con sistemas IoT, la energía solar permite medir consumos con mayor precisión, alineándose con los objetivos de sostenibilidad.",
+    "Fase": "Fase  5"
+  },
+  {
+    "TDH": "ERP agrícola",
+    "Descripcion": "Mejora de la calidad mediante datos",
+    "Impacto": "Mejor planificación de la producción",
+    "Descripcion_ampliada": "El ERP agrícola integra datos de campo, inventarios, labores, compras, ventas y logística, centralizando la gestión de toda la cadena de producción y exportación. Los documentos de TDHCanary y RA2 señalan que el ERP es el núcleo de la digitalización administrativa y operativa, conectando datos IoT, predicciones de cosecha, controles de calidad y trazabilidad en una sola plataforma.",
+    "Justificacion_impacto": "Un ERP permite visualizar el estado real de la producción, programar tareas, reducir duplicidades, mejorar la trazabilidad y coordinar mejor los envíos internacionales. Con ello se mejora la planificación, ya que las decisiones se basan en datos unificados y no en hojas dispersas o información manual. Esto es crítico para exportar fruta con precisión de volúmenes y fechas.",
+    "Fase": "Fase  2"
+  },
+  {
+    "TDH": "Big Data agrícola",
+    "Descripcion": "Predicción de demanda o rendimientos",
+    "Impacto": "Mejores decisiones basadas en datos",
+    "Descripcion_ampliada": "El Big Data agrícola reúne datos históricos, climáticos, IoT, productivos y comerciales para analizarlos mediante modelos estadísticos avanzados. La documentación del GPT explica que esta capa permite detectar patrones, mejorar la predicción de rendimientos, optimizar insumos y anticipar escenarios climáticos que afectan al banano. Es una tecnología clave para explotar todo lo que capturan los sensores y sistemas ERP.",
+    "Justificacion_impacto": "Con mayor volumen de datos y analítica avanzada, las decisiones dejan de ser reactivas y pasan a ser predictivas: cuándo fertilizar, cuándo regar más, qué zonas son más productivas y qué volúmenes se podrán exportar. Esto reduce riesgos, mejora la calidad final y aumenta la eficiencia operativa, justificando directamente su impacto en mejores decisiones.",
+    "Fase": "Fase  4"
+  },
+  {
+    "TDH": "IA agrícola",
+    "Descripcion": "Predicción de demanda o rendimientos",
+    "Impacto": "Mejor planificación de la producción",
+    "Descripcion_ampliada": "La IA agrícola utiliza modelos de aprendizaje automático para analizar datos provenientes de sensores IoT, historial de producción, clima, suelos y fenología del cultivo. En la documentación TDHCanary, la IA se describe como una herramienta capaz de anticipar rendimientos, detectar patrones ocultos y recomendar acciones de manejo. Es clave para el banano, permitiendo prever calibres, fechas óptimas de cosecha y riesgos agronómicos.",
+    "Justificacion_impacto": "Los documentos de RA2 y agrobananera explican que la planificación agrícola se vuelve más precisa cuando las decisiones se basan en predicciones confiables. La IA reduce errores humanos, mejora la estimación de volúmenes exportables y alinea la producción con la demanda internacional, justificando su impacto directo en la planificación de la producción.",
+    "Fase": "Fase  4"
+  },
+  {
+    "TDH": "Dashboards / BI",
+    "Descripcion": "Mejora de la calidad mediante datos",
+    "Impacto": "Mejores decisiones basadas en datos",
+    "Descripcion_ampliada": "Los dashboards y sistemas de Business Intelligence integran y visualizan datos provenientes del campo, logística, calidad, finanzas y ventas. La documentación TDHCanary los presenta como herramientas esenciales para entender la operación completa, detectar anomalías y tomar decisiones fundamentadas. Permiten evaluar en tiempo real indicadores como humedad, rendimiento, mermas, trazabilidad y KPIs logísticos de exportación.",
+    "Justificacion_impacto": "La visualización integrada de datos facilita decisiones rápidas, mejora la calidad al detectar fallos con anticipación y evita pérdidas. Los informes de consultoría TDH explican que sin BI la empresa opera a ciegas, mientras que con BI se reduce variabilidad, se controlan procesos críticos y se optimiza la cadena exportadora, justificando el impacto declarado.",
+    "Fase": "Fase  4"
+  },
+  {
+    "TDH": "Blockchain alimentaria",
+    "Descripcion": "Lotes digitalizados y trazables",
+    "Impacto": "Cumplimiento normativo (UE)",
+    "Descripcion_ampliada": "La blockchain alimentaria permite registrar cada etapa del proceso productivo y logístico del banano en un libro distribuido inalterable. Según la documentación de TDHCanary, garantiza la trazabilidad total desde la finca hasta el cliente final europeo, aportando transparencia, auditoría automatizada y seguridad de datos. Cada lote queda asociado a información verificable sobre riego, insumos, calidad y transporte.",
+    "Justificacion_impacto": "Las normativas europeas exigen trazabilidad digital, registros confiables y evidencia documental. La blockchain facilita el cumplimiento normativo, reduce fraudes, asegura la integridad de la información y evita sanciones. Esto coincide con lo explicado en documentos sobre exportación y regulaciones europeas.",
+    "Fase": "Fase  3"
+  },
+  {
+    "TDH": "SCM agroalimentario",
+    "Descripcion": "Información logística en tiempo real",
+    "Impacto": "Reducción de errores y tiempos logísticos",
+    "Descripcion_ampliada": "El Supply Chain Management agroalimentario integra información desde la finca, almacén, transporte, puerto, certificaciones y clientes. La documentación TDHCanary destaca que una SCM digital permite conocer el estado del producto en tránsito, coordinar cargas, evitar cuellos de botella logísticos y mejorar la trazabilidad. Para exportación de banano, reduce riesgos de retrasos y errores documentales.",
+    "Justificacion_impacto": "El control logístico en tiempo real disminuye pérdidas, evita errores en documentación de exportación y mejora la coordinación con navieras y clientes. Esto coincide con los documentos de logística exportadora y con los requisitos europeos de precisión operativa, justificando impactos directos en eficiencia y reducción de tiempos.",
+    "Fase": "Fase  3"
+  },
+  {
+    "TDH": "Certificación digital / ESG",
+    "Descripcion": "Evidencias digitales para certificaciones",
+    "Impacto": "Confianza del cliente y certificaciones",
+    "Descripcion_ampliada": "Los sistemas de certificación digital permiten registrar evidencias documentales, ambientales, laborales y productivas de forma automatizada. Según la documentación TDHCanary y las guías de sostenibilidad, estos sistemas integran datos provenientes de IoT, riegos, insumos, huella hídrica y manejo del cultivo, generando informes válidos para certificaciones ESG y estándares europeos. Facilitan auditorías y aseguran transparencia en la producción del banano.",
+    "Justificacion_impacto": "La documentación explica que el mercado europeo exige pruebas digitales verificables para garantizar sostenibilidad, trazabilidad y cumplimiento normativo. La certificación digital aumenta la confianza del cliente, reduce tiempos de auditoría y asegura el acceso a mercados premium, justificando claramente su impacto.",
+    "Fase": "Fase 5"
+  },
+  {
+    "TDH": "IoT logístico",
+    "Descripcion": "Seguimiento del transporte (GPS, cadena de frío)",
+    "Impacto": "Transparencia total en la cadena agro-logística",
+    "Descripcion_ampliada": "El IoT logístico integra sensores de GPS, temperatura, humedad y vibración en camiones, contenedores y almacenes. La documentación TDHCanary destaca su papel en controlar la cadena de frío del banano, un factor clave para evitar daños postcosecha. Permite verificar en tiempo real el estado del transporte, anticipar retrasos y garantizar que el producto llegue en condiciones óptimas al destino europeo.",
+    "Justificacion_impacto": "La cadena agroexportadora requiere información precisa desde la finca hasta el puerto. Con IoT logístico se reducen pérdidas por mala refrigeración, se mejora la trazabilidad y se fortalece la transparencia de la cadena de suministro. Esto genera confianza en clientes internacionales y cumple con normativas de transporte alimentario.",
+    "Fase": "Fase 3"
+  },
+  {
+    "TDH": "Blockchain para trazabilidad",
+    "Descripcion": "Lotes digitalizados y trazables",
+    "Impacto": "Transparencia total en la cadena agro-logística",
+    "Descripcion_ampliada": "La blockchain para trazabilidad registra todas las etapas del movimiento del banano: producción, empaque, transporte, control de calidad y exportación. La documentación TDHCanary explica que cada lote queda almacenado de forma inmutable, facilitando auditorías, reduciendo manipulación y mejorando la confianza en la cadena supply. Su interoperabilidad con IoT y ERP genera trazabilidad completa y verificable.",
+    "Justificacion_impacto": "La transparencia es un requisito clave del mercado europeo. La blockchain garantiza que la información de cada lote sea fiable y no pueda ser alterada, lo que reduce disputas, facilita inspecciones y asegura la integridad del proceso logístico. Esto justifica su impacto en trazabilidad total y transparencia.",
+    "Fase": "Fase 3"
+  },
+  {
+    "TDH": "Blockchain para contratos inteligentes",
+    "Descripcion": "Automatización de pedidos y documentación",
+    "Impacto": "Reducción de errores y tiempos logísticos",
+    "Descripcion_ampliada": "Los contratos inteligentes automatizan procesos comerciales y documentales mediante reglas programadas en blockchain. Según la documentación TDHCanary, estos contratos ejecutan pedidos, autorizaciones, pagos y verificaciones sin intervención manual, reduciendo errores administrativos y aumentando la velocidad de operación. Son especialmente útiles en exportación, donde intervienen múltiples entidades: navieras, aduanas, certificadoras y clientes.",
+    "Justificacion_impacto": "La automatización reduce errores humanos, elimina duplicidad de documentos y agiliza trámites de exportación. En la documentación de logística y TDH se señala que los errores documentales son una de las principales causas de retrasos, por lo que automatizar estos procesos impacta directamente en eficiencia y reducción de tiempos.",
+    "Fase": "Fase 4"
+  },
+  {
+    "TDH": "Robótica y automatización",
+    "Descripcion": "Optimización de tareas en campo o almacén",
+    "Impacto": "Menos pérdidas y mayor calidad",
+    "Descripcion_ampliada": "La robótica y la automatización permiten mecanizar tareas repetitivas o de precisión en campo, empaquetado y logística. En la documentación TDHCanary y agrobananera se explica que la automatización mejora la consistencia del proceso, reduce el daño mecánico al fruto, agiliza tiempos de clasificación y disminuye el error humano. También se integra con sensores IoT y sistemas ERP para coordinar operaciones.",
+    "Justificacion_impacto": "La reducción de manejo manual disminuye pérdidas postcosecha y daños en el banano, lo cual mejora la calidad exportable. Asimismo, las tareas más estandarizadas permiten cumplir plazos de carga y evitar retrasos logísticos. Esto coincide con los objetivos de eficiencia operativa descritos en la documentación, justificando el impacto de mayor calidad y menos pérdidas.",
+    "Fase": "Fase 5"
+  },
+  {
+    "TDH": "ERP de gestión",
+    "Descripcion": "Automatización de pedidos y documentación",
+    "Impacto": "Más eficiencia administrativa",
+    "Descripcion_ampliada": "El ERP de gestión unifica procesos administrativos, financieros, logísticos y comerciales. Según los documentos de RA2 y consultoría TDH, este ERP permite automatizar la generación de pedidos, facturas, contratos, documentos de exportación y flujos contables. Se integra con sistemas de calidad, trazabilidad, IoT y SCM para ofrecer una visión completa de la operación empresarial.",
+    "Justificacion_impacto": "Automatizar trámites administrativos reduce errores, elimina tareas repetitivas y acorta tiempos en la gestión documental. Esto es especialmente relevante en exportación, donde se manejan múltiples documentos y certificaciones. La eficiencia administrativa se incrementa, liberando recursos y acelerando los procesos críticos, lo cual coincide con el impacto declarado.",
+    "Fase": "Fase 3"
+  },
+  {
+    "TDH": "CRM internacional",
+    "Descripcion": "Personalización de ofertas / comunicación",
+    "Impacto": "Fidelización de clientes europeos",
+    "Descripcion_ampliada": "El CRM internacional centraliza información de clientes, mercados, preferencias y comportamiento de compra. En la documentación de negocios internacionales y TDHCanary se menciona como una herramienta clave para segmentar mercados europeos, adaptar la oferta de fruta, mejorar la comunicación y gestionar relaciones comerciales a largo plazo con distribuidores, supermercados y cadenas de suministro.",
+    "Justificacion_impacto": "El conocimiento profundo del cliente permite ofrecer mejores condiciones, ajustar calidades y responder rápidamente a necesidades específicas del mercado europeo, lo que fortalece la fidelización. Además, los documentos de exportación subrayan que la continuidad comercial depende de relaciones confiables y comunicación efectiva, justificando el impacto declarado.",
+    "Fase": "Fase 4"
+  },
+  {
+    "TDH": "Plataformas comercio electrónico global",
+    "Descripcion": "Mejor segmentación del cliente",
+    "Impacto": "Mejora de la competitividad internacional",
+    "Descripcion_ampliada": "Las plataformas de comercio electrónico permiten acceder a mercados internacionales mostrando oferta, disponibilidad, certificaciones y condiciones comerciales de manera digital. Los documentos de negocios internacionales destacan que este tipo de plataformas facilitan la conexión con clientes europeos, amplían visibilidad en el mercado y permiten analizar el comportamiento del consumidor mediante datos de navegación y compra.",
+    "Justificacion_impacto": "La visibilidad en mercados globales incrementa las oportunidades comerciales y la competitividad. La segmentación basada en datos mejora la estrategia comercial y permite adaptarse mejor a las exigencias de cada país europeo. Esto coincide con las conclusiones de la documentación sobre competitividad, justificando su impacto en la mejora de la presencia internacional.",
+    "Fase": "Fase 4"
+  },
+  {
+    "TDH": "Machine learning comercial",
+    "Descripcion": "Mejor segmentación del cliente",
+    "Impacto": "Mejores decisiones basadas en datos",
+    "Descripcion_ampliada": "El machine learning comercial analiza patrones de compra, preferencias de clientes europeos, temporadas de alta demanda y comportamiento del mercado. Los documentos de negocios internacionales y TDHCanary explican que esta tecnología permite predecir qué clientes demandarán determinados calibres, calidades o volúmenes, así como ajustar precios y campañas comerciales según tendencias identificadas.",
+    "Justificacion_impacto": "La segmentación precisa permite orientar mejor las ventas, optimizar precios y preparar ofertas personalizadas. Esto incrementa la eficiencia comercial, reduce riesgos de excedentes y mejora la competitividad internacional. Debido a ello, la documentación lo relaciona directamente con mejores decisiones estratégicas basadas en datos.",
+    "Fase": "Fase 4"
+  },
+  {
+    "TDH": "Predicción de cosecha",
+    "Descripcion": "Predicción de demanda o rendimientos",
+    "Impacto": "Mejor planificación de la producción",
+    "Descripcion_ampliada": "La predicción de cosecha utiliza datos climáticos, historial productivo, sensores IoT y modelos estadísticos para anticipar el volumen y la fecha de producción del banano. En la documentación agrobananera y TDHCanary se presenta como herramienta clave para sincronizar producción, transporte, empaque y exportación. Permite anticipar calibres, picos de producción y variaciones estacionales.",
+    "Justificacion_impacto": "Una estimación precisa de la cosecha permite coordinar logística, evitar sobreproducción y cumplir los compromisos con clientes europeos. Esto impacta directamente en la planificación de la producción y mejora la eficiencia general, tal como se describe en los informes agrícolas de TDH.",
+    "Fase": " Fase 4"
+  },
+  {
+    "TDH": "Datos IoT de campo",
+    "Descripcion": "Datos de humedad, suelo y clima en tiempo real",
+    "Impacto": "Mejor planificación de la producción",
+    "Descripcion_ampliada": "Los datos IoT de campo recopilan información continua sobre humedad, clima, temperatura, composición del suelo y condiciones ambientales. La documentación TDHCanary los identifica como el insumo base para toda la digitalización agrícola, permitiendo detectar anomalías, optimizar riego y fertilización, y alimentar modelos de predicción de rendimiento y calidad.",
+    "Justificacion_impacto": "La disponibilidad de datos precisos mejora la toma de decisiones y la planificación agrícola. Estos datos ayudan a evitar pérdidas por riego incorrecto, ajustar labores según las condiciones del cultivo y prever el comportamiento productivo. Por ello, la documentación destaca su impacto directo en la planificación.",
+    "Fase": "Fase 2"
+  },
+  {
+    "TDH": "Control digital de lotes",
+    "Descripcion": "Lotes digitalizados y trazables",
+    "Impacto": "Menos pérdidas y mayor calidad",
+    "Descripcion_ampliada": "El control digital de lotes registra información sobre cada lote de producción: finca de origen, fecha de corte, tratamientos, calidad, empaque y transporte. La documentación TDHCanary y las guías de trazabilidad explican que este sistema evita mezclas incorrectas, controla la calidad del producto y asegura que cada lote cumpla con los requisitos europeos. Es fundamental para auditorías y certificaciones.",
+    "Justificacion_impacto": "Al digitalizar los lotes se reduce el riesgo de errores, se evitan devoluciones o sanciones y se mantiene la calidad homogénea del producto exportado. Además, permite identificar rápidamente problemas en la cadena y corregirlos, justificando su impacto en menores pérdidas y mayor calidad.",
+    "Fase": "Fase 3"
+  },
+  {
+    "TDH": "Economía circular digital",
+    "Descripcion": "Mayor precisión en la gestión energética",
+    "Impacto": "Sostenibilidad y reducción de costes",
+    "Descripcion_ampliada": "La economía circular digital integra sistemas de monitorización energética, reutilización de recursos y reducción de desperdicios apoyados en tecnologías como IoT, Big Data y paneles digitales. En la documentación TDHCanary se señala que permite medir consumos, identificar ineficiencias, reutilizar subproductos y optimizar el uso de energía y agua en el cultivo del banano. También contribuye a reducir la huella ambiental exigida por los mercados europeos.",
+    "Justificacion_impacto": "Al mejorar la precisión en la gestión energética se reducen costes operativos y se incrementa la sostenibilidad del proceso productivo. Esto favorece el cumplimiento de estándares ESG y mejora la competitividad internacional, tal como destaca la documentación de sostenibilidad agrícola.",
+    "Fase": "Fase 5"
+  },
+  {
+    "TDH": "Monitorización ambiental",
+    "Descripcion": "Mayor precisión en la gestión energética",
+    "Impacto": "Cumplimiento normativo (UE)",
+    "Descripcion_ampliada": "La monitorización ambiental utiliza sensores y estaciones digitales para registrar variables como calidad del aire, emisiones, temperatura, humedad y otros factores relevantes para certificaciones ambientales. En los documentos de TDHCanary se presenta como un componente necesario para validar condiciones ecológicas y cumplir estándares de exportación a la Unión Europea, que exige control exhaustivo del impacto ambiental.",
+    "Justificacion_impacto": "El seguimiento continuo de parámetros ambientales genera evidencias digitales exigidas en certificaciones europeas y auditorías ESG. Esto evita sanciones, facilita auditorías y certifica que el proceso productivo cumple los requisitos legales y de sostenibilidad. Por ello, su impacto está directamente relacionado con el cumplimiento normativo.",
+    "Fase": "Fase 5"
+  }
+]

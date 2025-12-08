@@ -1,6 +1,8 @@
 site_name: CanaryBananas
 theme:
   name: material
+  features:
+    - toc.integrate
   language: es     # o 'ca' si quieres catalán
   logo: img/logo.png       # Logo que aparece en la cabecera
   favicon: img/images.png # Icono que aparece en la pestaña del navegador
@@ -35,5 +37,7 @@ plugins:
  - search:
       lang: es     # opcional: mejora el buscador para español
 
-
+markdown_extensions:
+  - toc:
+      permalink: false
 

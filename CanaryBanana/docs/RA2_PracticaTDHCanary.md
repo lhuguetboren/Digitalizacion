@@ -1,250 +1,760 @@
+# Roadmap de TDH + Visualizador de Tecnologías por Fase
 
-# Roadmap de Implantación de Tecnologías Habilitadoras Digitales (TDH)
-
-La revisión sistemática de las Tecnologías Habilitadoras Digitales (TDH) aplicables a la cadena agro-bananera y al proceso de internacionalización de CanaryBanana ha permitido establecer un marco analítico que justifica la necesidad de ordenar su implantación en un roadmap estructurado por fases.
-
-Esta organización secuencial responde a tres principios fundamentales de los modelos contemporáneos de transformación digital: progresividad, dependencia tecnológica y madurez organizativa.
-
-En primer lugar, el análisis evidencia que las TDH no presentan un impacto homogéneo ni simultáneo. Tecnologías avanzadas como blockchain, inteligencia artificial, sistemas predictivos o gemelos digitales dependen de la existencia previa de infraestructuras de datos consistentes, procesos digitalizados y mecanismos estables de captura de información. La literatura actual en digitalización agroalimentaria confirma que la adopción temprana de tecnologías avanzadas sin una base digital sólida conduce a fallos de uso, baja calidad de datos y pérdida de inversión.
-
-En segundo lugar, el estudio permite discriminar qué tecnologías deben aplicarse en cada etapa del proceso productivo y comercial. Esto implica mapear cada TDH con:
-
-a) el resultado operativo que genera,
+<details>
+ <summary>Fundamentos</summary>
+ <p>La revisión sistemática de las Tecnologías Habilitadoras Digitales (TDH) aplicables a la cadena
+agro-bananera y al proceso de internacionalización de CanaryBanana ha permitido establecer un
+marco analítico que justifica la necesidad de ordenar su implantación en un roadmap estructurado
+por fases.</p>
+<p>Esta organización secuencial responde a tres principios fundamentales de los modelos
+contemporáneos de transformación digital: progresividad, dependencia tecnológica y madurez
+organizativa.</p>
+<p>En primer lugar, el análisis evidencia que las TDH no presentan un impacto homogéneo ni
+simultáneo. Tecnologías avanzadas como blockchain, inteligencia artificial, sistemas predictivos
+o gemelos digitales dependen de la existencia previa de infraestructuras de datos consistentes,
+procesos digitalizados y mecanismos estables de captura de información. La literatura actual en
+digitalización agroalimentaria confirma que la adopción temprana de tecnologías avanzadas sin
+una base digital sólida conduce a fallos de uso, baja calidad de datos y pérdida de inversión.
+</p>
+<p>En segundo lugar, el estudio permite discriminar qué tecnologías deben aplicarse en cada etapa
+del proceso productivo y comercial. Esto implica mapear cada TDH con:</p>
+<p>a) el resultado operativo que genera,
 b) el impacto estratégico que produce,
-c) y el momento óptimo de implantación dentro de la evolución digital de la empresa.
+c) y el momento óptimo de implantación dentro de la evolución digital de la empresa.</p>
+<p>Finalmente, se establece que toda hoja de ruta debe estar acompañada de indicadores verificables
+(Key Performance Indicators, KPI) que permitan medir el avance, validar el impacto y garantizar
+que cada fase cumple los requisitos necesarios para habilitar la siguiente.</p>
+<p>Con base en estos principios, se ha elaborado un Roadmap de Transformación Digital en cinco
+fases, que progresivamente conduce a CanaryBanana desde la digitalización básica hasta un
+ecosistema digital predictivo, automatizado y plenamente trazable.</p>
+</details>
 
-Finalmente, se establece que toda hoja de ruta debe estar acompañada de indicadores verificables (Key Performance Indicators, KPI) que permitan medir el avance, validar el impacto y garantizar que cada fase cumple los requisitos necesarios para habilitar la siguiente.
+## Fases de aplicación de TDH
 
-Con base en estos principios, se ha elaborado un Roadmap de Transformación Digital en cinco fases, que progresivamente conduce a CanaryBanana desde la digitalización básica hasta un ecosistema digital predictivo, automatizado y plenamente trazable.
+<details>
+    <summary>Descripción general de las fases</summary>
+    <p>El roadmap se estructura en cinco fases secuenciales, cada una con objetivos claros,
+    tecnologías habilitadoras específicas e indicadores de medición asociados. A continuación se
+    describen brevemente las cinco fases:</p>
+<h2>Fase 1 — Digitalización básica</h2>
+<p>Objetivo</p>
+<p>Eliminar el papel y centralizar la información mínima necesaria para poder integrar procesos en
+    el futuro.</p>
+<div class="flex-container">
+    <div class="flex-items">
 
-# Fases de aplicación de TDH
+   <p>Indicadores de medición:</p>
+<ul>
+    <li>% de documentos gestionados en digital</li>
+    <li>Nº de errores administrativos reducidos</li>
+    <li>Nivel de orden y accesibilidad documental</li>
+    <li>Tiempo medio de búsqueda de información</li>
+ </ul>
+    </div>
 
-Fase 1 — Digitalización básica
+<div class="flex-items mermaid">flowchart TB
+F1["Fase 1&lt;br&gt;Digitalización básica"]
+subgraph TECNOL["Tecnologías"]
+T1_1["Documentación digital&lt;br&gt;(facturas, pedidos, albaranes)"]
+T1_2["Ofimática en nube&lt;br&gt;(carpetas compartidas)"]
+T1_3["Registros digitales básicos&lt;br&gt;(Excel · ERP inicial)"]
+end
+subgraph IMPACTOS["Impactos"]
+I1_1["Menos papel y menos errores administrativos"]
+I1_2["Información más ordenada y accesible"]
+I1_3["Primer paso para integrar áreas en el futuro"]
+end
+F1 --&gt; T1_1
+F1 --&gt; T1_2
+F1 --&gt; T1_3
+T1_1 --&gt; I1_1
+T1_2 --&gt; I1_2
+T1_3 --&gt; I1_2
+T1_3 --&gt; I1_3
+</div>
+</div>
 
-Objetivo
+<h2 id="fase-2-integracion-operativa">Fase 2 — Integración operativa</h2>
+<p><strong>Objetivo:</strong> Conseguir interoperabilidad entre producción, logística, almacén y oficina mediante integración IT–OT y sistemas coordinados.</p>
 
-Eliminar el papel y centralizar la información mínima necesaria para poder integrar procesos en el futuro.
+<div class="flex-container">
+    <div class="flex-items">
+<p>Indicadores de medición:</p>
+<ul>
+    <li>
+<p>Número de sistemas integrados</p>
+    </li>
+    <li>
+<p>Continuidad del flujo de datos entre áreas</p>
+    </li>
+    <li>
+<p>Disminución de tareas manuales repetitivas</p>
+    </li>
+    <li>
+<p>Mejora en la coordinación logística</p>
+    </li>
+</ul>
+    </div>
 
-Indicadores de medición:
-
-% de documentos gestionados en digital
-
-Nº de errores administrativos reducidos
-
-Nivel de orden y accesibilidad documental
-
-Tiempo medio de búsqueda de información
-
-
-
-
-```mermaid
+    <div class="flex-items mermaid">
 flowchart TB
-    F1["Fase 1<br>Digitalización básica"]
+F2["Fase 2&lt;br&gt;Integración operativa"]
 
- subgraph TECNOL["Tecnologías"]
-    T1_1["Documentación digital<br>(facturas, pedidos, albaranes)"]
-    T1_2["Ofimática en nube<br>(carpetas compartidas)"]
-    T1_3["Registros digitales básicos<br>(Excel · ERP inicial)"]
- end
+subgraph TECNOL["Tecnologías"]
+T2_1["Integración IT–OT&lt;br&gt;(oficina + planta + logística)"]
+T2_2["IoT agrícola e hídrico&lt;br&gt;(sensores de campo y riego)"]
+T2_3["ERP · SCM&lt;br&gt;para coordinar producción, almacén y transporte"]
+end
 
- subgraph IMPACTOS["Impactos"]
-    I1_1["Menos papel y menos errores administrativos"]
-    I1_2["Información más ordenada y accesible"]
-    I1_3["Primer paso para integrar áreas en el futuro"]
- end
+subgraph IMPACTOS["Impactos"]
+I2_1["Flujo de información entre producción, almacén y oficina"]
+I2_2["Menos duplicidad de datos&lt;br&gt;y menos tareas repetitivas"]
+I2_3["Base para coordinar mejor la logística y la exportación"]
+end
 
- F1 --> T1_1
- F1 --> T1_2
- F1 --> T1_3
+F2 --&gt; T2_1
+F2 --&gt; T2_2
+F2 --&gt; T2_3
 
- T1_1 --> I1_1
- T1_2 --> I1_2
- T1_3 --> I1_2
- T1_3 --> I1_3
+T2_1 --&gt; I2_1
+T2_1 --&gt; I2_2
+T2_2 --&gt; I2_1
+T2_3 --&gt; I2_1
+T2_3 --&gt; I2_3
+    </div>
+</div>
 
+<h2 id="fase-3-trazabilidad-completa-y-logistica-inteligente">Fase 3 — Trazabilidad completa y
+    logística inteligente</h2>
+<p><strong>Objetivo</strong>: Garantizar la visibilidad total de lote y cadena logística mediante
+    IoT, blockchain y sistemas SCM.</p>
 
-```
-## Fase 2 — Integración operativa
+<div class="flex-container">
+    <div class="flex-items">
+<p><strong>Indicadores de medición:</strong>
+    - Porcentaje de lotes trazados digitalmente</p>
+<ul>
+    <li>
+<p>Nivel de visibilidad logística en tiempo real</p>
+    </li>
+    <li>
+<p>Tiempos de respuesta ante incidencias</p>
+    </li>
+    <li>
+<p>Evidencias generadas para cumplimiento normativo UE</p>
+    </li>
+</ul>
+    </div>
 
-**Objetivo:** Conseguir interoperabilidad entre producción, logística, almacén y oficina mediante integración IT–OT y sistemas coordinados.
-
-Indicadores de medición:
-
-- Número de sistemas integrados
-
-- Continuidad del flujo de datos entre áreas
-
-- Disminución de tareas manuales repetitivas
-
-- Mejora en la coordinación logística
-
-```mermaid
-
+    <div class="flex-items mermaid">
 flowchart TB
-    F2["Fase 2<br>Integración operativa"]
+F3["Fase 3&lt;br&gt;Trazabilidad completa y logística inteligente"]
 
- subgraph TECNOL["Tecnologías"]
-    T2_1["Integración IT–OT<br>(oficina + planta + logística)"]
-    T2_2["IoT agrícola e hídrico<br>(sensores de campo y riego)"]
-    T2_3["ERP · SCM<br>para coordinar producción, almacén y transporte"]
- end
+subgraph TECNOL["Tecnologías"]
+T3_1["IoT logístico&lt;br&gt;(cadena de frío, GPS, sensores en transporte)"]
+T3_2["Blockchain alimentaria&lt;br&gt;para trazabilidad de lote a cliente"]
+T3_3["ERP + SCM&lt;br&gt;integrando almacén, transporte y puertos"]
+end
 
- subgraph IMPACTOS["Impactos"]
-    I2_1["Flujo de información entre producción, almacén y oficina"]
-    I2_2["Menos duplicidad de datos<br>y menos tareas repetitivas"]
-    I2_3["Base para coordinar mejor la logística y la exportación"]
- end
+subgraph IMPACTOS["Impactos"]
+I3_1["Trazabilidad de lote&lt;br&gt;desde finca hasta cliente europeo"]
+I3_2["Seguridad alimentaria y cumplimiento normativo UE"]
+I3_3["Mayor visibilidad logística&lt;br&gt;y respuesta rápida ante incidencias"]
+end
 
- F2 --> T2_1
- F2 --> T2_2
- F2 --> T2_3
+F3 --&gt; T3_1
+F3 --&gt; T3_2
+F3 --&gt; T3_3
 
- T2_1 --> I2_1
- T2_1 --> I2_2
- T2_2 --> I2_1
- T2_3 --> I2_1
- T2_3 --> I2_3
-```
+T3_1 --&gt; I3_1
+T3_1 --&gt; I3_3
+T3_2 --&gt; I3_1
+T3_2 --&gt; I3_2
+T3_3 --&gt; I3_1
+T3_3 --&gt; I3_3
+    </div>
+</div>
+
+<h2 id="fase-4-decisiones-basadas-en-datos-data-driven">Fase 4 — Decisiones basadas en datos
+    (Data-Driven)</h2>
+<p><strong>Objetivo:</strong> Transformar datos operativos en información predictiva que permita
+    anticipar producción, demandas y comportamientos logísticos.</p>
+
+<div class="flex-container">
+    <div class="flex-items">
+<p><strong>Indicadores de medición:</strong>
+    - Precisión de predicciones (cosecha, demanda, logística)</p>
+<ul>
+    <li>
+<p>Calidad de datos en el Data Lake</p>
+    </li>
+    <li>
+<p>Uso efectivo de dashboards en toma de decisiones</p>
+    </li>
+    <li>
+<p>Ahorro derivado de optimización productiva</p>
+    </li>
+</ul>
+    </div>
+
+    <div class="flex-items mermaid">flowchart TB
+F4["Fase 4&lt;br&gt;Decisiones basadas en datos (Data-Driven)"]
+
+subgraph TECNOL["Tecnologías"]
+T4_1["Big Data agrícola&lt;br&gt;(datos de IoT, clima, producción)"]
+T4_2["Analítica avanzada · BI&lt;br&gt;(cuadros de mando)"]
+T4_3["Inteligencia Artificial (IA)&lt;br&gt;para predicción de rendimientos y demanda"]
+end
+
+subgraph IMPACTOS["Impactos"]
+I4_1["Mejor planificación de cosechas y envíos"]
+I4_2["Decisiones de producción, logística y precios basadas en datos"]
+I4_3["Optimización de costes&lt;br&gt;y reducción de desperdicio"]
+end
+
+F4 --&gt; T4_1
+F4 --&gt; T4_2
+F4 --&gt; T4_3
+
+T4_1 --&gt; I4_1
+T4_1 --&gt; I4_2
+T4_2 --&gt; I4_2
+T4_2 --&gt; I4_3
+T4_3 --&gt; I4_1
+T4_3 --&gt; I4_3
+    </div>
+</div>
+
+<h2 id="fase-5-ecosistema-digital-avanzado">Fase 5 — Ecosistema digital avanzado</h2>
+<p><strong>Objetivo:</strong> Construir un sistema agroexportador automatizado, sostenible y
+    anticipativo, con certificaciones ESG y capacidad de respuesta en tiempo real.</p>
+
+<div class="flex-container">
+    <div class="flex-items">
+<p><strong>Indicadores de medición:</strong></p>
+<ul>
+    <li>
+<p>Ahorro hídrico y energético</p>
+    </li>
+    <li>
+<p>Grado de automatización de procesos críticos</p>
+    </li>
+    <li>
+<p>Certificaciones ESG obtenidas</p>
+    </li>
+    <li>
+<p>Mejora de la competitividad internacional</p>
+    </li>
+</ul>
+    </div>
+
+    <div class="flex-items mermaid">flowchart TB
+F5["Fase 5&lt;br&gt;Ecosistema digital avanzado"]
+
+subgraph TECNOL["Tecnologías"]
+T5_1["Gemelo digital&lt;br&gt;de plantaciones y operaciones"]
+T5_2["Drones y teledetección avanzada"]
+T5_3["Riego inteligente e IoT hídrico&lt;br&gt;con energía solar"]
+T5_4["Automatización y robótica&lt;br&gt;en riego, poda y recolección"]
+T5_5["Economía circular digital&lt;br&gt;y monitorización ambiental"]
+end
+
+subgraph IMPACTOS["Impactos"]
+I5_1["Operación predictiva y automatizada"]
+I5_2["Mayor rendimiento con menor variabilidad"]
+I5_3["Ahorro de agua y energía&lt;br&gt;+ reducción de residuos"]
+I5_4["Sostenibilidad y certificaciones ESG"]
+I5_5["Alta competitividad y confianza&lt;br&gt;en mercados internacionales"]
+end
+
+F5 --&gt; T5_1
+F5 --&gt; T5_2
+F5 --&gt; T5_3
+F5 --&gt; T5_4
+F5 --&gt; T5_5
+
+T5_1 --&gt; I5_1
+T5_1 --&gt; I5_2
+T5_2 --&gt; I5_2
+T5_2 --&gt; I5_5
+T5_3 --&gt; I5_3
+T5_3 --&gt; I5_4
+T5_4 --&gt; I5_1
+T5_4 --&gt; I5_2
+T5_5 --&gt; I5_3
+T5_5 --&gt; I5_4
+T5_5 --&gt; I5_5
+    </div>
+</div>
+</details>
+
+## TDH
+
+<section id="visor">
+    <section class="controls">
+<div class="control-group">
+    <label for="searchInput">Buscar (TDH, descripción, impacto...)</label>
+    <input id="searchInput" type="text" placeholder="Escribe para filtrar..." />
+</div>
+
+<div class="control-group">
+    <label for="faseFilter">Filtrar por fase</label>
+    <select id="faseFilter">
+        <option value="">Todas las fases</option>
+    </select>
+</div>
+    </section>
+<style>
+   * {
+      box-sizing: border-box;
+   }
 
 
-## Fase 3 — Trazabilidad completa y logística inteligente
 
-**Objetivo**: Garantizar la visibilidad total de lote y cadena logística mediante IoT, blockchain y sistemas SCM.
+   header {
+      background: #1a73e8;
+      color: white;
+      padding: 1rem 1.5rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
 
-**Indicadores de medición:**
-- Porcentaje de lotes trazados digitalmente
+   header h1 {
+      margin: 0;
+      font-size: 1.4rem;
+   }
 
-- Nivel de visibilidad logística en tiempo real
+   header p {
+      margin: 0.3rem 0 0;
+      font-size: 0.9rem;
+      opacity: 0.9;
+   }
 
-- Tiempos de respuesta ante incidencias
+   .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+      align-items: center;
+   }
 
-- Evidencias generadas para cumplimiento normativo UE
+   .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      font-size: 0.85rem;
+   }
 
-```mermaid
+   .control-group label {
+      font-weight: 600;
+      color: #555;
+   }
 
-flowchart TB
-    F3["Fase 3<br>Trazabilidad completa y logística inteligente"]
+   .control-group input,
+   .control-group select {
+      padding: 0.45rem 0.6rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      min-width: 220px;
+      font-size: 0.9rem;
+   }
 
- subgraph TECNOL["Tecnologías"]
-    T3_1["IoT logístico<br>(cadena de frío, GPS, sensores en transporte)"]
-    T3_2["Blockchain alimentaria<br>para trazabilidad de lote a cliente"]
-    T3_3["ERP + SCM<br>integrando almacén, transporte y puertos"]
- end
+   .summary {
+      font-size: 0.85rem;
+      color: #555;
+      margin-bottom: 0.75rem;
+   }
 
- subgraph IMPACTOS["Impactos"]
-    I3_1["Trazabilidad de lote<br>desde finca hasta cliente europeo"]
-    I3_2["Seguridad alimentaria y cumplimiento normativo UE"]
-    I3_3["Mayor visibilidad logística<br>y respuesta rápida ante incidencias"]
- end
+   .loader {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+   }
 
- F3 --> T3_1
- F3 --> T3_2
- F3 --> T3_3
+   .error-message {
+      padding: 0.8rem 1rem;
+      background: #ffebee;
+      color: #b71c1c;
+      border-radius: 8px;
+      border: 1px solid #ffcdd2;
+      font-size: 0.9rem;
+      margin-top: 1rem;
+   }
 
- T3_1 --> I3_1
- T3_1 --> I3_3
- T3_2 --> I3_1
- T3_2 --> I3_2
- T3_3 --> I3_1
- T3_3 --> I3_3
+   /* Layout de columnas por fase */
 
-```
+   .phases-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+      gap: 1rem;
+      align-items: flex-start;
+   }
 
-## Fase 4 — Decisiones basadas en datos (Data-Driven)
+   .phase-column {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+   }
 
-**Objetivo:** Transformar datos operativos en información predictiva que permita anticipar producción, demandas y comportamientos logísticos.
+   .phase-title {
+      margin: 0 0 0.3rem;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1a237e;
+      padding: 0.3rem 0.4rem;
+      border-radius: 6px;
+      background: #e8eaf6;
+   }
 
-**Indicadores de medición:**
-- Precisión de predicciones (cosecha, demanda, logística)
+   .phase-title span {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #3949ab;
+   }
 
-- Calidad de datos en el Data Lake
+   .cards-column {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+   }
 
-- Uso efectivo de dashboards en toma de decisiones
+   .tdh-card {
+      background: white;
+      border-radius: 10px;
+      padding: 0.75rem 0.85rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      border: 1px solid #e0e0e0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      transition: transform 0.1s ease, box-shadow 0.1s ease;
+   }
 
-- Ahorro derivado de optimización productiva
+   .tdh-card:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+   }
 
-```mermaid
-flowchart TB
-    F4["Fase 4<br>Decisiones basadas en datos (Data-Driven)"]
- 
+   .tdh-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 0.5rem;
+      align-items: flex-start;
+   }
 
- subgraph TECNOL["Tecnologías"]
-    T4_1["Big Data agrícola<br>(datos de IoT, clima, producción)"]
-    T4_2["Analítica avanzada · BI<br>(cuadros de mando)"]
-    T4_3["Inteligencia Artificial (IA)<br>para predicción de rendimientos y demanda"]
- end
+   .tdh-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+      margin: 0;
+   }
 
- subgraph IMPACTOS["Impactos"]
-    I4_1["Mejor planificación de cosechas y envíos"]
-    I4_2["Decisiones de producción, logística y precios basadas en datos"]
-    I4_3["Optimización de costes<br>y reducción de desperdicio"]
+   .tag-fase {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      background: #e8f0fe;
+      color: #1a73e8;
+      font-weight: 600;
+      white-space: nowrap;
+   }
 
- end
+   .badge-impacto {
+      display: inline-block;
+      padding: 0.15rem 0.45rem;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      background: #ede7f6;
+      color: #4a148c;
+   }
 
- F4 --> T4_1
- F4 --> T4_2
- F4 --> T4_3
+   .card-body {
+      font-size: 0.86rem;
+      color: #444;
+   }
 
- T4_1 --> I4_1
- T4_1 --> I4_2
- T4_2 --> I4_2
- T4_2 --> I4_3
- T4_3 --> I4_1
- T4_3 --> I4_3
-```
+   .card-body p {
+      margin: 0;
+   }
 
-## Fase 5 — Ecosistema digital avanzado
+   .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0.25rem;
+      gap: 0.5rem;
+   }
 
-**Objetivo:** Construir un sistema agroexportador automatizado, sostenible y anticipativo, con certificaciones ESG y capacidad de respuesta en tiempo real.
+   .btn-detalle {
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.8rem;
+      background: #1a73e8;
+      color: white;
+      white-space: nowrap;
+   }
 
-**Indicadores de medición:**
+   .btn-detalle:hover {
+      opacity: 0.9;
+   }
 
-- Ahorro hídrico y energético
+   .card-detalle {
+      margin-top: 0.4rem;
+      padding-top: 0.4rem;
+      border-top: 1px dashed #e0e0e0;
+      font-size: 0.82rem;
+      color: #444;
+      display: none;
+   }
 
-- Grado de automatización de procesos críticos
+   .card-detalle h4 {
+      margin: 0.2rem 0 0.1rem;
+      font-size: 0.86rem;
+   }
 
-- Certificaciones ESG obtenidas
+   .card-detalle p {
+      margin: 0 0 0.2rem;
+   }
 
-- Mejora de la competitividad internacional
+   .tdh-card.detalle-abierto .card-detalle {
+      display: block;
+   }
 
-```mermaid
-flowchart TB
-    F5["Fase 5<br>Ecosistema digital avanzado"]
+   .flex-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: normal;
+      align-items: normal;
+      align-content: normal;
+   }
 
- subgraph TECNOL["Tecnologías"]
-    T5_1["Gemelo digital<br>de plantaciones y operaciones"]
-    T5_2["Drones y teledetección avanzada"]
-    T5_3["Riego inteligente e IoT hídrico<br>con energía solar"]
-    T5_4["Automatización y robótica<br>en riego, poda y recolección"]
-    T5_5["Economía circular digital<br>y monitorización ambiental"]
+   .flex-items:nth-child(1) {
+      display: block;
+      flex-grow: 0;
+      flex: 0 0 auto;      /* no crece, no se encoge automáticamente */
+      max-width: 200px;    /* límite de ancho */
+      flex-basis: auto;
+      align-self: auto;
+      order: 0;
+   }
 
- end
+   .flex-items:nth-child(2) {
+      display: block;
+      flex: 1 1 auto;
+      min-width: 0;
+      flex-basis: auto;
+      align-self: auto;
+      order: 0;
+   }
 
- subgraph IMPACTOS["Impactos"]
-    I5_1["Operación predictiva y automatizada"]
-    I5_2["Mayor rendimiento con menor variabilidad"]
-    I5_3["Ahorro de agua y energía<br>+ reducción de residuos"]
-    I5_4["Sostenibilidad y certificaciones ESG"]
-    I5_5["Alta competitividad y confianza<br>en mercados internacionales"]
- end
+   @media (max-width: 768px) {
+      .controls {
+            flex-direction: column;
+            align-items: stretch;
+      }
 
- F5 --> T5_1
- F5 --> T5_2
- F5 --> T5_3
- F5 --> T5_4
- F5 --> T5_5
+      .control-group input,
+      .control-group select {
+            width: 100%;
+      }
+   }
 
- T5_1 --> I5_1
- T5_1 --> I5_2
- T5_2 --> I5_2
- T5_2 --> I5_5
- T5_3 --> I5_3
- T5_3 --> I5_4
- T5_4 --> I5_1
- T5_4 --> I5_2
- T5_5 --> I5_3
- T5_5 --> I5_4
- T5_5 --> I5_5
+   /* Separador visual entre roadmap y visor */
+   .section-separator {
+      margin: 2rem 0 1.5rem;
+      border-top: 2px dashed #cfd8dc;
+      padding-top: 1rem;
+   }
+</style>
 
-```
+<div class="summary" id="summaryText">
+   Cargando datos...
+</div>
+
+<div id="loader" class="loader">Leyendo json_ordenado_por_fase.json...</div>
+<div id="error" class="error-message" style="display:none;"></div>
+
+<!-- Contenedor de tarjetas agrupadas por fase -->
+<section id="cardsContainer" class="phases-grid" style="display:none;">
+<!-- Rellenado dinámicamente -->
+    </section>
+</section>
+
+
+<!-- Script para mermaid (igual que en tu index.html) -->
+<script type="module">
+   import mermaid from "https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs";
+   mermaid.initialize({});
+</script>
+
+<!-- Script del visor TDH -->
+<script>
+   const searchInput = document.getElementById('searchInput');
+   const faseFilter = document.getElementById('faseFilter');
+   const loader = document.getElementById('loader');
+   const errorBox = document.getElementById('error');
+   const summaryText = document.getElementById('summaryText');
+   const cardsContainer = document.getElementById('cardsContainer');
+
+   let allData = [];
+
+   function normalizarFase(fase) {
+      return (fase || '').replace(/\s+/g, ' ').trim();
+   }
+
+   function actualizarResumen(filtered) {
+      const total = allData.length;
+      const visibles = filtered.length;
+      const faseSel = faseFilter.value ? ` | Fase: ${faseFilter.value}` : '';
+      const texto = `Mostrando ${visibles} de ${total} tecnologías TDH${faseSel}.`;
+      summaryText.textContent = texto;
+   }
+
+   function renderTarjetas(data) {
+      if (!data.length) {
+            cardsContainer.innerHTML = '<p>No hay elementos que coincidan con el filtro.</p>';
+            actualizarResumen(data);
+            return;
+      }
+
+      // Agrupar por fase
+      const grupos = {};
+      data.forEach(item => {
+            const faseNorm = normalizarFase(item.Fase) || 'Sin fase';
+            if (!grupos[faseNorm]) grupos[faseNorm] = [];
+            grupos[faseNorm].push(item);
+      });
+
+      const fasesOrdenadas = Object.keys(grupos).sort((a, b) => a.localeCompare(b, 'es'));
+
+      const html = fasesOrdenadas.map(fase => {
+            const elementos = grupos[fase];
+            const count = elementos.length;
+
+            const cardsHtml = elementos.map((item) => `
+      <article class="tdh-card">
+      <div class="tdh-header">
+         <h3 class="tdh-title">${item.TDH}</h3>
+         <span class="tag-fase">${fase}</span>
+      </div>
+
+      <div class="card-body">
+         <p>${item.Descripcion}</p>
+      </div>
+
+      <div class="card-footer">
+         <span class="badge-impacto">${item.Impacto}</span>
+         <button class="btn-detalle">Ver detalle</button>
+      </div>
+
+      <div class="card-detalle">
+         <h4>Descripción ampliada</h4>
+         <p>${item.Descripcion_ampliada || '—'}</p>
+         <h4>Justificación del impacto</h4>
+         <p>${item.Justificacion_impacto || '—'}</p>
+      </div>
+      </article>
+   `).join('');
+
+            return `
+      <div class="phase-column">
+      <h2 class="phase-title">
+         ${fase}
+         <span>(${count} TDH)</span>
+      </h2>
+      <div class="cards-column">
+         ${cardsHtml}
+      </div>
+      </div>
+   `;
+      }).join('');
+
+      cardsContainer.innerHTML = html;
+      actualizarResumen(data);
+   }
+
+   function filtrarDatos() {
+      const texto = searchInput.value.toLowerCase();
+      const fase = faseFilter.value;
+
+      const filtrados = allData.filter(item => {
+            const faseNorm = normalizarFase(item.Fase);
+            if (fase && faseNorm !== fase) return false;
+
+            if (!texto) return true;
+
+            const contenido = [
+               item.TDH,
+               item.Descripcion,
+               item.Impacto,
+               item.Descripcion_ampliada,
+               item.Justificacion_impacto,
+               faseNorm
+            ].join(' ').toLowerCase();
+
+            return contenido.includes(texto);
+      });
+
+      renderTarjetas(filtrados);
+   }
+
+   function poblarFiltroFase() {
+      const fasesSet = new Set(allData.map(item => normalizarFase(item.Fase)).filter(Boolean));
+      const fasesOrdenadas = Array.from(fasesSet).sort((a, b) => a.localeCompare(b, 'es'));
+
+      fasesOrdenadas.forEach(f => {
+            const opt = document.createElement('option');
+            opt.value = f;
+            opt.textContent = f;
+            faseFilter.appendChild(opt);
+      });
+   }
+
+   // Delegación para mostrar/ocultar detalle en cada tarjeta
+   cardsContainer.addEventListener('click', event => {
+      const btn = event.target.closest('.btn-detalle');
+      if (!btn) return;
+
+      const card = btn.closest('.tdh-card');
+      if (!card) return;
+
+      const abierto = card.classList.toggle('detalle-abierto');
+      btn.textContent = abierto ? 'Ocultar detalle' : 'Ver detalle';
+   });
+
+   // Listeners de filtros
+   searchInput.addEventListener('input', filtrarDatos);
+   faseFilter.addEventListener('change', filtrarDatos);
+
+   // Carga del JSON
+   fetch('../json_ordenado_por_fase.json')
+      .then(resp => {
+            if (!resp.ok) {
+               throw new Error('No se pudo cargar json_ordenado_por_fase.json. Revisa que esté en la misma carpeta que este HTML.');
+            }
+            return resp.json();
+      })
+      .then(data => {
+            allData = Array.isArray(data) ? data : [];
+            loader.style.display = 'none';
+
+            if (!allData.length) {
+               errorBox.style.display = 'block';
+               errorBox.textContent = 'El JSON está vacío o no tiene el formato esperado (array de objetos).';
+               summaryText.textContent = 'Sin datos para mostrar.';
+               return;
+            }
+
+            cardsContainer.style.display = 'grid';
+            poblarFiltroFase();
+            renderTarjetas(allData);
+      })
+      .catch(err => {
+            loader.style.display = 'none';
+            errorBox.style.display = 'block';
+            errorBox.textContent = err.message;
+            summaryText.textContent = 'Error al cargar los datos.';
+      });
+</script>
